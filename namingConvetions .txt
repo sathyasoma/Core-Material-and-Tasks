@@ -1,0 +1,25 @@
+Java NamingConventions:
+=======================
+
+Java naming convention is a rule to follow as you decide what to name your identifiers such as class, package, variable, constant, method etc.
+
+But, it is not forced to follow. So, it is known as convention not rule.
+
+All the classes, interfaces, packages, methods and fields of java programming language are given according to java naming convention.
+
+Advantage of naming conventions in java:
+
+By using standard Java naming conventions, you make your code easier to read for yourself and for other programmers. Readability of Java program is very important. It indicates that less time is spent to figure out what the code does.
+
+Name				Convention
+class name	    should start with uppercase letter and be a noun e.g. StringExample, Color, Button, System, Thread etc.
+interface name	should start with uppercase letter and be an adjective e.g. Runnable, Remote, ActionListener etc.
+method name 	should start with lowercase letter and be a verb e.g. actionPerformed(), main(), print(), println() etc.
+variable name	should start with lowercase letter e.g. firstName, orderNumber etc.
+package name	should be in lowercase letter e.g. java, lang, sql, util etc.
+constants name	should be in uppercase letter. e.g. RED, YELLOW, MAX_PRIORITY etc.
+CamelCase in java naming conventions
+
+Java follows camelcase syntax for naming the class, interface, method and variable.
+
+If name is combined with two words, second word will start with uppercase letter always e.g. actionPerformed(), firstName, ActionEvent, ActionListener etc.

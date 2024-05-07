@@ -1,0 +1,286 @@
+language:
+communication between humans
+
+machine
+as a human if we want communicate with machines Programming language.
+
+pop       							oop
+b,c,bcpl,photon,cobol....			c++,java,python,php,.net.....
+
+
+1)security-->pointers
+2)performance--->multithreading
+
+
+
+oops features:
+===============
+omg->4 
+
+1)inheritance
+2)polymorphisam====>performance
+3)abstraction
+4)encapsultion====>security
+
+
+
+java --->1995
+james gosling
+
+sun microsystem
+
+oracle corporation
+
+java features:
+=============
+1)platform independent//.class===>.net--microsoft
+
+2)garbage collection-->garbage collector
+
+
+compilation
+execution
+.java
+.class
+
+
+
+Test.java/user undestandable  language /soruce
+class Test{
+int a=10;//4 bytes
+public static void main(String args[])
+{
+System.out.println("welcome to java");
+}
+}
+
+0's 1's binary language
+
+compiler->compilation--->.java to .class
+
+
+
+java--4 types
+
+
+jse--->standalone application,desktop application(corejava,awt,swings,applets)
+jee---->web application(servlets,jsp,spring....etc),distributed application
+jme---->android
+
+variables:
+==========
+name of storage location
+
+datatype a=10
+
+variables:
+============
+local--with in the methods
+
+global---out side method with in class(instance and static)
+
+
+
+
+difference between instance and static properties(variables,methods)
+
+
+
+1)syntax difference (static property with static keyword,with out static keyword instance)
+
+
+2)memory
+	-->instance properties will get memory at the time obj creation 
+	-->static properties will get memory space at the time class loading into JVM only once
+	
+		compiler	 		 JVM
+	.java ---->				.class------>
+	compilation  			  execution
+	javac filename.java			java classname
+	
+3)access 
+	--->static properties we can access by using classname
+	--->instance  properties we can access by using obj reference
+	
+4)when to go for static(common properties) and instance(unique)
+
+
+methods
+
+Test.java
+package com.pdw.basics;
+
+//javac Test.java
+//java Test
+public class Test {
+	int x = 20;// instance//global varibale object creation
+	static int y = 120;// static variable
+	void m1()// instance method without return type
+	{
+		System.out.println(x);
+		System.out.println(Test.y);
+	}
+	int add(int a,int b)// instance method
+	{
+		return a+b;
+	}
+	void sub(int a,int b)// instance method
+	{
+		System.out.println(a-b);
+	}
+	static void m2()// static method
+	{
+		System.out.println("static method");
+	}
+	public static void main(String[] args) {
+		int a = 10;// local variable
+		System.out.println(a);
+		System.out.println(Test.y);
+		Test.m2();       //static methode calling
+		Test xyz=new Test();  //object creation
+		System.out.println(xyz.x);
+		xyz.m1();//instance methode calling
+	int sum=xyz.add(10, 20);//instance methode with return type
+	System.out.println(sum);
+	xyz.sub(30, 20);//methode calling with parameters
+	}}
+
+Test2.java:
+==========
+package com.pdw.basics;
+public class Test2{
+	int a =10;
+	float b=5.5f;
+	static int c=20;
+	int add(int x,int y,int z,int u){//instance method with  parameters 
+		return x+y+z+u;
+	}
+	static int mix(int s,int p,int w){ //static method
+		return s-p+w;
+	}
+	static void sub(){
+		System.out.println(c);
+	}
+	void multi(){
+		int f=40;
+		System.out.println(f);
+	}
+	public static void main(String args[]){
+		Test n=new Test();
+		n.add(10, 20, 30, 40);
+		int w=n.add(10, 20, 30, 40);
+		System.out.println(w);
+		System.out.println(Test.mix(40, 60, 70));
+		int x=Test.mix(40, 60, 70);
+		System.out.println(x);
+		Test.sub();
+		n.multi();
+	}
+}
+class and Abstract class:
+=========================
+concrete method,abstract method(class and abstract class)
+package com.pdw.basics;
+
+abstract class B {
+	void m8()// concrete,implemented
+	{
+		System.out.println("A class m4 method");
+	}
+
+	abstract void m9();// abstract,un-implemented
+}
+
+public class Test extends B {
+	void m1() {
+		System.out.println("Test class m1 method");
+	}
+
+	public static void main(String[] args) {
+		Test t = new Test();
+		t.m1();
+	}
+
+	@Override
+	void m9() {
+		System.out.println("Test class m9 method");
+
+	}
+}
+oops features
+=============
+inheritance:code resuability
+------------
+** extending features from parent to child.
+
+
+Object-11
+class A
+{
+
+//100 methods
+}
+
+class B extends A
+{
+
+//20 methods
+}
+
+class,abstract class and interface:
+====================================
+
+class->collection of concrete methods
+abstract class->its a combination of abstract+concrete
+interface -->its a combination of only abstract methods(by default public abstract)
+
+
+ex:
+===
+package com.pdw.basics;
+interface A
+{
+	void m6();//public abstract void m1()
+	void m7();
+}
+
+//abstraction
+abstract class B implements A {
+	void m8()// concrete,implemented
+	{
+		System.out.println("A class m4 method");
+	}
+
+	abstract void m9();// abstract,un-implemented
+}
+
+public class Test extends B {
+	void m1() {
+		System.out.println("Test class m1 method");
+	}
+
+	public static void main(String[] args) {
+		Test t = new Test();
+		t.m1();
+	}
+
+	@Override
+	void m9() {
+		System.out.println("Test class m9 method");
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

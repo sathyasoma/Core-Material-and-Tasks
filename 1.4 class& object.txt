@@ -1,0 +1,374 @@
+DAY-6:
+================================================================================>
+
+ ->Variables are for storing the data
+ ->Methods are for writing the logic.
+ 
+ 
+ 
+java is object oriented programming language
+
+  -since it follows oops principles given by OMG
+   (object management group)
+   
+oops principles:
+==============
+  -inheritiance
+  -polymorphism
+  -abstraction
+  -encapsulation
+  
+In java, to achieve these 4 oops principles, we are using 
+two concepts. those are
+
+ -class
+ -object
+
+ 
+note:
+``
+java program should starts always by defining with class.
+without class definition , there is no java program.
+
+  
+class:
+
+class is a collection of variables and methods 
+into a single unit.
+this single unit is known as class.
+
+syntax:
+``
+     class <classname>
+	 {
+ 	    //variables
+		//methods definiton
+	 }
+	 
+note:
+``
+from above syntax, "class" is the java reserved keyword	for the purpose 
+of defining the class.
+
+examples:
+`
+define one class employee which stores his emloyee id, employee name & employee salary  and calculates his annual salary?
+
+
+  class Employee
+  {
+     //variables intialization(declaration + assign the values)
+     int empid=100;
+	 String empname="Ram";
+	 double empsal=8790.00;
+	 
+	 //method for calculating employee annual salary
+	 
+	 public void getAnnualSalary()
+	 {
+	    System.out.println(empsal*12);
+	 }
+  }
+
+ 
+2)define one class Student which stores studentid,studentname,studentmarks
+  and display all student details?
+  
+  
+class Student
+{
+//variable student information
+{
+
+int studid=100;
+String studname="Aarush";
+double studmarks=100;
+
+//Method for displaying student info
+
+public void getStudentDetails()
+{
+System.out.println(studid + " " + studname + " " +studmarks);
+               
+}
+
+}
+
+
+note:
+``
+if we want to execute any java program, main() method is 
+required mandatorily.
+
+3)Define one class which stores customerid,customername
+  and his no.of orders and display his order details like
+  order id, product name etc...
+  
+eg:
+``` 
+  class Customer{
+    int custid= 234;
+    String custname="harish";
+	int nooforders=6;
+    int orderid= 256;
+    String productname="onions";
+    void getOrderDetails(){
+       System.out.println(oderid + " "+productname + " " + nooforders);
+    }
+
+}
+   
+
+--------------
+
+class Customer
+
+{
+
+//variable customer order information
+
+int customerid=01;
+String customername="Sai";
+int customerorders=05;
+String productname="lenovo";
+int orderid=100;
+
+//Method for displaying customer order info
+
+public void getCustomerDetails()
+
+{
+
+System.out.println(customerid);
+
+System.out.println(productname + " " +customerorders + " " + orderid);
+
+}
+
+}
+
+--------
+
+define one class which performs all arithmetic operations?
+
+
+    class ArithmeticOperations
+	{
+	
+	  public void sum(int x, int y)
+	  {
+	    System.out.println("sum is " + (x+y));
+	  }
+	  
+	  public void sub(int x, int y)
+	  {
+	    System.out.println("sub is " + (x-y));
+	  }
+
+      public void mul(int x, int y)
+	  {
+	    System.out.println("Mulitplication is " + (x*y));
+	  }
+	  
+	  public void div(int x, int y)
+	  {
+	   System.out.println("division is " + (x/y)");
+	  }
+}
+
+
+
+DAY-7:
+=============================================================================================>
+
+jdk-java development kit(java software name)
+
+     -development environment(develop java program)
+	 -execution environment(execute the java applications)
+	 
+	 
+    
+jre-java runtime environment
+
+
+     -provides runtime environment (execute the java applications)
+	 
+	 
+
+jvm-java virtual machine
+
+    -execute the java programs/applications
+	
+	
+
+  jdk = jre+jvm
+  
+
+
+object:
+`
+defintion: instance of a class.
+
+instance: allocating sufficient amount of memory space for all properties
+inside the class.
+
+
+
+class is the collection of variables and methods into a single unit.
+
+that single unit is known as class.
+
+
+   class Student
+   {
+     //variables-to store the data
+	  int stid=100;
+	  String stname="ram";
+	  
+	 //methods-to write the logic.
+   }
+   
+
+whenver we define the class, memory spaces will not be created for the properties
+which we are declaring inside the class.
+
+note:
+`
+when we create the object for any class, memory will be created for the class properties.
+
+
+1000 students 
+
+ 1000 objects are required or only one object is required?
+ 
+for a single class how many objects we can create?
+
+we can create multiple objects based on the requirement.
+
+
+syntax:
+``
+<classname> <objectname> = new <classname>();
+
+eg:
+`
+Student shree = new Student();
+Student sathya = new Student();
+Student Ram = new Student();
+
+
+note:
+`
+object names always must be unique.
+
+Student --> name of the class
+shree,sathya,Ram --> name of the objects
+=   --> assignment operator
+new  --> dynamic memory allocation operator
+Student()--> constructor
+
+
+q) who will execute the java program?
+
+  jvm(java interpretor)
+  
+ internally jvm will call main () 
+
+example:
+``
+class Student
+{
+//variable student information
+
+
+int studid=100;
+String studname="Aarush";
+double studmarks=100;
+
+//Method for displaying student info
+
+public void getStudentDetails()
+{
+System.out.println(studid + " " + studname + " " +studmarks);
+
+}
+
+public static void main(String[] args)
+{
+	
+	//object creation
+    
+    Student obj1 = new Student();
+
+	System.out.println(obj1.studid);
+	System.out.println(obj1.studname);
+	System.out.println(obj1.studmarks);
+	
+	System.out.println("==================");
+	
+	//call my own method using object
+	obj1.getStudentDetails();
+	  
+}
+
+}
+
+2)Define an Employee class which is holding 
+  employeeid,name,salary and calcuclates his annual salary?
+  and create the object and access all the properties of 
+  an Emploee class using object?
+  
+  
+   class Employee
+   {
+     
+	  int empid=100;
+	  String empname="Shree";
+	  double empsal = 6878.00;
+	  
+	  public void getEmpAnnualSalary()
+	  {
+	     System.out.println("Annual Salary : " + empsal*12);
+	  }
+   
+      //define main()
+	 
+	  public static void main(String[] args)
+	  {
+	     Emploee obj1 = new Employee();
+		 
+	     //calling getEmpAnnualSalary() using object
+		 
+		 obj1.getEmpAnnualSalary();
+		 
+	  }
+	  
+	  
+   }
+  
+
+3)define Customer class which holds his firstname and last name
+  and gives his full name try to access the properties using
+  object?
+  
+  
+class Customer
+{
+String customer_firstname ="Sai";
+String customer_lastname="Ram";
+//Method for displaying customer full name
+public void getCustomerFullName()
+{
+System.out.println("Customer Full Name: " + customer_firstname+customer_lastname);
+}
+//define main()
+
+public static void main(String[] arg)
+{
+ Customer obj1 = new Customer(); 
+ obj1.getCustomerFullName();
+ 
+}
+  
+}
+

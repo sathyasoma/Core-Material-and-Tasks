@@ -1,0 +1,70 @@
+1.Answer: a) public static void main(String[] args)
+2.Answer: c) main
+3.Answer: b) No
+4.Answer: a) It is used to pass command-line arguments to the program.
+5.Answer: a) The program will not compile.
+6.Answer: b) java MyClass
+7.Answer: a) void
+8.Answer: a) By using the java command followed by arguments.
+9.Answer: b) No, a Java program can have only one main method.
+10.Answer: a) public static void main(String args[])
+11.Answer: c) my-variable
+12.Answer: b) It is accessible only within the method or block where it is declared
+13.Answer: b) char
+14.Answer: b) null
+15.Answer: d) Default (no modifier)
+16.Answer: a) It indicates that the variable cannot be modified after initialization.
+17.Answer: c) const PI = 3.14159;
+18. a) -128 to 127
+19. c) final
+20. a) It indicates that the variable is a class variable (shared among all instances of the class).
+21.Answer: c) if
+22.Answer: c) To specify the action to be executed if the if condition is false.
+23.Answer: c) do-while
+24.Answer: b) To exit the switch statement and continue with the code after the switch.
+25.Answer: b) It exits the loop and continues with the code after the loop.
+26.Answer: a) "x is greater than 3"
+27.Answer: b) for
+28.Answer: c) Before the condition.
+29.Answer: a) 0 1 2 3 4
+30.Answer: b) Skips the current iteration and continues with the next iteration of the loop.
+31.Answer: c) extends
+32.Answer: a) Single inheritance
+33.Answer: b) final
+34.Answer: a) To call the superclass constructor.
+35.Answer: d) java.lang.Object
+36.Answer: c) A subclass can override a final method from its superclass.
+37.Answer: b) It refers to the ability of a subclass to hide methods of its superclass.
+38.Answer: b) protected
+39.Answer: c) super
+40.Answer: b) Final class
+41.Answer: c) The ability of a class to have multiple methods with the same name but different parameters
+42.Answer: d) Dynamic polymorphism
+43.Answer: b) Defining multiple methods with the same name but different parameters in a class
+44.Answer: a) It is not considered.
+45.Answer: d) @Override
+46.Answer: a) constructor
+47.Answer: b) It enables dynamic method invocation at runtime.
+48.Answer: a) Compile-time polymorphism
+49.Answer: c) No, the access level must be the same or higher in the subclass.
+50.Answer: b) Polymorphic reference
+51.Answer: b) The process of hiding the implementation details and showing only the necessary features of an object
+52.Answer: a) abstract
+53.Answer: a) Yes, it can have both abstract and concrete methods.
+54.Answer: b) To declare a method without providing its implementation.
+55.Answer: b) No, an abstract class cannot be instantiated; it can only be used as a base class for other classes.
+56.Answer: d) It indicates that the method is abstract and must be overridden in a subclass.
+57.Answer: c) Using the final keyword to prevent a class from being subclassed.
+58.Answer: a) Yes, but the concrete class must implement all abstract methods of the abstract class.
+59.Answer: b) Subclass
+60.Answer: a) An interface is a type of abstraction that defines a contract for methods.
+61.Answer: a) The process of hiding implementation details and showing only necessary features of an object.
+62.Answer: a) public and private
+63.Answer: a) public
+64.Answer: a) To allow access to the member only within the same class.
+65.Answer: b) Encapsulation promotes data hiding and restricted access to class members.
+66.Answer: c) To provide controlled access to the fields and enforce data validation.
+67.Answer: d) It protects the integrity of data and allows controlled access.
+68.Answer: a) private
+69.Answer: d) Encapsulation is a fundamental concept of object-oriented programming.
+70.Answer: b) No, getter and setter methods are mandatory for encapsulation.

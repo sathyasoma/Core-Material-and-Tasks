@@ -1,0 +1,74 @@
+1. What are the eight primitive data types in Java?
+
+Answer: Java has eight primitive data types:
+byte: 8-bit signed integer.
+short: 16-bit signed integer.
+int: 32-bit signed integer.
+long: 64-bit signed integer.
+float: 32-bit floating-point number.
+double: 64-bit floating-point number.
+char: 16-bit Unicode character.
+boolean: Represents true or false values.
+
+2. What is the difference between a primitive data type and a reference data type in Java?
+
+Answer: Primitive data types store the actual values, while reference data types store references 
+(memory addresses) to objects or data structures.
+ Primitive types are passed by value, meaning the actual value is copied when passed as arguments, 
+ whereas reference types are passed by reference, meaning the reference to the object is passed.
+ 
+3. How do you convert a primitive data type to another type in Java?
+
+Answer: You can convert primitive data types in Java using type casting. 
+For example, to convert an int to a double, you can write:
+
+int intValue = 42;
+double doubleValue = (double) intValue;
+
+4. What is autoboxing and unboxing in Java?
+
+Answer: Autoboxing is the automatic conversion of a primitive data type to its corresponding 
+wrapper class (e.g., int to Integer) when needed, such as when storing primitives in collections. 
+Unboxing is the opposite process, automatically converting a wrapper class object to its primitive 
+value when needed.
+
+5. Explain the difference between float and double data types in terms of precision.
+
+Answer: The double data type is a 64-bit floating-point number with greater precision compared to
+ the float data type, which is a 32-bit floating-point number. double is suitable for applications 
+ requiring high precision, such as scientific calculations, while float is used when memory usage is a concern.
+ 
+6. What is the purpose of the char data type, and how is it different from other numeric data types?
+
+Answer: The char data type in Java represents a single 16-bit Unicode character. 
+Unlike other numeric data types, char is used for storing characters and does not represent numeric values.
+ It is commonly used for working with text and characters in Java.
+ 
+7. What is the String data type in Java, and is it a primitive data type?
+
+Answer: The String data type in Java is a reference data type, not a primitive data type. 
+It represents a sequence of characters and is used to store and manipulate text. 
+Java provides special support for strings, including methods for string manipulation.
+
+
+8. Can you explain the difference between == and .equals() when comparing strings in Java?
+
+Answer: In Java, == compares the memory references of two string objects, while .equals() compares the actual
+ content of the strings. Using == may yield unexpected results when comparing string values,
+ so it is recommended to use .equals() for comparing strings for equality.
+ 
+ 
+9. What is the boolean data type used for in Java, and what are its possible values?
+
+Answer: The boolean data type in Java is used for representing boolean values,
+ which can be either true or false. It is commonly used for conditional statements and controlling
+ program flow based on logical conditions.
+ 
+10. How do you declare a constant value in Java, and which data type should you use?
+
+
+- **Answer:** Constants in Java are typically declared using the `final` keyword. You can use any primitive data type or reference data type for constants, depending on the nature of the value you want to represent. For example:
+  ```java
+  final int MAX_VALUE = 100;
+  final String APP_NAME = "MyApp";
+  ```

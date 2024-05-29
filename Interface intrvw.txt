@@ -1,0 +1,50 @@
+1. What is an interface in Java?
+
+Answer: An interface in Java is a reference type that defines a contract of abstract methods (methods without a body) that implementing classes must provide. It allows for multiple inheritance of method signatures in Java.
+2. How is an interface different from a class in Java?
+
+Answer:
+An interface cannot be instantiated directly, while a class can be.
+An interface can only declare abstract methods (methods without a body), while a class can have both abstract and concrete methods.
+A class can implement multiple interfaces, but it can extend only one class (single inheritance).
+3. Can you provide an example of defining and implementing an interface in Java?
+
+Answer: Sure, here's an example:
+
+
+// Defining an interface
+interface Printable {
+    void print();
+}
+
+// Implementing the interface in a class
+class Printer implements Printable {
+    public void print() {
+        System.out.println("Printing...");
+    }
+}
+4. Can an interface have fields (variables) in Java?
+
+Answer: Yes, an interface can have fields, but they are implicitly public, static, and final. They are considered constants and must be initialized in the interface itself.
+5. Can a class implement multiple interfaces in Java?
+
+Answer: Yes, a class can implement multiple interfaces in Java. This feature allows a class to inherit abstract method signatures from multiple sources.
+6. What is the purpose of the default method in an interface, and when was it introduced in Java?
+
+Answer: The default method in an interface was introduced in Java 8. It allows interfaces to provide a default implementation for a method. Classes implementing the interface can choose to override the default method or inherit the default implementation.
+7. Can an interface extend another interface in Java, and if so, what is the purpose?
+
+Answer: Yes, an interface can extend one or more other interfaces in Java. The purpose is to create a new interface that inherits the abstract methods of the parent interfaces. It helps in organizing and reusing method contracts.
+8. What is the difference between a regular (abstract) method and a default method in an interface?
+
+Answer:
+Regular Method: A regular method in an interface is an abstract method that must be implemented by classes that implement the interface. It has no default implementation.
+default Method: A default method in an interface provides a default implementation that can be inherited by classes implementing the interface. Classes can choose to override or use the default implementation.
+9. How can you achieve multiple inheritance of implementation in Java using interfaces?
+
+Answer: Multiple inheritance of implementation can be achieved in Java by implementing multiple interfaces. A class can implement multiple interfaces, allowing it to inherit and provide implementations for the abstract methods defined in those interfaces.
+10. What is the purpose of marker interfaces in Java, and can you provide an example?
+
+vbnet
+Copy code
+- **Answer:** Marker interfaces in Java are interfaces with no methods, and they serve as a marker or tag to indicate that a class has a specific behavior or attribute. For example, the `Serializable` interface is a marker interface used to indicate that a class can be serialized. Classes that implement `Serializable` do not need to provide any method implementations.

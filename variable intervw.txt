@@ -1,0 +1,68 @@
+1. What is a variable in Java?
+
+Answer: A variable in Java is a named container that stores data.
+ It represents a memory location where you can store, retrieve, and manipulate values.
+ Variables have a data type that defines the type of data they can hold.
+ 
+2. What are the different types of variables in Java?
+
+Answer: In Java, variables can be categorized into three main types:
+Local Variables: Declared within a method or block and have local scope.
+Instance Variables (Non-static Variables): Belong to an instance of a class and are associated with objects.
+Static Variables (Class Variables): Belong to the class rather than an instance and are shared among all objects
+ of the class.
+
+
+3. How do you declare and initialize a variable in Java?
+
+Answer: To declare and initialize a variable in Java, you specify the data type followed by the 
+variable name and, optionally, an initial value. For example:
+
+
+int age; // Declaration
+age = 30; // Initialization
+
+4. What is the scope of a local variable in Java?
+
+Answer: A local variable in Java has a limited scope and is accessible only within the block or method 
+where it is declared. 
+It is not visible outside of its enclosing block.
+
+5. How are instance variables different from static variables in Java?
+
+Answer: Instance variables are associated with objects (instances) of a class and have unique values 
+for each instance. Static variables, on the other hand, are associated with the class itself and have 
+the same value for all instances of the class.
+
+6. Can you change the value of a final variable in Java?
+
+Answer: No, you cannot change the value of a final variable once it has been assigned.
+ A final variable is essentially a constant, and its value cannot be modified after initialization.
+ 
+7. What is variable shadowing in Java?
+
+Answer: Variable shadowing occurs when a local variable within a method or block has the same name 
+as an instance variable or a static variable of the same class. 
+In such cases, the local variable takes precedence and "shadows" the class-level variable with the same name.
+
+8. What is the difference between instance variables and class (static) variables in terms of memory allocation?
+
+Answer: Instance variables are allocated memory for each instance (object) of a class,
+ so each instance has its own copy of instance variables. 
+ Class (static) variables are allocated memory only once for the entire class and are shared among all instances of the class.
+
+9. What is the naming convention for constants in Java?
+
+Answer: In Java, constants are typically named using uppercase letters with underscores between words. 
+For example:
+
+
+final int MAX_VALUE = 100;
+
+10. How do you access static variables and instance variables in Java?
+
+- **Answer:** Static variables are accessed using the class name, followed by a dot notation,
+ such as `ClassName.staticVariable`. 
+ Instance variables are accessed using an instance of the class, followed by a dot notation, 
+ such as `instanceName.instanceVariable`.
+These questions and answers cover the fundamental concepts related to variables in Java, 

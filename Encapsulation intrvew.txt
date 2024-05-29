@@ -1,0 +1,87 @@
+1.What is encapsulation in Java?
+
+Answer: Encapsulation is one of the four fundamental principles of Object-Oriented Programming (OOP) and refers to the concept of bundling data (attributes) and methods (functions) that operate on that data into a single unit known as a class. It also involves controlling access to the internal state of an object by using access modifiers like private, public, and protected.
+
+2.Why is encapsulation important in Java?
+
+Answer: Encapsulation is important in Java for the following reasons:
+
+Data Hiding: It allows the internal state of an object to be hidden from external access. This prevents unauthorized modification and ensures data integrity.
+
+Code Flexibility: It allows the class's internal implementation to be changed without affecting other parts of the code that use the class. This promotes code flexibility and maintainability.
+
+Access Control: It enables fine-grained control over the accessibility of class members, ensuring that only the necessary parts are exposed to the outside world.
+
+3.Explain the access modifiers used in encapsulation.
+
+Answer: Java provides four access modifiers that are commonly used in encapsulation:
+
+private: Members marked as private are only accessible within the same class. They are not visible to external classes or subclasses.
+
+default (package-private): Members with default access are accessible within the same package but not from outside the package.
+
+protected: Members marked as protected are accessible within the same package and by subclasses (even if they are in a different package).
+
+public: Members marked as public are accessible from anywhere, both within and outside the class's package.
+
+4.What is a getter method, and why is it used in encapsulation?
+
+Answer: A getter method, also known as an accessor method, is a public method in a class that is used to retrieve the value of a private or protected instance variable. Getter methods are an essential part of encapsulation because they provide controlled access to the internal state of an object while maintaining data encapsulation. They allow read-only access to the object's attributes, ensuring that data is not modified directly from outside the class.
+
+5.What is a setter method, and why is it used in encapsulation?
+
+Answer: A setter method, also known as a mutator method, is a public method in a class that is used to modify the value of a private or protected instance variable. Setter methods are used in encapsulation to provide controlled write access to the internal state of an object. They allow for the validation of data before setting it, ensuring that the data remains consistent and follows certain rules or constraints.
+
+6.Give an example of encapsulation in Java.
+
+Answer: Here's a simple example of encapsulation in Java:
+
+
+public class Student {
+    // Private instance variables
+    private String name;
+    private int age;
+    
+    // Getter method for name
+    public String getName() {
+        return name;
+    }
+    
+    // Setter method for name
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    // Getter method for age
+    public int getAge() {
+        return age;
+    }
+    
+    // Setter method for age with validation
+    public void setAge(int age) {
+        if (age >= 0) {
+            this.age = age;
+        } else {
+            System.out.println("Age cannot be negative.");
+        }
+    }
+}
+In this example, the Student class encapsulates the name and age fields by providing getter and setter methods. These methods control access to the private variables and enforce data integrity.
+
+7.What are the benefits of using encapsulation?
+
+Answer: The benefits of using encapsulation in Java include:
+
+Data Hiding: It prevents direct access to the internal state of an object, ensuring that data remains consistent and valid.
+
+Flexibility: It allows the class's internal implementation to change without affecting code that uses the class.
+
+Improved Maintainability: It makes it easier to debug and maintain code because you can isolate changes to a specific class.
+
+Enhanced Security: It limits access to sensitive data and prevents unauthorized modification.
+
+Better Code Organization: It promotes better code organization by grouping data and methods that are related to a class.
+
+8.Can you achieve encapsulation without using getter and setter methods?
+
+Answer: In Java, encapsulation is typically achieved using getter and setter methods. While you can use other techniques like using public fields or package-private access, they do not provide the same level of control and encapsulation as getter and setter methods. Getter and setter methods allow you to validate and control access to data, which is an essential aspect of encapsulation.

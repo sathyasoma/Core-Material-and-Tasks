@@ -1,0 +1,56 @@
+1. What is abstraction in Java?
+
+Answer: Abstraction is a fundamental concept in Java and object-oriented programming that focuses on simplifying complex systems by modeling them at higher levels of abstraction. In Java, abstraction is achieved through abstract classes and interfaces.
+2. What is an abstract class in Java, and how is it different from a regular (concrete) class?
+
+Answer:
+Abstract Class: An abstract class in Java is a class that cannot be instantiated directly. It may contain abstract methods (methods without a body) that must be implemented by its concrete subclasses. Abstract classes are used as a blueprint for other classes to inherit from.
+Concrete Class: A concrete class is a regular class that can be instantiated. It may contain both concrete and abstract methods. Instances of concrete classes can be created.
+3. Can an abstract class have constructors in Java?
+
+Answer: Yes, an abstract class can have constructors in Java. Constructors in an abstract class are used to initialize its fields and can be called by the constructors of its subclasses using the super keyword.
+4. What is the purpose of an abstract method in an abstract class?
+
+Answer: An abstract method in an abstract class is a method that has no implementation (no method body). Its purpose is to define a method signature that must be implemented by any concrete subclass of the abstract class. Abstract methods provide a contract that concrete subclasses must adhere to.
+5. Can an abstract class have concrete methods (methods with a body) in Java?
+
+Answer: Yes, an abstract class can have concrete methods in addition to abstract methods. Concrete methods in an abstract class can provide default implementations that can be inherited by its subclasses. Subclasses are free to override or use these concrete methods as needed.
+6. What is the difference between an abstract class and an interface in Java?
+
+Answer:
+Abstract Class: An abstract class can have both abstract (unimplemented) and concrete (implemented) methods. It can also have fields (variables) with access modifiers. A class can extend only one abstract class.
+Interface: An interface can only contain abstract method signatures (methods with no implementation) and constants (public static final fields). A class can implement multiple interfaces.
+7. When should you use an abstract class, and when should you use an interface in Java?
+
+Answer:
+Use an abstract class when you want to provide a common base with some default behavior for subclasses, and you expect subclasses to share code.
+Use an interface when you want to define a contract that multiple classes should adhere to, regardless of their inheritance hierarchy.
+8. Can you provide an example of an abstract class and its subclasses in Java?
+
+Answer: Sure, here's an example:
+
+
+abstract class Shape {
+    abstract void draw(); // Abstract method
+}
+
+class Circle extends Shape {
+    void draw() {
+        System.out.println("Drawing a circle");
+    }
+}
+
+class Rectangle extends Shape {
+    void draw() {
+        System.out.println("Drawing a rectangle");
+    }
+}
+9. Can an abstract class extend another abstract class in Java?
+
+Answer: Yes, an abstract class can extend another abstract class in Java. This allows you to create a hierarchy of abstract classes, with each level providing additional abstraction and specialization.
+10. How is abstraction related to encapsulation and polymorphism in Java?
+
+
+- **Answer:** 
+  - Abstraction is related to encapsulation because it hides the internal implementation details of a class, providing a simplified and well-defined interface for interaction.
+  - Abstraction is related to polymorphism because it allows objects of different subclasses to be treated as instances of a common superclass, enabling method overriding and dynamic method dispatch.

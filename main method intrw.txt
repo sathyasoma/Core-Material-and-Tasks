@@ -1,0 +1,65 @@
+1. What is the main method in Java, and why is it important?
+
+Answer: The main method is the entry point for a Java program. 
+It is a predefined method that serves as the starting point for the execution of a Java application. 
+When a Java program is run, the Java Virtual Machine (JVM) calls the main method to begin program execution. 
+It has the following signature:
+
+public static void main(String[] args)
+
+The main method is crucial because it is where program execution begins, and you can define the initial logic and behavior of your Java application within this method.
+
+2. What is the purpose of the String[] args parameter in the main method?
+
+Answer: The String[] args parameter in the main method allows you to pass command-line arguments to your 
+Java program. When you run a Java program from the command line, you can provide additional
+ information or data as arguments. These arguments are passed as an array of strings to the main method,
+ and you can access and use them within your program. For example, you can pass file paths, 
+ configuration settings, or other input data as command-line arguments.
+ 
+ 
+3. Can you overload the main method in Java?
+
+Answer: Yes, you can overload the main method in Java. 
+Overloading means defining multiple methods with the same name in the same class but with different
+ parameter lists. While the standard main method is defined as public static void main(String[] args), 
+ you can create additional main methods with different parameter lists. However, 
+ only the standard main method with the String[] args parameter is used as 
+ the entry point when running a Java program. Overloaded main methods can be 
+ called like any other methods but won't be automatically executed by the JVM.
+ 
+ 
+4. What happens if the main method is declared as public void main(String[] args) 
+instead of public static void main(String[] args)?
+
+Answer: The main method must be declared as public static void main(String[] args) for 
+it to serve as the entry point for a Java program.
+ If you declare it as public void main(String[] args), the program will not compile, 
+ and you will receive a compilation error. The main method must be static to be called 
+ by the JVM without the need to create an instance of the class.
+ 
+ 
+5. How can you run a Java program without a main method?
+
+Answer: You cannot run a Java program without a main method.
+ The main method is mandatory for every Java application as it serves as the starting point 
+ for program execution. If a Java class does not contain a main method, attempting to run it
+ will result in an error, and the JVM will not know where to begin executing the program.
+ 
+ 
+6. Can you have multiple main methods in the same Java class?
+
+Answer: No, you can only have one main method with the signature public static void main(String[] args) 
+in a Java class. Having multiple main methods with the same signature in the same class will result in a 
+compilation error. The JVM needs a single entry point to start the program execution, and that entry point 
+is provided by the standard main method.
+
+
+7. How can you pass command-line arguments to a Java program when running it from the command line?
+
+Answer: To pass command-line arguments to a Java program, 
+you simply include them after the name of the Java class when running the program. 
+For example:
+
+java MyProgram arg1 arg2 arg3
+Here, arg1, arg2, and arg3 are the command-line arguments that will be available as elements of the String[] args parameter in the main method of the MyProgram class.

@@ -1,0 +1,725 @@
+oops and oopl:
+oopl is follows oops features
+
+many languages we have ahich have oop. 
+oops giving security and performance
+
+if u want to use inheritance u want to know two keywords extends and implements
+
+Inheritance:
+============
+aquiring properties from parent to child is called inheritance.
+By using these keywords we can achieve performance those are. extends and implements.
+the most importent word is used to achive aquiring inheritance"code reusability".
+
+
+
+class parent
+{
+
+//200 variables
+//1000 methods
+
+
+}
+public class child extends Parent
+{
+
+//10
+
+
+}
+
+In single java file we can have multiple classes, but in which class you have main method, 
+  that class name should be the filename and that should be the public.
+  
+eg;
+
+class Parent{
+   int a=100;
+   int b=200;
+   
+   public void add()
+   {
+   System.out.println("addition of two numbers :"+a+b);
+   }
+   public void sub()
+   {
+   System.out.println("substraction of two numbers :"+a-b);
+   }
+   public void mul()
+   {
+   System.out.println("multy of two numbers :"+a*b);
+   }
+
+}
+
+public class Test extends Parent{
+
+public void display()
+{
+   System.out.println("welcome to the test classs display");
+
+}
+ p s v m(String args[])
+        {
+		  
+		  Test obj= new Test();  // object creation
+		  
+		  obj.display(); //calling from child class
+		  obj.add();//calling from parent
+		  obj.sub();
+		  obj.mul();
+		  
+		  }
+}
+
+Here we are not writing the methods in the child class by using extends keyword we can get all the 
+properties from parent,in this case we get the perfomance by reducing the memory space.
+
+we can get inheritance from different levels those are
+1.single levels
+2.multi levels
+3.hirarchial level
+4.hybrid leve   alsoo
+
+
+5. multiple inheritance java is not possible by multiple inheritance
+
+
+2.multi level:  (parent=====>child========child)
+---------------              parent======>
+eg:
+==
+class Parent{
+   int a=100;
+   int b=200;
+   
+   public void add()
+   {
+   System.out.println("addition of two numbers :"+a+b);
+   }
+   public void sub()
+   {
+   System.out.println("substraction of two numbers :"+a-b);
+   }
+   public void mul()
+   {
+   System.out.println("multy of two numbers :"+a*b);
+   }
+
+}
+class A extends Parent                // by using extends all properties came from parent to A
+{  
+
+public void div()
+   {
+   System.out.println("div of two numbers :"+a/b);
+   }
+}
+
+public class Test extends A{
+
+public void display()
+{
+   System.out.println("welcome to the test classs display");
+
+}
+ p s v m(String args[])
+        {
+		  
+		  Test obj= new Test();  // object creation
+		  
+		  obj.display(); //calling from child class
+		  obj.add();//calling from parent
+		  obj.sub();
+		  obj.mul();
+		  obj.div();
+		  
+		  }
+}
+
+
+Hirachial level:
+-----------------
+eg:
+
+
+class Parent{
+   int a=100;
+   int b=200;
+   
+   public void add()
+   {
+   System.out.println("addition of two numbers :"+a+b);
+   }
+   public void sub()
+   {
+   System.out.println("substraction of two numbers :"+a-b);
+   }
+   public void mul()
+   {
+   System.out.println("multy of two numbers :"+a*b);
+   }
+
+}
+class A extends Parent                // by using extends all properties came from parent to A
+{  
+
+public void div()
+   {
+   System.out.println("div of two numbers :"+a/b);
+   }
+}
+
+public class Test extends parent{
+
+public void display()
+{
+   System.out.println("welcome to the test classs display");
+
+}
+ p s v m(String args[])
+        {
+		  
+		  Test obj= new Test();  // object creation
+		  
+		  obj.display(); //calling from child class
+		  obj.add();//calling from parent
+		  obj.sub();
+		  obj.mul();
+		  //obj.div(); we doesnt access div method y bcz its not extends our class 
+		  
+		  }
+}
+
+
+Hybrid level:
+-------------
+the combination of any two possible inheritances.
+  eg: single level and hirarchial
+
+
+
+class:
+-----
+class is a collection of concrete methods.
+
+a class which contains method signature and body is called concrete class
+
+                 called concrete method /implemented method
+
+public void hungry()   // method signature 
+{
+ Sop("very hungry at lunch time");  //body
+}
+
+abstract class:
+-----------------
+
+abstarct class is a collection of abstarct + concrete methods.
+
+if you want take abstarct method that calss should be abstarct.
+
+ =>a methode doesnt contain method body is called abstarct method.
+           
+		       public abstract void display();    //abstarct method //non concrete
+=>by using abstarct class we can gety abstraction with the help of unimplimented methods.
+=>in the abstarct class 0 to 100% abstarcation get,
+=>eventhiugh it is abstarct class it is a class thats why we extends the class.
+=>if we want implimentation for abstarct class we can make extends the child class.
+
+
+eg:
+---
+whever a class contains atleast one abstract method that class  should make it as abstarct.
+
+
+abstarct class A{  // combi of both abstarct and concrete
+
+  public void printDate(){
+      Date date= new Date();  
+  
+  public abstract void printAge();    // abstarct method // i want implement in future make it abstarct
+ public void displayImg()
+ {   //concrete method
+     Sop("am from abstract");                     // mothod body
+ }
+
+}
+
+public class AbstractionEx extends A{
+
+
+ public void display(){   //concrete method
+     // mothod body
+ }
+  public static void main(Stringa args[]){
+  
+  AbstractionEx obj=new AbstractionEx();     //object creation
+  
+  @override
+  public void printDate(){
+      Date date= new Date();   // for u import util  date psckge
+	  System.out.println(date);   //will print system date
+  
+  }
+  public abstract void printAge()
+  {
+  Sysou("logics");
+  }
+  
+  }
+}
+
+interface:    100%
+-------------
+it is like a blue print of a class.
+
+interface is a collection of abstarct classes.
+
+=> by default interface methods are public abstarct
+
+
+eg:
+==
+interface Calculator{        //all unimplemented methods
+
+public abstarcat void add(int a,int b);
+                 void sub(int a, int b); //public abstract void sub(int a,int b);
+
+}
+abstarct class A implements Calculator{  
+
+  public void printDate(){
+      Date date= new Date();  
+  
+  public abstract void printAge();    
+ public void displayImg()
+ {   //concrete method
+     Sop("am from abstract");                    
+ }
+
+}
+
+public class AbstractionEx{
+
+
+ public void display(){   
+     // mothod body
+ }
+  public static void main(Stringa args[]){
+  
+  AbstractionEx obj=new AbstractionEx();  
+
+obj.display();
+obj.printDate(); 
+obj.displayImg();
+obj.add(100,200);
+obj.sub(100,200); 
+  
+  @override
+  public void printDate(){
+      Date date= new Date();  
+	  System.out.println(date);   
+  
+  }
+  @override
+  public abstract void printAge()
+  {
+  Sysou("logics");
+  }
+  @override
+  public abstarcat void add(int a,int b);
+  {
+  Sop("addition of two num  :" +(a+b));
+  }
+  @override
+                 void sub(int a, int b){
+				 SOP("Sub of two nums :"+(a-b));
+				 }
+  }
+}
+
+
+multiple inheritance:
+======================
+
+           parent    A      B   parent
+			       
+				        C   child
+=>multiple inheritance is not supported   java in class level
+                   (bcz ambiguity(confusion) problem thats y class level not supported)
+
+=>multiple inheritance is  supported   java in interface level
+
+
+eg:
+--
+
+
+interface SuperParent{ 100% abstraction
+   
+   void add();//public abstract void add();
+   void sub()'
+
+}
+interface Parent{
+    void add();
+	void mul();
+
+}
+
+public MultipleInheritanceEx   {
+
+        public static void main(String args[]){
+		
+		MultipleInheritanceEx obj= new MultipleInheritanceEx();
+		
+		obj.add();
+		obj.sub();
+		obj.mul();
+		
+		@override
+		void add(){
+		
+		}
+		@override
+		void sub(){
+		
+		}
+		@override
+		void mul(){
+		
+		}      
+		}
+}
+
+
+
+polymorphism:
+================
+poly=many:  morphism=forms
+  many behaviours
+  
+  we can achive polymorphism by two ways
+       a. method overloading
+	              methodname is same singnatue is different.
+				                           no of params
+										   order of params
+										   type of params 
+										   
+										   
+										   
+	eg;
+----------
+                
+				 class MethodOverLoading{
+				            public void add(float a, float b)
+							{
+							    Sop("addition of  float two nums"+(a+b));
+							}
+				            public void add(int a, int b)
+							{
+							   Sop("addition of two nums"+(a+b));
+							}
+							public void add(int a, int b, int c)
+							{
+							    Sop("addition of three nums"+(a+b+c));
+							}
+				            public void add(float a, int b)
+							{
+							   Sop("addition of flaot int nums"+(a+b));
+							}
+							public void add(int a, float b)
+							{
+							    Sop("addition of int float nums"+(a+b));
+							}
+				            
+				 }
+
+          	public static void main(String args[]){
+			       
+				    MethodOverLoading obj= new MethodOverLoading();
+					
+					
+					 obj.add(12,12.5f);
+					 obj.add('a','b');  //type promotion int-->float-->long--double
+					                       it will print ASCII values of charecters
+			
+			}
+										   
+										   
+										   
+	   b.method overriding
+              method name is same implimentation is diffrent.
+			
+			we have is-a relation/inheritance
+			
+			
+	eg;
+	---
+	  class Parent{
+	  
+	  //1000
+	  properties(){
+	      Sop("100 crores");
+	  }
+	  
+	  marrige(){
+	      Sop("xyz");
+	  }
+	  }
+	  public class Test extends Parent{
+	  
+	  marrige(){
+	  Sop("fdgdt");
+	  
+	  }
+	     public static void main(String args[]){
+		 
+		  Test obj=new Test();
+		  
+		    
+		 }
+	  }
+
+
+
+
+this, super,final:
+===================
+
+this: -represent current class properties(variable,method,object,constructor)
+----
+Super: represent parent class properties(variable, method,constructor)
+
+
+thiseg:
+-------
+
+eg:
+---
+public class ThisSuperEx{
+             int salary=42000;
+		
+		void printSalary(int salary){
+		     salary=32000;
+                      //Sysout(salary)// it will print 32000
+			Sysout(this.salary); //current class variable(42000)
+		}
+         public static void main(String args[]){
+		 
+		 ThisSuperEx obj=new ThisSuperEx();
+		 
+ 		      obj.printSalary();
+		 }
+}
+
+
+eg2:
+===
+
+package com.cg.oops;
+
+class ParentEx {
+	static int a = 10;
+	public ParentEx() {
+		this(123);
+		System.out.println("dafault constructor of parent");
+	}
+	ParentEx(int a) {
+		//this();
+		System.out.println("Parent class parameterized constuructor" + a);
+	}
+	public void m1() {
+		System.out.println("parent class method");
+	}
+}
+class SuperEx extends ParentEx {
+	static int a = 20;
+	SuperEx() {
+		//super();//parent class constructor calling ()
+		super.m1();// parent method calling
+		this.m1();// current class method calling
+		System.out.println(this.a);// 20
+		System.out.println(super.a);// 10
+		System.out.println(this);// current class object
+		System.out.println("child class constuructor");
+	}
+	@Override
+	public void m1() {
+		System.out.println("child class method");
+	}
+
+	public static void main(String args[]) {
+		SuperEx e = new SuperEx();// default constructor
+		System.out.println(e);//
+		ParentEx p = new ParentEx(12);// param constrcutor
+	}
+}
+
+
+
+Encapsulation:
+-------------
+Encapsulation is the process of wrapping/collecting/grouping  data + corresponding (related)methods of that calss.
+=>here are going to take related info of the class .
+  for eg: Employee has
+                empid,empname,empadd,empsal,
+=>others cannot acess your data.
+=>
+
+
+public class Employee{  bean/pojo/encapsulated
+//data+methods
+//it is mandetory to add private
+
+         int empid;
+		 String empname;
+		 int empSalary;
+		 String empAdd;
+		 
+		 //methods should be related to data
+		 //using eclicps options add gettrs and setters methods
+		 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

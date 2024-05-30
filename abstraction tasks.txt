@@ -1,0 +1,59 @@
+Exercise 1: Create an Abstract Class
+
+Create an abstract class called Shape with an abstract method calculateArea(). Then, create two subclasses, Circle and Rectangle, that extend the Shape class and implement the calculateArea() method to calculate the area of a circle and a rectangle, respectively.
+
+Exercise 2: Create an Interface
+
+Create an interface called Drawable with an abstract method draw(). Then, create two classes, Circle and Rectangle, that implement the Drawable interface and provide their own draw() method implementations.
+
+Exercise 3: Abstract Class with Fields
+
+Create an abstract class called Animal with two fields: name and sound. Add a constructor to initialize these fields. Create two subclasses, Dog and Cat, that extend the Animal class and provide their own implementations for the makeSound() method.
+Exercise 4: Interface with Constants
+
+Create an interface called Shape with two constant fields: PI and E. Implement this interface in a class called Circle and use the constants to calculate the circumference and area of a circle.
+Exercise 5: Abstract Class with Template Method
+
+Create an abstract class Meal with a template method prepareMeal(). The prepareMeal() method defines the high-level steps for preparing a meal, such as cooking, plating, and serving. Create two concrete subclasses, Breakfast and Lunch, that extend the Meal class and implement their own versions of prepareMeal().
+
+Exercise 6: Interface with Default Methods
+
+Create an interface Vehicle with two abstract methods, start() and stop(). Add a default method honk() to the interface. Implement this interface in two classes, Car and Motorcycle, providing their own implementations for start() and stop(). Call the honk() method on instances of both classes.
+
+Exercise 7: Abstract Class with Constructors
+
+Create an abstract class Vehicle with fields make and model. Add a constructor to initialize these fields. Create two subclasses, Car and Motorcycle, that extend the Vehicle class and provide their own constructors. Display the make and model of instances of both subclasses.
+
+Exercise 8: Interface with Static Method
+
+Create an interface MathOperations with an abstract method calculate(int a, int b) for performing a mathematical operation. Add a static method square(int a) to the interface to calculate the square of a number. Implement this interface in a class Calculator and provide an implementation for the calculate() method. Use the static square() method to calculate the square of a number.
+
+Exercise 9: Interface with Multiple Implementations
+
+Create an interface Shape with abstract methods calculateArea() and calculatePerimeter(). Implement this interface in three classes: Circle, Rectangle, and Triangle. Each class should provide its own implementations for the methods. Calculate and display the area and perimeter of instances of these shapes.
+
+
+Exercise 10: Abstract Class with Inheritance
+
+Create an abstract class Employee with fields name and salary, and an abstract method calculateBonus(). Create two subclasses, Manager and Developer, that extend the Employee class and provide their own implementations for the calculateBonus() method. Calculate and display the bonus for instances of both subclasses.
+
+Exercise 11: Abstract Class with Polymorphism
+
+Create an abstract class Shape with an abstract method calculateArea(). Then, create three subclasses: Circle, Rectangle, and Triangle, each extending the Shape class. Implement the calculateArea() method in each subclass to calculate the area of their respective shapes. Create an array of Shape objects containing instances of these subclasses and calculate and display the area of each shape using polymorphism.
+
+Exercise 12: Interface with Multiple Inheritance
+
+Create two interfaces, Flyable and Swimmable, with abstract methods fly() and swim(), respectively. Implement both interfaces in a class called Duck that provides implementations for both fly() and swim(). Create an instance of the Duck class and demonstrate its ability to both fly and swim.
+
+
+
+
+
+
+
+
+
+
+
+
+

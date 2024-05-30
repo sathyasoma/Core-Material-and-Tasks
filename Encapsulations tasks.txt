@@ -1,0 +1,56 @@
+Exercise 1: Encapsulation with Getter and Setter
+
+Create a class called Person with private fields name, age, and email. Provide public getter and setter methods for each of these fields.
+
+Exercise 2: Using Encapsulation
+
+Create a Main class to demonstrate the use of encapsulation by creating an instance of the Person class, setting its fields using the setter methods, and then retrieving and displaying the values using the getter methods.
+
+Exercise 3: Encapsulation with Constructors
+
+Modify the Person class to include a constructor that accepts parameters for name, age, and email. Use this constructor to initialize the fields when an object of the Person class is created.
+Exercise 4: Using Encapsulation with Constructors
+
+Modify the Main class to create an instance of the Person class using the constructor with parameters and then display the person's attributes.
+
+Exercise 5: Encapsulation with Validation
+
+Enhance the Person class to include validation in the setter methods. The setAge() method should ensure that the age is within a reasonable range (e.g., between 0 and 120), and the setEmail() method should validate that the email is in a valid format (e.g., contains "@" and "." symbols).
+
+Exercise 6: Using Encapsulation with Validation
+
+Modify the Main class to create an instance of the Person class and set its attributes, including invalid values. Observe that the validation in the setter methods prevents setting invalid values.
+
+Exercise 7: Encapsulation with Aggregation
+
+Create a Course class with private fields for the course name and instructor. Then, create a Student class with private fields for the student's name and an array of courses they are enrolled in. Implement methods to add and remove courses for a student. Ensure proper encapsulation and data validation.
+
+Exercise 8: Using Encapsulation with Aggregation
+
+Create a Main class to demonstrate the use of encapsulation with aggregation by creating instances of the Course and Student classes. Enroll a student in multiple courses, display their enrolled courses, and remove a course from their enrollment.
+
+Exercise 9: Encapsulation with Composition
+
+Create a Book class with private fields for the book's title, author, and ISBN. Then, create a Library class with a private list of Book objects representing the library's collection. Implement methods to add and remove books from the library. Ensure proper encapsulation.
+
+
+Exercise 10: Using Encapsulation with Composition
+
+Create a Main class to demonstrate the use of encapsulation with composition by creating instances of the Book and Library classes. Add books to the library, display the library's collection, and remove a book from the library.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

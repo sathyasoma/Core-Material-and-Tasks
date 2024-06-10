@@ -1,0 +1,13 @@
+1.Write a Java program that divides two numbers and handles the "ArithmeticException" that occurs when dividing by zero.
+2.Write a Java program that attempts to access an element at an invalid index in an array and handles the "ArrayIndexOutOfBoundsException" that may occur.
+3.Write a Java program that attempts to open a file that does not exist and handles the "FileNotFoundException."
+4.Write a Java program that attempts to access a method or property of an object that is null and handles the "NullPointerException."
+5.Write a Java program that reads an integer from the user but handles the "InputMismatchException" if the input is not a valid integer.
+
+6.Write a java program for single try multi catch Example.
+
+7.write a java program for nested try Block.
+
+8.write a java program with class not found exception.
+
+9.write a java program for IlligalArgument Exception.

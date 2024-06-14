@@ -1,0 +1,274 @@
+JAVA 8 NEW FEATURES:
+====================
+*FUNCTIONAL INTERFACE
+
+*LAMDA EXPRESSIONS
+
+*DEFAULT METHODS AND STATIC METHODS
+
+*PREDEFINED FUNCTIONAL INTRFACES ( Runnable,Comparable,Comparator,Calleble are also functinal I)
+            PREDICATE
+			FUNCTIONA
+			CONSUMERR
+			SUPPLIER ...ETC
+
+*DOUBLE COLON OPERETOR(::)
+         USED FOR METHOD REFERENCE ,CONSTRUCTOR REFERENCE
+
+* STREAMS
+
+* DATE AND TIME API
+
+*OPTIONAL CLASS
+
+*NASHRON JAVASCRIPT ENGINE
+
+
+
+
+
+
+
+
+
+LAMDA EXPRESSION:(but from 1992 python used this,at last java introduced )
+=================
+   NEED OF LAMDA EXPRESSION?
+ 
+ The main objectve of Lamda EXPRESSION:
+ =========================================
+   To bring benifits of functional prograaming into java.
+   
+without lamda :
+---------------
+
+
+
+Lamda Expression Introduction:
+==============================
+* The first prograaming language which is used lamda expression is "LISP"
+             * python,LISP,C++,C,RUBY,SCALA
+			 *@LASST IN JAVA
+			 
+			 
+			 
+			 *The main objective of lamda expession is bring functional programming into java.
+			 
+	LAMDA expression is a anonymous function(name less,without return type,without modifiers)
+
+examples:
+----------- 
+how to write?
+-----------
+public void m1()
+{
+System.out.println("welcome");
+}
+
+(name less,without return type,without modifiers)
+
+          ()->
+		  {
+		  System.out.println("welcome")
+		  }
+		  
+		if implementation is one line curly braces are oprtional
+		
+		()->System.out.println("welcome")
+		  
+		  
+*
+public void m1(int a.int b)
+{
+Sop(a+b);
+}		  
+
+with lamda:
+        
+   (int a,int b)->sop(a+b);
+   
+   (a,b)->sop(a+b); //compiler can guess which type varaiables 	automatically
+
+
+
+eg1:
+
+public int add(int a, int b)
+{
+   return a+b;
+}
+
+ LE:     (a,b)-> a+b;
+
+
+eg2:
+public void display()
+{
+System.out.println("welcome to lamda");
+}
+
+LE:  ()->System.out.println("welcome to lamda");
+
+
+
+eg3:
+---
+public int square(int a)
+{
+return a*a;
+}
+
+with lamda:
+(int a)->{return a*a;}
+or
+//we can avoid return keyword also 
+
+(int a)->a*a  // valid, but with out curly braces we cant use return keyword
+ (a)->a*a;  //valid if compiler can guess type automatically.w can remove type also
+ a->a*a;  //if only one parametr available braces are optional
+LE: a->a*a;
+
+
+eg:
+
+public int m1(String s)
+
+{
+return s.length();
+}
+
+with lamda:
+------------
+(s)->s.length();
+
+or
+
+s-> s.length();
+
+
+
+
+FUNCTIONAL INTERFACE:
+=======================
+   *Runnable---->run()
+   *Calleble---->call()
+   *Comparable--->compare()
+   *ActionListner--->actionPerformed()
+   
+   SAM(SINGLE ABSTRACT METHOD)-->FUNCTIONAL INTERFACE
+   
+   
+=>after creating lamda expression we need to call(invoking method ) by using functinal interface.
+=>we can have any number of static and default methods in functional interface the restrictions 
+for only abstract methods.
+
+
+note:
+-----
+default + static method 
+
+@FUNCTIONALInterface 1 abstract + static
+
+An interface which contains only one abstarct method is calledd functional interface.
+
+Once we write lamda expression to invoke we need functional interfaces.
+
+-can i take deafult methods  and static methods in functional interface?
+    yes you can take but only one abstarct method and any num of deafault and static methods.
+	
+	
+predefined Functional Interfaces:(java.util.function )
+=================================  default, static
+PREDICATE
+consumer
+supplier
+Function
+
+Predicate:
+----------
+where ever boolean cindition checking is reqquired we can use this predicate FI.
+ input can be anything but result of predicate test method is boolean.
+ 
+ 
+ interface Predicate<T>{
+ public boolean test(T,t);
+ }
+ 
+ To check given num is even or not 
+ 
+ public boolean test(int i)
+ {
+ if(i%2==0)
+ {
+ return true;
+ }
+ else
+ {
+ return false; 
+ }
+ }
+ 
+ Lamda:
+ 
+ (Integer I)->I%2
+ 
+ I->I%2==0;   ==>
+ 
+ Predicate<int> predicate=I->I%2==0;
+   Syso(predicate.test(10));
+   
+   
+Function:(FI)
+------------------
+It will do some operation and return results(anytype)
+
+input-->operation--->result
+
+4---->cube it---->64
+
+
+
+interface Function<T, R>{
+public R apply(T,t)
+}
+
+ex:
+===
+Function<Integer,Integer> f= i->i*i;
+Syso(f.apply(20));
+
+ex:
+--
+String s= "welcome";
+Function<String String> s=i->i.toUpperCase();
+ Syso(s.apply("case"));
+ 
+ 
+Consumer:
+----------
+consumer<T>--->void
+
+interface consumer<T t>{
+public void accept(T,t);
+}
+
+Supplier:
+--------
+it will not take any input....
+
+interface Supplier{
+Public R get();
+}
+
+
+predicate--->test()--->boolean---->
+input can be anything but result of predicate test method should be boolean .
+
+Function---->apply()-->anything
+input can be anything and result of that function is apply() method also anything.
+
+consumer-->accept()--.anything
+input can be anything but result of consumer accept() method is nothing.
+
+supplier---->get()--->anything
+it will not take any iput can return anything

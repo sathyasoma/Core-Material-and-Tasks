@@ -1,0 +1,225 @@
+
+Date and Time API:  (joda time API)
+=================
+
+
+upto 1.7v ==>date,calender,timestamp are used but those are not to uptothe mark
+
+
+1.8 v--> introduced with Joda Time API(seperate interfaces and classes)
+
+                                          devloped by joda.org
+ 
+ eg:
+ ==
+ 
+ public class Test{
+ 
+  public static void main(String args[]){
+  
+      LocalDate date= LocalDate.now();
+	  
+	  System.out.println(date);
+	  
+	  LocalTime time= LocalTime.now();
+	  System.out.println(time);
+  }
+ 
+ }
+ 
+ 
+ eg: by using date object how we can print seperate day,month,yr
+ ---
+ 
+  
+ public class Test{
+ 
+  public static void main(String args[]){
+  
+      LocalDate date= LocalDate.now();
+	  
+	  System.out.println(date);
+	  
+	  int dd=date.getDayOfMonth();
+	  int mm=date.getMonthValue();
+	  int yyyy=date.getYear();
+	  
+	  System.out.println(dd+" "+mm+" "+yyyy);
+	  System.out.printf("%d-%d-%d",dd,mm,yyyy);
+  }
+ 
+ }
+ 
+ eg:
+ ===
+ 
+  
+ public class Test{
+ 
+  public static void main(String args[]){
+  
+      LocalTime time= LocalTime.now();
+	  
+	  
+	  
+	  int h=time.getHour();
+	  int m=time.getMinute();
+	  int s=time.getSecond();
+	  int ns=time.getNano();
+	  
+	  
+	  System.out.printf("%d:%d:%d:%d",h,m,s,ns);
+  
+  }
+ 
+ }
+ 
+ 
+ 
+ eg:   (LocalDateTime)
+ ===
+ 
+ public class Test{
+ 
+  public static void main(String args[]){
+  
+      LocalDateTime dt= LocalDateTime.now();
+	 
+       System.out.println(dt);	 
+  }
+ 
+ }
+ 
+ 
+ eg:
+ ---  (mension perticular dataand time)
+
+
+ public class Test{
+ 
+  public static void main(String args[]){
+  
+      LocalDateTime dt= LocalDateTime.of(yy,mm,dd,h,m,s,ns);
+	 // LocalDateTime dt= LocalDateTime.of(1994,07,04,12,45);
+	 
+       System.out.println(dt);	
+
+      
+	  System.out.println("Aftre six months:"+dt.plusMonths(6));		
+       System.out.println("Before six months:"+dt.minusMonths(6));	  
+	   
+	   
+  }
+ 
+ }
+ 
+ 
+			
+ 
+ 
+ period class:
+ =============
+ want to know period of from birthday to taday date 
+ 
+ 
+ 
+ public class Test{
+ 
+  public static void main(String args[]){
+  
+      LocalDate bdy= LocalDate.of(1985,08,25);
+	 
+	 LocalDate tdy=LocalDate.now();
+	 
+	 Period p= period.between(bdy,tdy);
+	 
+       System.out.println("Age is  %d years % months %d days ",p.getYears(),p.getMonths(),p.getDays());	 
+  }
+ 
+ }
+ 
+ 
+ YEAR CLASS:
+ ===========
+ 
+ public class Test{
+ 
+  public static void main(String args[]){
+  
+        Scanner sc= new Scanner(System.in);
+		
+		System.out.println("enter your NUMBER");
+		int n= sc.nextInt();
+		
+		Year y= Year.of(n);
+		
+		if(y.isLeap())
+		{
+		
+		System.out.printf("%d year is leap year ",n);
+		}
+		else
+		{
+				System.out.printf("%d year is not leap year ",n);
+		}
+		
+		
+		
+  }
+ 
+ }
+ 
+ 
+ ZoneId class:
+ =============
+ 
+ 
+ class Test{
+ public satic void main(String args[]){
+ 
+    ZoneId zone= ZoneId.systemDefault();
+	System.out.println(zone);
+	
+	
+	//i want losangels zone date and time
+	
+	ZoneId la= ZoneId.of("America/Los-Angels");
+	
+	ZonedDateTime dt= ZonedDateTime.now(la);
+	
+	System.out.println(dt);
+	
+	
+	
+	
+    
+ }
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

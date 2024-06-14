@@ -1,0 +1,376 @@
+INTERNATIOLIZATION(I18N):
+-------------------------
+
+in the above word i to n we have 18 letters.
+
+
+the process of designing web applications in such away that which provides support for 
+various  countirs and languesges and currencies automatically without performing any 
+cahnge applications is called interlication(i18n)
+
+
+eg:  if the request comming from india then the response sholud be in india people understandable form 
+     if the request coming from us in us people understable form 
+	 
+	 
+	 we can implement INTERNATIOLIZATION by using following 
+1.Locale
+2.NumberFormate
+3.DateFormate
+
+
+Locale:
+=========
+
+Locale object represents a geographis location (country) or language or both
+
+eg:  we can create a Locale object to represent india 
+     we can create a Locale Object to represent English
+	 
+==>Locale claass present in java.util package
+  it is a final class and it is direct child class of Object 
+  it implement serilizable and clonable interfaces
+  
+  Constructors:
+  -------------
+  
+  1.  Locale l1= new Locale(String langugae);
+  2.  Locale l2= new Locale(String langugae,String country);
+  
+  
+  eg:  Locale l3 = new Locale("pa","IN");
+                   pa=panjabi,   IN=india 
+	
+	
+	**Locale class aredy defined sme coanstants to reprsents some standard Locales 
+	we can use these constnsts directly ,
+	  eg:  Locale.US
+	       Locale.English
+		   Locale.UK
+		   Locale.ITALY
+	
+Important methods of Locale class:
+------------------------------
+
+*public static 	Locale getDefault();
+public static void setDefault(Locale l);
+public String getCountry();      :eg: US
+public String getLangugae();      eg:en
+public String getDisplayLangugae();  eg: English
+public String getDisplayCountry();  eg: UnitedStates
+
+public static String[] getISOLanguages();
+public static String[] getISOCountries();
+public static Locale[] getAvailableLocales();
+
+
+
+
+Ex:
+--------------
+
+
+package com.internalization;
+
+import java.util.Locale;
+
+public class LocaleDemo {
+
+	public static void main(String[] args) {
+		
+		Locale l1= Locale.getDefault();
+		System.out.println(l1.getCountry()+"----"+l1.getLanguage());
+		System.out.println(l1.getDisplayCountry()+"---"+l1.getDisplayLanguage());
+		
+		Locale l2= new Locale("pa","IN");
+		System.out.println(Locale.getDefault().getDisplayLanguage());
+
+	   
+		String s3[]=Locale.getISOLanguages();
+		
+		for(String res:s3) {
+			System.out.println(res);
+		}
+	
+		String[] s4= Locale.getISOCountries();
+		
+		for(String res1:s4) {
+			System.out.println(res1);
+		}
+		
+		Locale [] s=Locale.getAvailableLocales();
+		for(Locale s1:s) {
+			System.out.println(s1.getDisplayLanguage());
+				
+		}
+		
+	
+	}
+}
+
+
+
+NumberFormat:
+---------------
+
+variuos locations will foloow various styles to repsresent java Number:
+   ed:  double d= 123456.789;
+   
+   India: 1,23,456.789;
+   US:    123,456.789;
+   Italy:  123.456,789;
+   
+   we can use NumberFormat CLASS TO formate a java number according to a perticular Locale 
+   
+   **NumberFormat class prsent in java.text packge and it is an abstarct class 
+   **NumberFormat nf= new NumberFormat(); //invalid we cant create object of this class 
+   
+ GettingNumberformat object for defaultLocale:
+ ----------------------------------------- 
+ **Numberformat class defines the following mthods for these pupose
+ 
+ public static NumberFormat getInstance();
+ public static NumberFormat getCurrencyInstance();
+ public static NumberFormat getPercantageInstance();
+ public static NumberFormat getNumberInstance();
+
+getting Numberfoarmat object for SpecificLocale:
+----------------------------------------------
+tHE ABOVE METHODS ARE same but we have to pass the corrsponding local objects are given 
+
+public static NumberFormat getNumberInstance(Locale l);
+
+**Once we got number format object we can call format() and parse() on that object .
+
+
+
+public String format(Long l);
+public String format(double d);
+    =>to convert java number form to Locale Specific String form.
+
+public Number parse(String s) throws ParseException
+ => to conver to locale specific String fro to java Number form 
+
+
+Q.write a program to display a java number in Italy SSpecific form.
+
+package com.internalization;
+
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class NumberFormatDemo2 {
+public static void main(String[] args) {
+	 double d=123456.789;
+	 NumberFormat nf= NumberFormat.getInstance(Locale.ITALY);
+	 System.out.println("Italy form iss :"+nf.format(d));
+}
+}
+
+Q. write a program to display java number in Uk,US,INDIA CURRENCY FORMS
+
+
+package com.internalization;
+
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class NumberCurrencyFormatDemo2 {
+
+	public static void main(String[] args) {
+		double d = 123456.789;
+		NumberFormat nf = NumberFormat.getCurrencyInstance(Locale.ITALY);
+		System.out.println("Italy form iss :" + nf.format(d));
+
+		NumberFormat nf1 = NumberFormat.getCurrencyInstance(Locale.US);
+		System.out.println("US form iss :" + nf1.format(d));
+
+		NumberFormat nf2 = NumberFormat.getCurrencyInstance(Locale.UK);
+		System.out.println("UK form iss :" + nf2.format(d));
+
+		
+		//we dont have predefined constnt for inida 
+		Locale india=new Locale("pa","IN");
+		NumberFormat nf3 = NumberFormat.getCurrencyInstance(india);
+		System.out.println("INdia form iss :" + nf3.format(d));
+
+	}
+}
+
+
+Setting maximu and minimum FrACTION AND Integer digits:
+--------------------------------------------------------
+
+
+NumberFomat class defines the following methods for these purpose
+
+
+public void setMaximumFractionDigits(int n);
+public void setMinimumFractionDigits(int n);
+public void setMaximumIntegerDigits(int n);
+public void setMinimumIntegerDigits(int n);
+
+
+12345.789
+
+before deigits we can call Integer Digits.
+after digits we can call fraction degits
+
+
+NF nf= NF.getInstance();
+
+case 1:
+------
+
+nf.setMaximumFractionDigits(2);
+System.out.println(123.4567); //123.46
+System.out.println(123.4);//123.4
+
+
+case 2:
+------
+nf.setMinimumFractionDigits(2);
+System.out.println(123.4567); //123.4567
+System.out.println(123.4);//123.40
+
+
+case 3:
+------
+
+nf.setMaximumIntegerDigits(2);
+System.out.println(123.4567); //456.789
+System.out.println(123.4);//1.2345
+
+case 4:
+------
+
+nf.setMinimumFractionDigits(2);
+System.out.println(123.4567); //123,456.789
+System.out.println(123.4);//001.4567
+
+
+====================DateFormat=========
+
+VARIOUS LOCATIONS FOLLOW VARIOUS STYLES TO REPRESENT Date.
+
+india: dd-mm-yyyy
+US:   mm-dd-yyyy
+
+we can use DateFormate to format javadate acccording to perticular Locale  
+
+DtaeFormate class present in java.text pacakge its is an abstract class.
+ 
+ DateFormate df= new DateFormate(); //invalid 
+   we cant create object of this class 
+   
+public static DateFormat getInstance();
+public static DateFormat getDateInstance();
+public static DateFormate getDateInstance(int style);
+
+
+
+The allowed style are 0 to 3
+
+DateFormat.FULL------------------->0
+DateFormat.LONG------------------->1
+DateFormat.MEDIUM---------------->2
+DateFormat.SHORT---------------->3
+
+
+
+The default style is meduim
+
+GETTOMG DateFormat OBJECT FOR SPECIFIC LOCALE:
+-------------------------------------
+public static DateFormat getInstance(int style,Locale L);
+
+
+*Once we got DateFomate object we can call following methods on that object 
+
+   public String format(Date d);
+      =>to convert java Date format to specific String form 
+	  
+	public Date parse(String e) throws ParseeXCEPTION 
+	   =>TO convert Locale specific String form to java Date Form 
+	   
+Q. write a prgram to dispaly cureentsystemDate all posible style sin US fORM 
+
+package com.internalization;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+public class DateFormatDemo {
+public static void main(String[] args) {
+	
+System.out.println("FullForm :"+DateFormat.getDateInstance(0,Locale.US).format(new Date()));
+System.out.println("Long Form :"+DateFormat.getDateInstance(1,Locale.US).format(new Date()));
+System.out.println("Medium Form :"+DateFormat.getDateInstance(2,Locale.US).format(new Date()));
+System.out.println("Short Form :"+DateFormat.getDateInstance(3,Locale.US).format(new Date()));
+
+
+
+
+}
+}
+
+
+ex:
+----
+
+package com.internalization;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+public class DateFormatDemo2 {
+public static void main(String[] args) {
+	
+	DateFormat us=DateFormat.getDateInstance(0,Locale.US);
+	DateFormat uk=DateFormat.getDateInstance(0,Locale.UK);
+	DateFormat italy=DateFormat.getDateInstance(0,Locale.ITALY);
+	
+	System.out.println("US Style :"+us.format(new Date()));
+	System.out.println("Uk Style :"+uk.format(new Date()));
+	System.out.println("italy Style :"+italy.format(new Date()));
+	
+	
+}
+}
+
+
+GettingDateFormat Object to dispaly both Date and Time:
+---------------------------------------------------
+
+
+public static DateFormat getDateTimeInstance();
+public static DateFormat getDateTimeInstance(int dateStyle,int timeStyle);
+public static DateFormate getDateInstance(int datestyle,int timeStyle,Locale l);
+
+
+
+package com.internalization;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+public class DateTimeFormatDemo2 {
+public static void main(String[] args) {
+	DateFormat us=DateFormat.getDateTimeInstance();
+	DateFormat uk=DateFormat.getDateTimeInstance(0,0);
+	DateFormat italy=DateFormat.getDateTimeInstance(0,0,Locale.ITALY);
+	
+	System.out.println("US date time 0Style :"+us.format(new Date()));
+	System.out.println("Uk date time 0Style :"+uk.format(new Date()));
+	System.out.println("italy date time Style :"+italy.format(new Date()));
+}
+}
+
+
+
+
+   
+

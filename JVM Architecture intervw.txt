@@ -1,0 +1,57 @@
+1.What is the JVM, and what is its primary purpose?
+Answer: The JVM (Java Virtual Machine) is an integral part of the Java 
+Runtime Environment (JRE). Its primary purpose is to execute Java bytecode,
+allowing Java applications to be platform-independent by translating
+bytecode into native machine code for the host system.
+
+2.Explain the main components of the JVM architecture.
+Answer: The JVM architecture consists of several components:
+Class Loader: Loads Java classes and interfaces into memory.
+Execution Engine: Executes bytecode.
+Java Native Interface (JNI): Enables interaction with native code.
+Memory Area: Divided into method area, heap, stack, and PC registers.
+Native Method Interface (NMI): Allows JVM to call native methods.
+Native Method Libraries: Contains native code libraries.
+Interpreter: Interprets bytecode for execution.
+
+3.What is bytecode, and why is it important in the JVM?
+Answer: Bytecode is a platform-independent, low-level representation of Java source code. 
+It's essential in the JVM because it allows Java applications to run on any platform with a compatible JVM, 
+as the bytecode can be executed on various operating systems without modification.
+
+4.Explain the purpose of the Class Loader in the JVM.
+Answer: The Class Loader is responsible for loading Java classes and interfaces into memory as needed during runtime. 
+It ensures that classes are loaded only once and resolves dependencies between classes.
+
+5.What are the different memory areas in the JVM, and what is their purpose?
+Answer: The JVM's memory areas include:
+Method Area: Stores class metadata, static fields, and constant pool.
+Heap: Stores objects and their instance variables.
+Stack: Stores local variables and method call information.
+PC Registers: Holds the address of the current instruction being executed.
+
+6.Explain the difference between the stack and the heap in the JVM.
+Answer:
+The stack stores local variables and method call information for each thread in the program. 
+It follows a Last-In, First-Out (LIFO) order and is used for method execution.
+The heap is a shared memory area that stores objects and their instance variables. 
+It is managed by the JVM's garbage collector and is used for dynamic memory allocation.
+
+7.What is the role of the Execution Engine in the JVM?
+Answer: The Execution Engine is responsible for executing bytecode instructions.
+ It includes both the interpreter and the Just-In-Time (JIT) compiler. 
+The interpreter translates bytecode into machine code and executes it. 
+The JIT compiler compiles bytecode into native machine code for improved performance.
+
+8.Explain the significance of the Java Native Interface (JNI) in the JVM.
+Answer: JNI allows Java code to interact with native code written in languages like C and C++. 
+It is used for scenarios where Java needs to call native methods or when native code needs to invoke Java methods. 
+JNI bridges the gap between Java and native code.
+
+9.What is Garbage Collection in the JVM, and why is it important?
+Answer: Garbage Collection is the process of automatically identifying and reclaiming memory occupied by objects that are no longer reachable or in use by the application. 
+It is crucial to manage memory efficiently and prevent memory leaks in Java applications.
+
+10.How does the JVM handle platform independence, and what role does bytecode play in this?
+Answer: The JVM ensures platform independence by executing bytecode, which is a platform-neutral representation of Java code. 
+The bytecode can run on any platform with a compatible JVM because the JVM translates it into native machine code suitable for the host system

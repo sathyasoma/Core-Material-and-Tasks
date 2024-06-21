@@ -1,0 +1,62 @@
+1.What is file handling in Java?
+Answer: File handling in Java refers to the process of creating, reading, writing,
+ and manipulating files and directories using classes and methods provided by the java.io and java.nio packages.
+
+2.Explain the difference between File and FileInputStream in Java.
+Answer:
+File represents a file or directory's path in the file system.
+ It provides information about the file or directory, such as its name, size, and existence.
+FileInputStream is an input stream used for reading binary data from a file. 
+It is used to read the contents of a file.
+
+3.What is the purpose of the java.nio package in file handling?
+Answer: The java.nio (New I/O) package provides an improved and more flexible way to perform file I/O operations. 
+It includes features like non-blocking I/O, memory-mapped files, and support for working with character encodings and character sets.
+
+4.How can you check if a file exists in Java, and what class or method can you use for this purpose?
+Answer: You can check if a file exists in Java using the exists() method of the File class. For example:
+File file = new File("example.txt");
+if (file.exists()) {
+    // File exists
+}
+
+5.Explain the purpose of buffered I/O in Java file handling.
+Answer: Buffered I/O is used to improve the efficiency of reading and writing data to files by reducing the number 
+of disk access operations. It uses a buffer to store data temporarily, allowing for larger chunks of data to be read or written at once.
+
+6.What is the difference between character streams and byte streams in Java file handling?
+Answer:
+Character streams (Reader and Writer) are used for handling character data, such as text files. 
+They handle character encoding automatically and are suitable for reading and writing text.
+Byte streams (InputStream and OutputStream) are used for handling binary data, such as image or audio files.
+ They read and write raw bytes without any character encoding.
+
+7.Explain the use of the try-with-resources statement in Java file handling.
+Answer: The try-with-resources statement is used for automatic resource management when working with files. 
+It ensures that resources, such as file streams, are automatically closed when they are no longer needed, reducing the risk of resource leaks. 
+This statement was introduced in Java 7.
+
+8.What is a file path in Java, and how can you specify a file path correctly?
+Answer: A file path in Java is a string representation of the location of a file or directory in the file system.
+ File paths can be either absolute (specifying the full path from the root directory) or relative (specifying the path relative to the current working directory).
+ Correct file paths should use the appropriate path separator (\ on Windows and / on Unix-like systems) and escape characters as needed.
+
+9.How can you read the contents of a text file in Java?
+Answer: You can read the contents of a text file in Java using character stream classes like FileReader and BufferedReader. Here's an example:
+try (BufferedReader reader = new BufferedReader(new FileReader("example.txt"))) {
+    String line;
+    while ((line = reader.readLine()) != null) {
+        // Process each line of the file
+    }
+} catch (IOException e) {
+    // Handle the exception
+}
+ 
+10.How can you write data to a text file in Java?
+Answer: You can write data to a text file in Java using character stream classes like FileWriter and BufferedWriter. Here's an example:
+try (BufferedWriter writer = new BufferedWriter(new FileWriter("example.txt"))) {
+    writer.write("Hello, world!");
+    // Additional write operations
+} catch (IOException e) {
+    // Handle the exception
+}

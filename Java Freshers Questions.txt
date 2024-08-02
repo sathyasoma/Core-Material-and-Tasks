@@ -1,0 +1,25 @@
+1.Java Program To Find the Factorial of a Number Using Iterative 
+2.Java Program To Find Factorial of a Number Using Recursion 
+3.Java Program To Display Fibonacci Series 
+4.Java Program To Check Whether a Number Is Positive or Negative 
+5.Java Program To Check Whether a Number Is Odd or Even 
+6.Java Program To Find Largest Number in an Array 
+7.Java Program To Find Largest Number Among Three Numbers 
+8.Java Program To Find Largest Number Among Three Numbers using Built-in Function 
+9.Java Program To Check Whether an Alphabet Is a Vowel or Consonant 
+10.Java Program To Reverse a String Without Using String Inbuilt Function 
+11.Java Program To Reverse an Array Without Using an Additional Array 
+12.Java Program to Swap Two Numbers Without Using Third Variable 
+13.Java Program To Remove Duplicate Elements From ArrayList 
+14.Java Program To Remove All White Spaces From a String 
+15.Java Program To Find the Sum of Digits of a Number 
+16.Java Program To Print Even Numbers using Java 8 
+17.Java Program To Remove Last Element From List Using Java 8 
+18.Java Program To Remove Duplicate Elements From List using Java 8 
+19.Java 8 Program to Find the Age of a Person if the Birthday Date has Given 
+20.Java 8 Program to Reverse Each Word of String 
+21.Java 8 Program to Find the Second Largest Number in the List of Integers 
+22.Java 8 Program to Find the Maximum Number and Minimum Number in a List 
+23.Java 8 Program to Find the Frequency of Each Character in a Given String 
+24.Java 8 Program to Sort List of Strings Alphabetically 
+25.Java Program To Find Largest Number Among Three Numbers using if-else Statement 

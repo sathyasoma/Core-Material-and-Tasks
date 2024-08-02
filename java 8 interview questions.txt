@@ -1,0 +1,10 @@
+1.Java 8 Program to Find the Maximum Number and Minimum Number in a List
+2.Java 8 Program to Find the Second Largest Number in the List of Integers 
+3.Java 8 Program to Find the Frequency of Each Character in a Given String
+4.Java 8 Program to Reverse Each Word of String
+5.Java Program To Remove Duplicate Elements From List using Java 8
+6.Java 8 Program to Retrieve Last Element of a List of Strings
+7.Java 8 Program to Find the Age of a Person if the Birthday Date has Given
+8.Java Program To Print Even Numbers using Java 8
+9.Java Program To Find the Sum of Digits of a Number using Java 8
+10.Java 8 Program to Sort List of Strings Alphabetically

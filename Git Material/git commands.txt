@@ -1,0 +1,1030 @@
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/Test (master)
+$ mkdir example
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/Test (master)
+$ ls -lrt
+total 2
+-rw-r--r-- 1 Hp 197121 243 Mar 24 19:29 Demo.html
+-rw-r--r-- 1 Hp 197121 257 Mar 24 19:35 Index.html
+drwxr-xr-x 1 Hp 197121   0 Apr 13 06:45 example/
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/Test (master)
+$ wd
+bash: wd: command not found
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/Test (master)
+$ pwd
+/c/Users/Hp/Desktop/Test
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/Test (master)
+$ cd ..
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop
+$ mkdir myproject
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop
+$ code myproject/
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop
+$ cd myproject/
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject
+$ touch index.html
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject
+$ touch style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject
+$ ls -lrt
+total 0
+-rw-r--r-- 1 Hp 197121 0 Apr 13 06:49 index.html
+-rw-r--r-- 1 Hp 197121 0 Apr 13 06:50 style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject
+$ git init
+Initialized empty Git repository in C:/Users/Hp/Desktop/myproject/.git/
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git add index.html style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   style.css
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git rm --cached style.css
+rm 'style.css'
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        style.css
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git commit -m "first commit"
+[master (root-commit) 751d242] first commit
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git config --global user.email
+sathya191916@gmail.com
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git config --global user.name
+sathya
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git add style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git commit -m "changes in style sheet"
+[master 1ac6a78] changes in style sheet
+ 1 file changed, 4 iginsertions(+)
+ create mode 100644 style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+        modified:   style.css
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git commit -m "added extra head tag"
+[master 3bae5cb] added extra head tag
+ 2 files changed, 7 insertions(+)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ ls -lrt
+total 2
+-rw-r--r-- 1 Hp 197121 292 Apr 13 07:03 index.html
+-rw-r--r-- 1 Hp 197121  95 Apr 13 07:04 style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ touch script.js
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        script.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git commit -m "script addedd"
+[master 8bc1266] script addedd
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 script.js
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git log
+commit 8bc1266010ad668095460abe9ef4ee0fcd727032 (HEAD -> master)
+Author: sathya <sathya191916@gmail.com>
+Date:   Sat Apr 13 07:07:47 2024 +0530
+
+    script addedd
+
+commit 3bae5cb239299749ab59509c881e61153ac90e9c
+Author: sathya <sathya191916@gmail.com>
+Date:   Sat Apr 13 07:06:28 2024 +0530
+
+    added extra head tag
+
+commit 1ac6a7882ec7392055e7eb6849098baf071d53f0
+Author: sathya <sathya191916@gmail.com>
+Date:   Sat Apr 13 07:02:46 2024 +0530
+
+    changes in style sheet
+
+commit 751d2425c9866028a617f279525fc569f379f925
+Author: sathya <sathya191916@gmail.com>
+Date:   Sat Apr 13 06:59:25 2024 +0530
+
+    first commit
+:...skipping...
+commit 8bc1266010ad668095460abe9ef4ee0fcd727032 (HEAD -> master)
+Author: sathya <sathya191916@gmail.com>
+Date:   Sat Apr 13 07:07:47 2024 +0530
+
+    script addedd
+
+commit 3bae5cb239299749ab59509c881e61153ac90e9c
+Author: sathya <sathya191916@gmail.com>
+Date:   Sat Apr 13 07:06:28 2024 +0530
+
+    added extra head tag
+
+commit 1ac6a7882ec7392055e7eb6849098baf071d53f0
+Author: sathya <sathya191916@gmail.com>
+Date:   Sat Apr 13 07:02:46 2024 +0530
+
+    changes in style sheet
+
+commit 751d2425c9866028a617f279525fc569f379f925
+Author: sathya <sathya191916@gmail.com>
+Date:   Sat Apr 13 06:59:25 2024 +0530
+
+    first commit
+~
+~
+
+
+~
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git log --online
+fatal: unrecognized argument: --online
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$
+
+Hp@DESKTOP-CIJUDKP MINlsGW64 ~/Desktop/myproject (master)
+$ git log --oneline
+8bc1266 (HEAD -> master) script addedd
+3bae5cb added extra head tag
+1ac6a78 changes in style sheet
+751d242 first commit
+
+
+
+
+
+
+
+
+
+=================================Head==========================
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ ls
+index.html  script.js  style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git log --oneline
+8bc1266 (HEAD -> master) script addedd
+3bae5cb added extra head tag
+1ac6a78 changes in style sheet
+751d242 first commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git show head
+commit 8bc1266010ad668095460abe9ef4ee0fcd727032 (HEAD -> master)
+Author: sathya <sathya191916@gmail.com>
+Date:   Sat Apr 13 07:07:47 2024 +0530
+
+    script addedd
+
+diff --git a/script.js b/script.js
+new file mode 100644
+
+
+==============================================checkout==========================
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git checkout 1ac6a78
+Note: switching to '1ac6a78'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 1ac6a78 changes in style sheet
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject ((1ac6a78...))
+$ git log --oneline
+1ac6a78 (HEAD) changes in style sheet
+751d242 first commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject ((1ac6a78...))
+$ git checkout master
+Previous HEAD position was 1ac6a78 changes in style sheet
+Switched to branch 'master'
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/myproject (master)
+$ git log --oneline
+8bc1266 (HEAD -> master) script addedd
+3bae5cb added extra head tag
+1ac6a78 changes in style sheet
+751d242 first commit
+
+===============================================Revert================================
+
+if you wnat delete or undo u can revert
+----------------
+
+
+
+
+
+==============================reset(mixed --soft---hard  )
+
+reset --mixed -->is going to unstaged state
+-------------------
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   script.js
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git commit -m "changes added"
+[master a7f6bd5] changes added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 script.js
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   script.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git commit -m "changed"
+[master 15da44e] changed
+ 1 file changed, 1 insertion(+)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+15da44e (HEAD -> master) changed
+a7f6bd5 changes added
+a741e0f Revert "added"
+5866550 added
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git reset --mixed a7f6bd5
+Unstaged changes after reset:
+M       script.js
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   script.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git checkout .
+Updated 1 path from the index
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+
+================================reset-soft-------------------
+
+add some data in the file; insert two commits and do opertaion on it
+---------------
+in script.js file :  var a=90;   var b=89;
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+a7f6bd5 (HEAD -> master) changes added
+a741e0f Revert "added"
+5866550 added
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git commit -m "test2"
+[master 24ff817] test2
+ 1 file changed, 3 insertions(+)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+24ff817 (HEAD -> master) test2
+a7f6bd5 changes added
+a741e0f Revert "added"
+5866550 added
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git commit -m "test3"
+[master 3efc164] test3
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+3efc164 (HEAD -> master) test3
+24ff817 test2
+a7f6bd5 changes added
+a741e0f Revert "added"
+5866550 added
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git reset --soft 24ff817
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   script.js
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git reset .
+Unstaged changes after reset:
+M       script.js
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   script.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git checkout .
+Updated 1 path from the index
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+
+===================================================reset0-hard 
+
+if you select 1st commit it wil direcetly delete all the files from ur repository
+0----------------------------
+
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+24ff817 (HEAD -> master) test2
+a7f6bd5 changes added
+a741e0f Revert "added"
+5866550 added
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git reset --hard 97ceb4a
+HEAD is now at 97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+97ceb4a (HEAD -> master) f commit
+
+
+=========================================github project into git----------
+
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+0d122b2 (HEAD -> master) changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git remote add origin https://github.com/sathyasoma/welpro.git
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 676 bytes | 225.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sathyasoma/welpro.git
+ * [new branch]      master -> master
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+0d122b2 (HEAD -> master, origin/master) changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.96 KiB | 50.00 KiB/s, done.
+From https://github.com/sathyasoma/welpro
+ * branch            master     -> FETCH_HEAD
+   0d122b2..0c10d8b  master     -> origin/master
+Updating 0d122b2..0c10d8b
+Fast-forward
+ index.html | 3 ++-
+ stle.css   | 7 ++++++-
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+0c10d8b (HEAD -> master, origin/master) style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$
+
+
+-----------------------------------------createing Branch-----------------------------
+
+branch created->inserted data->
+--------
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git branch
+* master
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git branch feature-1
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git branch
+  feature-1
+* master
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git checkout feature-1
+Switched to branch 'feature-1'
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git log --oneline
+a666c02 (HEAD -> feature-1, origin/master, master) new file from github
+0c10d8b style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git status
+On branch feature-1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git status
+On branch feature-1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git commit -m "addedd paragph fr-1"
+[feature-1 d868c1b] addedd paragph fr-1
+ 1 file changed, 2 insertions(+)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git status
+On branch feature-1
+nothing to commit, working tree clean
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git log --oneline
+d868c1b (HEAD -> feature-1) addedd paragph fr-1
+a666c02 (origin/master, master) new file from github
+0c10d8b style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git checkout master
+Switched to branch 'master'
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+a666c02 (HEAD -> master, origin/master) new file from github
+0c10d8b style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+
+------------------------createing one branch---------
+  feature-2:::::created and deleted:
+
+if you want delete-->u cant stay in same branch
+----
+
+
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git checkout -b feature-2
+Switched to a new branch 'feature-2'
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-2)
+$ git checkout feature-1
+Switched to branch 'feature-1'
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git branch -D feature-2
+Deleted branch feature-2 (was a666c02).
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git branch
+* feature-1
+  master
+
+
+
+----------------create bracnh and push to github-----------------
+
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git branch
+* feature-1
+  master
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git branch feature-3
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git branch
+* feature-1
+  feature-3
+  master
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-1)
+$ git checkout feature-3
+Switched to branch 'feature-3'
+M       index.html
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git status
+On branch feature-3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git commit -m "anchor tag addedd"
+[feature-3 ed95376] anchor tag addedd
+ 1 file changed, 2 insertions(+)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git log --oneline
+ed95376 (HEAD -> feature-3) anchor tag addedd
+d868c1b (feature-1) addedd paragph fr-1
+a666c02 (origin/master, master) new file from github
+0c10d8b style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git push origin master
+Everything up-to-date
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git push origin feature-1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 398 bytes | 398.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'feature-1' on GitHub by visiting:
+remote:      https://github.com/sathyasoma/welpro/pull/new/feature-1
+remote:
+To https://github.com/sathyasoma/welpro.git
+ * [new branch]      feature-1 -> feature-1
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git push origin feature-3
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 365 bytes | 365.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'feature-3' on GitHub by visiting:
+remote:      https://github.com/sathyasoma/welpro/pull/new/feature-3
+remote:
+To https://github.com/sathyasoma/welpro.git
+ * [new branch]      feature-3 -> feature-3
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git log --oneline
+ed95376 (HEAD -> feature-3, origin/feature-3) anchor tag addedd
+d868c1b (origin/feature-1, feature-1) addedd paragph fr-1
+a666c02 (origin/master, master) new file from github
+0c10d8b style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git pull origin feature-3
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.02 KiB | 61.00 KiB/s, done.
+From https://github.com/sathyasoma/welpro
+ * branch            feature-3  -> FETCH_HEAD
+   ed95376..e48c63f  feature-3  -> origin/feature-3
+Updating ed95376..e48c63f
+Fast-forward
+ index.html | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git log --oneline
+e48c63f (HEAD -> feature-3, origin/feature-3) addedd ul tag feature-3
+ed95376 anchor tag addedd
+d868c1b (origin/feature-1, feature-1) addedd paragph fr-1
+a666c02 (origin/master, master) new file from github
+0c10d8b style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$
+
+
+=============================================================merge-------------fast forward merge------------
+
+we changed data only one child bracn
+---------
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git branch
+  feature-1
+* feature-3
+  master
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git status
+On branch feature-3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git commit -m "marquee added f-3"
+[feature-3 6821b97] marquee added f-3
+ 1 file changed, 2 insertions(+)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git log --oneline
+6821b97 (HEAD -> feature-3) marquee added f-3
+e48c63f (origin/feature-3) addedd ul tag feature-3
+ed95376 anchor tag addedd
+d868c1b (origin/feature-1, feature-1) addedd paragph fr-1
+a666c02 (origin/master, master) new file from github
+0c10d8b style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (feature-3)
+$ git checkout master
+Switched to branch 'master'
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+a666c02 (HEAD -> master, origin/master) new file from github
+0c10d8b style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git merge feature-3
+Updating a666c02..6821b97
+Fast-forward
+ index.html | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/WelPro (master)
+$ git log --oneline
+6821b97 (HEAD -> master, feature-3) marquee added f-3
+e48c63f (origin/feature-3) addedd ul tag feature-3
+ed95376 anchor tag addedd
+d868c1b (origin/feature-1, feature-1) addedd paragph fr-1
+a666c02 (origin/master) new file from github
+0c10d8b style sheet updated
+02cf064 Update index.html
+0d122b2 changes done files
+97ceb4a f commit
+
+
+============================================Rebase========================
+
+1.create a folder 
+2.open in vs code 
+3.create a text file 
+4.open terminal and type => git init
+
+PS C:\Users\Hp\Desktop\wel> git init
+Initialized empty Git repository in C:/Users/Hp/Desktop/wel/.git/
+PS C:\Users\Hp\Desktop\wel> git add .
+PS C:\Users\Hp\Desktop\wel> git commit -m "master c1"
+[master (root-commit) 7aeeecc] master c1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+ 
+ ** ==>write some code in test file and again commit it
+ 
+ 
+PS C:\Users\Hp\Desktop\wel> git add .
+PS C:\Users\Hp\Desktop\wel> git commit -m "master c2"
+[master e1dbc57] master c2
+ 1 file changed, 1 insertion(+)
+ 
+ 
+ PS C:\Users\Hp\Desktop\wel> git checkout -b dev
+Switched to a new branch 'dev'
+
+***add some text in the test file again add and commit the file 
+
+PS C:\Users\Hp\Desktop\wel> git add .
+PS C:\Users\Hp\Desktop\wel> git commit -m "dev c1"
+[dev 87a6120] dev c1
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ 
+ PS C:\Users\Hp\Desktop\wel> git log --oneline
+87a6120 (HEAD -> dev) dev c1
+e1dbc57 (master) master c2            ------>master c2
+7aeeecc master c1
+ 
+ PS C:\Users\Hp\Desktop\wel> git checkout master
+Switched to branch 'master'
+
+**create test2.txt file add some text 
+
+PS C:\Users\Hp\Desktop\wel> git add .
+PS C:\Users\Hp\Desktop\wel> git commit -m "master c3"
+[master 35f75af] master c3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test2.txt
+ 
+ PS C:\Users\Hp\Desktop\wel> git log --oneline
+35f75af (HEAD -> master) master c3
+e1dbc57 master c2
+7aeeecc master c1
+
+PS C:\Users\Hp\Desktop\wel> git checkout dev
+Switched to branch 'dev'
+PS C:\Users\Hp\Desktop\wel> git log --oneline
+87a6120 (HEAD -> dev) dev c1
+e1dbc57 master c2
+7aeeecc master c1
+PS C:\Users\Hp\Desktop\wel> git rebase master 
+Successfully rebased and updated refs/heads/dev.
+PS C:\Users\Hp\Desktop\wel> git log --oneline
+4c4c85e (HEAD -> dev) dev c1
+35f75af (master) master c3          ----------------->master c3 this is called rebase
+e1dbc57 master c2
+7aeeecc master c1
+
+
+****wantedly make it conflicts in master 
+
+PS C:\Users\Hp\Desktop\wel> git checkout master
+Switched to branch 'master'
+
+  ** adding some text in test1.text file 
+  
+  
+PS C:\Users\Hp\Desktop\wel> git add .
+PS C:\Users\Hp\Desktop\wel> git commit -m "master c4"
+[master d850621] master c4
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ 
+ 
+PS C:\Users\Hp\Desktop\wel> git checkout dev
+Switched to branch 'dev'
+PS C:\Users\Hp\Desktop\wel> git rebase master
+error: could not apply 4c4c85e... dev c1
+Resolve all conflicts manually, mark them as resolved with
+"git add/rm <conflicted_files>", then run "git rebase --continue".
+You can instead skip this commit: run "git rebase --skip".
+To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 4c4c85e... dev c1
+Auto-merging test.txt
+CONFLICT (content): Merge conflict in test.txt
+
+***remove all the text from head and keep dev brnach text 
+
+
+PS C:\Users\Hp\Desktop\wel> git add .
+PS C:\Users\Hp\Desktop\wel> git commit -m "dev c5"
+[detached HEAD 7c08894] dev c5
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\Hp\Desktop\wel> git rebase --continue
+Successfully rebased and updated refs/heads/dev.
+
+PS C:\Users\Hp\Desktop\wel> git log --oneline
+7c08894 (HEAD -> dev) dev c5
+d850621 (master) master c4         ----------------->master c4 rebase
+35f75af master c3
+e1dbc57 master c2

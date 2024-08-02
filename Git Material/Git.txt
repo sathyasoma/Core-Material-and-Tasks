@@ -1,0 +1,209 @@
+what is git and why it is used?
+
+Git is the most commonly used version control system. Git tracks the 
+changes you make to files, so you have a record of what has been done, 
+and you can revert to specific versions should you ever need to. 
+
+Git also makes collaboration easier, allowing changes by multiple people
+to all be merged into one source.
+
+
+what is git:
+````
+Git is a DevOps tool used for source code management. It is a free and 
+open-source version control system used to handle small to very large 
+projects efficiently. 
+
+Git is used to tracking changes in the source code, enabling multiple 
+developers to work together on non-linear development
+
+
+official website to download git: https://git-scm.com/downloads
+
+
+what is github:
+````
+GitHub is a Git repository hosting service, but it adds many of its own 
+features. While Git is a command line tool, GitHub provides a Web-based 
+graphical interface. It also provides access control and several 
+collaboration features, 
+such as a wikis and basic task management tools for every projects
+
+
+
+https://github.com/rkcapg/task-1.git
+
+  
+  1.clone the git projects
+     
+	   git clone "https://github.com/rkcapg/task-1.git"
+	   
+  2.made some changes by opening the file 
+  
+       git add .
+	   
+	  (these files will moved to staging area)
+	  
+  3.git commit -m "initial commit"
+  
+     files will be moved to unmodified area
+	
+  4.git push -u origin master
+  
+  
+  
+ initializing git repository in existing project?
+ 
+   git init
+   git add .
+   git commit -m "commitmessage"
+   git remote add origin <repourl>
+   git push -u origin master
+   
+  
+configure notepad++ with git:
+
+  notepad++ .bash_profile
+
+  alias npp = 'notepad++.exe -multiInst -nosession'
+
+making notepad++ as default editor:
+```````
+ git config --global core.editor = "notepad++.exe -multiInst -nosession"
+
+
+git status life cycle:
+`````
+  ?? -untracked
+  A- STAGING AREA
+  M - MODIFIED
+
+..git status --short origin
+ git status -scm
+
+
+ignoring files:
+``````
+ open git bash command
+   
+     npp .gitignore
+	 
+	 
+test.txt
+.txt
+*.js
+!main.js
+build/
+
+save it and close it
+
+and after this use
+
+git status
+
+git diff:
+
+ shows the difference in staged area and working directory w.r.to
+ content.
+ 
+ 
+branches
+
+merge with the branches
+
+merge conflict
+
+
+
+
+
+
+
+
+1.download git 
+
+2.open git bash 
+
+
+
+1.create a folder and give a project name 
+  1.1 open same folder, ryt click and select git BASH
+  
+2. type ls command u can see some commands
+3. to initilize ur git bash:  git init 
+
+     Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/JAVA/Git/welcome (master)
+$ git init
+Initialized empty Git repository in C:/Users/Hp/Desktop/sathya/JAVA/Git/welcome/.git/
+
+
+4.create two files names a b 
+
+command: touch a b 
+=>to check wether its created or not use command ==>ls 
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/JAVA/Git/welcome (master)
+$ ls
+a  b
+
+
+5. To check the status of the files 
+      command: git status 
+  
+  
+  Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/JAVA/Git/welcome (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        a
+        b
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+6. Add to another state(staging area)
+   command:  git add .
+   
+
+7. To Check weather its added or not 
+    git status  
+	
+	
+	
+	Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/JAVA/Git/welcome (master)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/JAVA/Git/welcome (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   a
+        new file:   b
+
+
+8.commit the files 
+
+   command: git commit -m  "2 files crated"
+   
+   
+   Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/JAVA/Git/welcome (master)
+$ git commit -m "2 files created"
+[master (root-commit) 2aa46df] 2 files created
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 a
+ create mode 100644 b
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+
+
+
+
+
+Hoc:
+--------
+
+it is also know as Hoc(Higher Order Component)
+
+It is an advanced technique of reusing component logic.
+
+*It is a function that takes a component and returns a new Component 
+
+*They are similar to JavaScript functions used for adding additional functionalities to the existing component.
+
+*A higher order component function accepts another function as an argument. 
+
+ex: map function is the best example to understamd this.
+
+***The main goal is decompose the component logic simpler and smaller functions.
+        taht can be resused as you need.
+		
+**
+
+Syntax:
+-------
+const NewComponent = higherOrderComponent(WrappedComponent);  

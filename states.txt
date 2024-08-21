@@ -1,0 +1,14 @@
+
+What is State:
+===============
+=>State is often changed through user input and that is the case within our application here.
+
+=>State allows us to manage changing data in an application. 
+     *It's defined as an object where we define key-value pairs specifying various data
+we want to track in the application.
+
+There are mainly two ways of creating a component in React:
+---------------------------------------------------------
+
+1.class-based component
+2.functional component

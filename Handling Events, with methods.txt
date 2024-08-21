@@ -1,0 +1,513 @@
+
+*An event is an action that could be triggered as a result of the user action or system generated event. 
+
+For example
+a mouse click, 
+loading of a web page, 
+pressing a key,
+window resizes, 
+and other interactions are called events.
+
+*React has its own event handling System.
+      which is similar to handling "DOM" elements.
+*The React event handling system is known as "Synthetic Elements"
+
+
+Handling events some Syntactic difference compared to DOM :
+--------
+
+1.React elements are named as "camelcase" instead of "lower case".
+2.with JSX ,a function is passed as the "event handler" instead of a "string"
+
+event declaration in 	plain "HTML":
+-----------------------------------
+
+<button onclick="showMessage()">  
+       Hello JavaTpoint  
+</button>  
+
+
+
+
+Event declaration in React:
+------------------------
+
+<button onClick={showMessage}>  
+      Hello JavaTpoint  
+</button> 
+
+
+3.In react, we cannot return false to prevent the default behavior. 
+        We must call preventDefault event explicitly to prevent the default behavior.
+		
+
+IN HTML:
+--------
+
+<form onsubmit="console.log('You clicked submit.'); return false">
+  <button type="submit">Submit</button>
+</form>
+
+
+IN REACT:
+---------
+
+
+function Form() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log('You clicked submit.');
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+
+
+
+EXAMPLE 1:
+---------
+
+
+class LoggingButton extends React.Component {
+  // This syntax ensures `this` is bound within handleClick.
+  handleClick = () => {
+    console.log('this is:', this);
+  };
+  render() {
+    return (
+      <button onClick={this.handleClick}>
+        Click me
+      </button>
+    );
+  }
+}
+
+
+
+
+**If you aren’t using class fields syntax, you can use an arrow function in the callback:
+
+
+EXAMPLE 2:
+-----------
+
+
+class LoggingButton extends React.Component {
+  handleClick() {
+    console.log('this is:', this);
+  }
+
+  render() {
+    // This syntax ensures `this` is bound within handleClick
+    return (
+      <button onClick={() => this.handleClick()}>
+        Click me
+      </button>
+    );
+  }
+}
+
+
+
+ EXAMPLE 3:
+------------
+
+import React, { Component } from 'react';  
+class App extends React.Component {  
+    constructor(props) {  
+        super(props);  
+        this.state = {  
+            companyName: ''  
+        };  
+    }  
+    changeText(event) {  
+        this.setState({  
+            companyName: event.target.value  
+        });  
+    }  
+    render() {  
+        return (  
+            <div>  
+                <h2>Simple Event Example</h2>  
+                <label htmlFor="name">Enter company name: </label>  
+                <input type="text" id="companyName" onChange={this.changeText.bind(this)}/>  
+                <h4>You entered: { this.state.companyName }</h4>  
+            </div>  
+        );  
+		}  
+}  
+export default App;  
+
+Passing Arguments to Event Handlers:
+------------------------------------
+<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
+<button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
+
+
+The above two lines are equivalent, and use arrow functions and Function.
+prototype.bind respectively.
+
+
+Handling onClick Event in the Functional Component Example:
+-----------------------------------------------------------------
+Let's create "FunctionClick" functional component and handle onClick event:
+
+
+import React from 'react'
+
+function FunctionClick() {
+
+    function clickHandler() {
+        console.log('Button clicked')
+      }
+      return (
+        <div>
+          <button onClick={clickHandler}>Click</button>
+        </div>
+      )
+}
+
+export default FunctionClick;
+
+ex 2:
+------
+
+Handling onClick Event in the Class Component Example:
+-------------------------------------------------------
+
+
+Let's create ClassClick class component and handle the onClick event:
+import React, { Component } from 'react'
+
+class ClassClick extends Component {
+
+  clickHandler() {
+    console.log('Clicked the button')
+  }
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.clickHandler}>Click Me</button>
+      </div>
+    )
+  }
+}
+
+export default ClassClick;
+
+
+
+
+
+Binding Event:
+==============
+
+For methods in React, the this keyword should represent the component that owns the method.
+
+
+Let's create EventBind class component with the following code:
+---------------------------------------------------------------
+
+
+
+import React, { Component } from 'react'
+
+class EventBind extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      message: 'Hello'
+    }
+  }
+
+ clickHandler() {
+     console.log(this)
+     this.setState({message: 'Goodbye'})
+  }
+
+  render() {
+    return (
+      <div>
+        <div>{this.state.message}</div>
+        <button onClick={this.clickHandler}>Click</button>
+      </div>
+    )
+  }
+}
+
+export default EventBind
+
+****************************When you render this component gives you below error in browser.
+
+                        TypeError: Cannot read property 'setState' of undefined
+						
+						 Without the binding, the this keyword would return undefined.
+						 
+						 
+						 
+	
+	
+	Generally, if you refer to a method without () after it, such as onClick={this.handleClick}, 
+	     you should bind that method. 
+	We have three-way binding event handlers.
+	
+	
+	
+1. Dynamic Binding :
+-------------------
+
+
+In this, we will call .bind(this) in the render() function.
+
+example:
+-----------
+
+import React, { Component } from 'react'
+
+class EventBind extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      message: 'Hello'
+    }
+  }
+
+ clickHandler() {
+     console.log(this)
+     this.setState({message: 'Goodbye'})
+  }
+
+  render() {
+    return (
+      <div>
+        <div>{this.state.message}</div>
+         <button onClick={this.clickHandler.bind(this)}>Click</button>
+      </div>
+    )
+  }
+}
+
+export default EventBind;
+
+
+
+
+
+
+This approach will work, however, 
+the issue with this approach is that any changes in ‘this.state.message’ 
+      will result in re-rendering the component again.
+	  
+	  
+This in turn again call
+   ‘this.buttonClicked.bind(this)’ to bind the handler. 
+          As a result, a new handler will be generated which will be completely different 
+            than the handler used when render() was called the first time.
+			
+			
+			
+2. Using Arrow Function:
+------------------------
+
+
+This approach is better than the first one:
+----------------------->>>>>>>>>>>>>>>>>>>>>>
+
+
+import React, { Component } from 'react'
+
+class EventBind extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      message: 'Hello'
+    }
+  }
+
+  clickHandler = () => {
+    this.setState({message:'Goodbye'})
+  }
+
+  render() {
+    return (
+      <div>
+        <div>{this.state.message}</div>
+        <button onClick={this.clickHandler}>Click</button>
+      </div>
+    )
+  }
+}
+
+export default EventBind;
+
+
+
+
+3. Constructor Binding :
+-------------------------
+
+
+
+This approach is widely used in React applications 
+   and you can find this approach in React documentation as well:
+--------------------------------------------------
+   
+   
+   
+   
+import React, { Component } from 'react'
+
+class EventBind extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      message: 'Hello'
+    }
+     this.clickHandler = this.clickHandler.bind(this)
+  }
+
+ clickHandler() {
+     console.log(this)
+     this.setState({message: 'Goodbye'})
+  }
+
+  render() {
+    return (
+      <div>
+        <div>{this.state.message}</div>
+        <button onClick={this.clickHandler}>Click</button>
+      </div>
+    )
+  }
+}
+
+export default EventBind;
+
+
+The second and third approaches give good performance 
+        hence widely used in React Applications to bind events.
+		
+		
+		
+		
+Passing Arguments:
+===================
+
+Let's discuss how to pass parameters to the event handler in React.
+
+
+Example: Send "Goodbye" as a parameter to the clickHandler function, using arrow function:
+
+------------------------------->>>>>>>
+
+
+import React, { Component } from 'react'
+
+class EventBind extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      message: 'Hello'
+    }
+  }
+
+  clickHandler = (param) => {
+    this.setState({message:param})
+  }
+
+  render() {
+    return (
+      <div>
+        <div>{this.state.message}</div>
+        <button onClick={() => this.clickHandler("Goodbye")}>Click</button>
+      </div>
+    )
+  }
+}
+
+export default EventBind;
+
+
+
+					 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

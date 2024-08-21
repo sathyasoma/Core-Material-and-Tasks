@@ -1,0 +1,1670 @@
+	
+
+Reactjs is a "javascript library" for building user interface.
+
+
+React is used to build single-page applications.
+
+
+react is allow us to create reuable UI components.
+
+relased in 2013 , july
+
+current version is v17 august.
+
+
+what is react:
+============
+react is frontend javascript framework , is a javascript library created by "Facebook".
+
+  for building UI components.
+  
+  
+    how does it work?
+	       creats virtual DOM in memory.
+		         *instead of manipulating browsers DOM directly,react creates virtual DOM in 
+memory, where it does all the manipulating changes before making changes in the Browser DOM.
+
+what is react?
+===============
+react is open source for building user interface
+
+=> react is not a framework it is library for javascript
+=>focus on UI
+=>it is not focusing on routing, http requests.
+=>it is resposible for only building rich UI
+=>Rich ecosystem
+
+why learn react?
+==========	
+
+created and maintained by facebook
+
+more than 100k starts on GitHub
+
+Huge Community
+
+In demand skillset
+
+**React is component based Architecture
+
+               Header
+			   
+
+
+sidenav             
+                  MainComponent
+				  
+				  
+				  
+				  
+				  
+			footer
+			
+			
+* it is possible to reuseble code.
+
+
+*React is declarative.
+   tell react what you want and react will build the actual UI
+   react will handle efficiently updating and rendering of the compoenents
+   
+   
+More on why React?
+===================
+seamlesly integrate react into any of your application
+
+portion of your page or a complete page or even an entire application iteself
+
+React native for mobile applications
+
+prerequisites:
+==============
+html,css,javascript fundamentals
+
+ES6 
+
+javascript: "this" keyword,filter,map, and reduce
+
+ES6-- let,const,arrow functions,template literals,defalt params
+       object litterals,rest and spread operators and distructing assignments.
+	   
+	   
+content:
+========
+
+Fundamentals
+Http
+Routing
+Redux
+Utilities	   
+
+create-react-app:
+===============
+
+npx                                                      npm                                
+
+npx create-react-app  <project-name>           npm install create-react-app   -g
+
+npm pacakge runner                            create-react-app<project-name>      
+
+project explanation:
+====================
+* under src folder we have 
+   package.json: this file contains dependicies and scripts to required project.
+   
+   node module:
+   ==========
+   
+
+
+comonent code in:
+============
+
+js file
+
+  component code
+  
+  
+  
+  app.js
+    appcomponent
+	
+	
+	
+component types:
+===============
+
+1. stateless functional component
+
+2. stateful class component
+
+
+stateless functional component:
+---------
+javsacript functions
+
+
+stateful class component:
+---------
+class extending component class
+
+Render method returning HTML
+
+	
+	
+1. create a component folder
+  
+     create a file Greet.js
+	     
+		    1.first import the React 
+			    import React from 'react'
+				
+				 function Greet(){
+                    return <h4>hii i am greet function</h4>
+
+                           }
+						   
+						   
+			export default Greet
+						   
+						   
+=====
+by using class
+=======
+
+const Greet=props=> 
+{
+    console.log(props)
+return <h1>Hello {props.name} </h1>
+}					   
+						   
+export default Greet		   
+
+
+
+
+	   
+2. App.js 
+
+   => to write greet file need to import:
+   
+   import Greet from './components/Greet'
+
+    function App() {
+   return (
+     <div className="App">
+               <h1>heloo world</h1>
+                <Greet />
+     </div>
+   );
+     }
+	     
+		 
+===
+by using class
+====
+
+class App extends Component{
+
+  render(){
+    return(
+
+      <div className='App'>
+
+        <Greet name='Bruce'/>
+        
+      </div>
+    );
+  }
+}
+
+export default App;
+
+
+
+
+========================================================================
+===============
+
+by using function:
+-------------------
+App.js:
+-------
+
+
+const App=()=>{
+  return(
+    <div>
+
+      <h3>Heloo welcome to react js</h3>
+    </div>
+
+
+  )
+}
+
+export default App;
+
+
+
+
+class based:
+=============
+
+
+class App extends React.Component{
+  render(){
+  let name="divya";
+    return(
+
+      <div>
+<h2>hii sathya clas based component {name}</h2>
+
+      </div>
+    )
+  }
+}
+
+export default App;
+
+
+
+
+
+
+
+states and propes:
+==================
+
+storing the data is calledd state.
+
+
+states:
+---------
+App.js:
+--
+
+
+
+
+class App extends React.Component{
+
+  state = {
+    name:'soma',
+    age:25
+  }
+  render(){
+
+  
+    return(
+
+      <div>
+<h2>Name {this.state.name} and Age is {this.state.age}</h2>
+
+      </div>
+    )
+  }
+}
+
+export default App;
+
+
+
+propes:
+------
+
+the way we send the data is called props.
+
+
+Test.js:
+-------
+class Test extends React.Component{
+
+    render(){
+       return(
+
+         <div>
+             <h1> Name: {this.props.name} and Age :{this.props.age}</h1>
+         </div>
+
+       )
+
+
+    }
+}
+
+export default Test;
+
+
+App.js:
+======
+
+import Test  from "./Test";
+
+class App extends React.Component{
+
+  state = {
+    name:'soma',
+    age:25
+  }
+  render(){
+
+  
+    return(
+
+      <div>
+
+       <Test name={this.state.name} and age={this.state.age}/>
+    
+
+      </div>
+    )
+  }
+}
+
+export default App;
+
+
+
+Functional based:
+-----------------
+by using statehooks:
+----------------
+
+App.js:
+---------
+
+import React, {useState}from 'react'     //import states here
+
+import Test from './Test';   //imported tEST COMPONENT
+
+ const App = () => {
+
+  //by using states
+  const [data,setData]= useState({     //structurigng  Hooks 
+    name:"sathya",
+    age:39
+  });
+
+const {name,age}=data; //destrcturing
+  return (
+
+    <div>
+
+         <center>
+                <Test name={name} age= {age} /> 
+         </center>
+
+    </div>
+  )
+}
+
+export default App;
+
+
+
+Test.js:
+=========
+
+import React from 'react'
+
+ const Test = (props) => {
+  return (
+    <div>
+      
+         <h2>Name:{props.name} and Age: {props.age}</h2>
+      
+      </div>
+  )
+}
+
+export default Test;
+
+
+
+
+Event Handlers:
+----------------
+
+import React from 'react'
+
+ const App = () => {
+  return (
+
+    <div>
+
+      <button onClick={() => alert("hello")}>click me</button>
+      
+    </div>
+  )
+}
+
+
+export default App;
+
+
+
+
+jsx:
+====
+
+But instead of using regular JavaScript, React code should be written in something called JSX.
+
+Let us see a sample JSX code: 
+-----------
+
+const ele = <h1>This is sample JSX</h1>;
+
+
+the above code looks like 
+                   HTML and javascript code variable.
+				   its looks like neither html nor javascript 
+				   
+ *jsx is basically extension of "javascript" used to create React Elements.
+ *these elements are renders ReactDOM
+ 
+ why jsx:
+ ========
+ 
+ it is faster than normal javscript and 
+ it makes it easier for us to create templates
+ 
+ Using JavaScript expressions in JSX:
+ ====================================
+   * use normal JavaScript expressions with JSX
+   *To embed any JavaScript expression in a piece of code written in JSX 
+	          we will have to wrap that expression in curly braces {}.
+ 
+ex:
+====
+
+
+import React from 'react'
+
+export const App = () => {
+
+  const name= "learner";
+  return (
+    <div>
+      
+      <h2> Hello {name} welcome to java</h2> 
+      
+    </div>
+  )
+}
+
+export default App;
+
+
+
+By using conditional statemnts:
+===============================
+
+
+
+import React from 'react'
+
+export const App = () => {
+
+  let i=1;
+  const element = <h1>{ (i == 1) ? 'Hello World!' : 'False!' } < /h1>;
+  
+  return (
+    <div>
+      
+      <h2> {element}</h2>
+      
+    </div>
+  )
+}
+
+export default App;
+
+
+Attributes in JSX:
+==================
+  *JSX uses camelcase convention for attributes.
+  *For custom attributes, the names of such attributes should be prefixed by data-.
+      In the below example, we have used a custom attribute with name data-sampleAttribute 
+	     for the <h2> tag. 
+
+
+
+
+
+import React from 'react'
+
+export const App = () => {
+
+  const element = <div><h1 className = "hello">Hello Geek</h1>
+            <h2 data-sampleAttribute="sample">Custom attribute</h2>< /div>;
+  
+  return (
+    <div>
+      
+      <h2> {element}</h2>
+      
+    </div>
+  )
+}
+
+export default App;
+
+
+
+Wrapping elements or Children in JSX:
+======================================
+ *where you want to render multiple tags at a time.
+ *
+
+
+import React from 'react'
+
+export const App = () => {
+
+  const element = <div>
+                   <h1>This is Heading 1 </h1>
+                   <h2>This is Heading 2</h2 >
+                   <h3>This is Heading 3 </h3>
+                   </div>
+  
+  return (
+    <div>
+      
+      <h2> {element}</h2>
+      
+    </div>
+  )
+}
+
+export default App;
+
+
+ES:
+====
+
+ES: is an abbrivation for "EcmaScript"
+     *It is a standard for different scripting languages such as JS (JavaScript) made by ECMA. 
+ECMA:European Computer Manufacturers Association
+
+The features are listed below:
+
+The let keyword
+The const keyword
+Arrow functions
+Classes
+Modules
+The Rest Parameters
+The Spread Operator
+Destructuring Assignment
+The Object Destructuring Assignment
+Default values for Function Parameters
+Template Literals
+The for…of Loop
+
+
+What is Babel? 
+==============
+Babel is a free and open-source JavaScript Transcompiler that is mainly used to convert ES6 (2015)
+ and above code into a backward compatible code that can be run by older JS engines. 
+    Babel deploys a technique called Polyfill which basically means to fill many areas. 
+	
+	
+what is npm:
+----------
+node pacakge manager
+
+
+
+
+installing babael:
+===================
+1==>
+npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node
+
+2===>
+npm install nodemon --save-dev	
+
+	
+	
+	
+	
+DOM:
+===
+React provides the developers with a package react-dom a.k.a ReactDOM to access and modify the DOM.
+
+what is DOM:
+===========
+Document Object Model
+
+   DOM is a tree like structure.
+        it contains all elements and nodes.
+   DOM provides a language-neutral interface 
+   
+   
+Before React, :
+===
+
+Developers directly manipulated the DOM elements which resulted in frequent DOM manipulation,
+
+
+After react:
+=======
+React brought into the scene the virtual DOM.
+
+The Virtual DOM can be referred to as a copy of the actual DOM representation 
+  that is used to hold the updates made by the user and finally reflect it over to 
+           the original Browser DOM at once consuming much lesser time. 
+
+ What is ReactDOM:
+=================
+ReactDOM is a package that provides DOM specific methods
+
+render()
+findDOMNode()
+unmountComponentAtNode()
+hydrate()
+createPortal()
+
+
+React Components:
+================ 
+Components are independent and reusable bits of code. 
+     They serve the same purpose as JavaScript functions, 
+           but work in isolation and return HTML.	
+	
+	
+Components are two types:
+================
+    *class components
+    * functional components 
+
+
+
+functional  components:
+=================	
+*Functional components are simply javascript functions
+  *We can create a functional component to React by writing a JavaScript function
+
+ex:
+---
+basically we are writing this way 
+
+
+  function Democomponent()
+
+{
+
+return <h1>Welcome Message!</h1>;
+
+}
+
+
+
+
+====>
+
+const Democomponent=()=>
+{
+    return <h1>Welcome Message!</h1>;
+}
+
+
+class components:
+=================
+  *The class components are a little more complex than the functional components.
+   *The functional components are not aware of the other components in your program 
+whereas the class components can work with each other. 
+  *We can pass data from one class component to other class components. 
+  *We can use JavaScript ES6 classes to create class-based components in React.
+
+
+ex:
+===
+
+class Democomponent extends React.Component
+
+{
+
+render(){
+
+		return <h1>Welcome Message!</h1>;
+
+}
+
+}
+
+
+Rendering Component:
+====================
+import React from 'react'
+
+ const App = () => {
+   const Welcome=() => {
+     return <h1>welcome messages</h1>
+   }
+  return (
+    <div>
+
+<Welcome />
+    </div>
+   
+  )
+}
+
+export default App;
+
+
+Composing Components: 
+=======================
+*we can merge all of these individual components to make a parent component”
+*We will now create individual components named Navbar, Sidebar, ArticleList 
+and merge them to create a parent component named App and then render this App component.
+
+ex:
+====
+
+import React from 'react'
+
+ const App = () => {
+
+  // Navbar Component
+const Navbar=()=>
+{
+    return <h1>This is Navbar.</h1>
+}
+
+// Sidebar Component
+const Sidebar=()=> {
+    return <h1>This is Sidebar.</h1>
+}
+ 
+// Article list Component
+const ArticleList=()=>
+{
+    return <h1>This is Articles List.</h1>
+}
+ 
+  return (
+    <div>
+
+                <Navbar />
+                <Sidebar />
+                <ArticleList />
+    </div>
+  )
+}
+
+export default App;
+
+
+
+Decomposing Components:
+======================
+
+ Decomposing a Component means breaking down the component into smaller components.
+ 
+ ex:
+ ===
+ Single form we get input and button 
+ 
+ import React from 'react'
+
+ const App = () => {
+
+  const Form=()=>
+{
+    return (
+        <div>
+          <center>
+            <input type = "text" placeholder = "Enter Text.." />
+            <br />
+            <br />
+            <input type = "text" placeholder = "Enter Text.." />
+            <br />
+            <br />
+            <button type = "submit">Submit</button>
+            </center>
+        </div>
+    );
+}
+  return (
+    <div>
+           <Form />
+    </div>
+  )
+}
+
+export default App;
+
+
+
+
+ex 2:
+------
+multiple compoennts:
+-----------
+
+
+import React from 'react'
+
+ const App = () => {
+
+  // Input field component
+const Input=()=>
+{
+    return(
+        <div>
+            <input type="text" placeholder="Enter Text.." />
+            <br />
+            <br />   
+        </div>
+    );
+}
+ 
+// Button Component
+const Button=()=>
+{
+    return <button type = "submit">Submit</button>;   
+}
+ 
+// Form component
+const Form=()=>
+{
+    return (
+        <div>
+            <Input />
+            <Input />
+            <Button />           
+        </div>
+    );
+}
+  return (
+    <div>
+           <Form />
+    </div>
+  )
+}
+
+export default App;
+
+ReactJS Pure Components:
+===========================
+*Pure Components are Class Components which extends React.PureComponent. 
+
+ex:
+====
+
+
+const { Component } = require("react");
+
+class App extends Component{
+
+  render(){
+
+    return <h1> welcome to pure component</h1>
+  }
+}
+
+export default App;
+
+
+
+ReactJS Functional Components:
+===========================
+*Functional components lack a significant amount of features as compared to class-based components
+* To fill that gap between used "Hooks" Concept
+   * hooks are special functions that allows reactjs features.
+   
+* The only “state” that a functional component effectively has access to are the props passed to it
+    from its parent component
+	* ReactJS has access to a special hook called useState() 
+*The useState() is used to initialize only one state variable to initialize multiple state variables, 
+    multiple useState() declarations are required. 
+
+
+
+
+Exampl.js:
+============
+
+import React, { useState } from 'react';
+
+const Example=()=> {
+const [change, setChange] = useState(true);	
+	return (
+		<div>
+		<button onClick = {() => setChange(!change)}>
+		Click Here!
+		</button>
+		{change?<h1>Welcome to Reactjs</h1>:
+				<h1>A Computer Science Portal for Sathya</h1>}
+		</div>
+		);
+}
+
+export default Example;
+
+
+
+
+App.js:
+========
+import React from 'react'
+
+import Example from './Example';
+
+
+ const App = () => {
+  return (
+    <div>
+
+    <Example />
+
+
+    </div>
+  )
+}
+
+export default App;
+
+
+
+
+Lifecycle of Components:
+======================
+
+*lifecycle of a component can be defined as the series of methods that are invoked 
+    in different stages of the component’s existence.
+
+life cycle methods:
+-------
+
+1. Initialization
+2.Mounting
+3.Updateing
+4.UnMounting
+
+
+Intilization:
+-----------------
+
+
+states:
+=======
+*The state is an updatable structure that is used to contain data or information about the component
+*A component with the state is known as stateful components
+*It is the heart of the react component which determines the behavior of the component and how
+  it will render.
+শ্ৰ
+
+ex:
+---
+
+import React,{Component} from 'react';
+
+class App extends Component{
+
+  constructor(){
+    super();
+
+    this.state={displayBio:true};
+  }
+
+  render(){
+    const bio= this.state.displayBio?(
+      <div>
+
+<p><h3>welcome to state and properties we can use anywhere</h3></p>
+      </div>
+    ):null
+    return(
+      <div>
+        <h1>Hello welcom to my home</h1>
+        {bio}
+      </div>
+    )
+  }
+}
+
+export default App;
+
+
+
+props:
+======
+*Props stand for "Properties.
+*They are read-only components.
+*It gives a way to pass data from one component to other components.
+*Props are immutable so we cannot modify the props from inside the component.
+
+
+ex:
+======
+parent component:
+=================
+
+import React, { Component } from 'react';
+
+import ChildComponent from './ChildComponent';
+
+
+class ParentComponent extends Component {
+	constructor(props) {
+		super(props)
+	
+		this.state = {
+			parentName:'Parent'
+		}
+
+		this.greetParent = this.greetParent.bind(this)
+	}
+	
+	greetParent() {
+		alert(`Hello ${this.state.parentName}`)
+	}
+
+	render() {
+		return (
+			<div>
+				 <ChildComponent greetHandler={this.greetParent}/>	
+			</div>
+		)
+	}
+}
+
+export default ParentComponent;
+
+
+child component:
+================
+
+import React from 'react';
+
+function ChildComponent(props) {
+	return (
+		<div>
+			<button onClick={() => props.greetHandler()}>
+			Greet Parent
+			</button>
+		</div>
+	)
+}
+
+export default ChildComponent;
+
+
+
+App.js:
+========
+
+
+
+import React from 'react';
+
+// imports component
+import ParentComponent from './ParentComponent';
+
+function App() {
+return (
+	<div >
+	<h1>-----------METHODS AS PROPS-------------</h1>
+	<ParentComponent />
+
+	</div>
+);
+}
+
+export default App;
+
+
+pops ex:
+========
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+function App(props) {
+  return <h2>I am a { props.brand }!</h2>;
+}
+
+function Garage() {
+  const carName = "Ford";
+  return (
+    <>
+	    <h1>Who lives in my garage?</h1>
+	    <App brand={ carName } />
+    </>
+  );
+}
+export default App;
+ReactDOM.render(<Garage />, document.getElementById('root'));
+
+
+ex:
+====
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// sample component to illustrate props
+class App extends React.Component{
+	render(){
+		return(
+
+				<div>
+					{/*accessing information from props */}
+					<h2>Hello {this.props.user}</h2>
+					<h3>Welcome to React js props</h3>
+				</div>
+			);
+	}
+}
+
+export default App;
+ReactDOM.render(
+	// passing props
+	<App user = "sathya" />,
+	document.getElementById("root")
+);
+
+
+ex:
+===
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Parent Component
+class App extends React.Component{
+	render(){
+		return(
+				<div>
+					<h2>You are inside Parent Component</h2>
+					<Child name="User" userId = "5555"/>
+				</div>
+			);
+	}
+}
+
+
+// Child Component
+class Child extends React.Component{
+	render(){
+		return(
+				<div>
+					<h2>Hello, {this.props.name}</h2>
+					<h3>You are inside Child Component</h3>
+					<h3>Your user id is: {this.props.userId}</h3>
+				</div>
+			);
+	}
+}
+
+export default App;
+ReactDOM.render(
+	// passing props
+	<App />,
+	document.getElementById("root")
+);
+
+
+Events:
+--------
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+function App() {
+  const shoot = () => {
+    alert("Great Shot!");
+  }
+
+  return (
+    <button onClick={shoot}>Take the shot!</button>
+  );
+}
+
+export default App;
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+events with Argmnts:
+=====================
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+function App() {
+  const shoot = (a) => {
+    alert(a);
+  }
+
+  return (
+    <button onClick={() => shoot("Goal!")}>Take the shot!</button>
+  );
+}
+
+export default App;
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
+Conditionals:
+=============
+
+if else:
+==========
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+function MissedGoal() {
+	return <h1>MISSED!</h1>;
+}
+
+function MadeGoal() {
+	return <h1>GOAL!</h1>;
+}
+
+function Goal(props) {
+  const isGoal = props.isGoal;
+  if (isGoal) {
+    return <MadeGoal/>;
+  }
+  return <MissedGoal/>;
+}
+
+export default Goal;
+ReactDOM.render(
+  <Goal isGoal={false} />,
+  document.getElementById('root')
+);
+
+
+
+By using ternary:
+------------------
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+function MissedGoal() {
+	return <h1>MISSED!</h1>;
+}
+
+function MadeGoal() {
+	return <h1>GOAL!</h1>;
+}
+
+function Goal(props) {
+  const isGoal = props.isGoal;
+	return (
+		<>
+			{ isGoal ? <MadeGoal/> : <MissedGoal/> }
+		</>
+	);
+}
+
+export default Goal;
+ReactDOM.render(
+  <Goal isGoal={false} />,
+  document.getElementById('root')
+);
+
+
+
+List:
+=====
+
+import React from 'react'
+
+ const App = () => {
+   const arr=["sathya","raju","soma","kohli"]
+  return (
+    <div>
+
+      {
+
+        arr.map(
+          (value,index) => <li>{value}</li>
+        )
+      }
+
+    </div>
+  )
+}
+
+export default App;
+
+ex:
+===
+import React from 'react'
+
+ const App = () => {
+  const cars = [
+    {id: 1, brand: 'Ford'},
+    {id: 2, brand: 'BMW'},
+    {id: 3, brand: 'Audi'}
+  ];
+  return (
+    <div>
+<ul>
+       
+        {cars.map(
+
+          (cars) =><li key={cars.id}>brand={cars.brand}</li>
+        )}
+      </ul>
+    </div>
+  )
+}
+
+export default App;
+
+Hooks:
+========
+*Hooks allow function components to have access to state and other React features.
+*class components are generally no longer needed.
+
+
+What is a Hook?:
+================
+*You must import Hooks from react.
+*Here we are using the useState Hook to keep track of the application state.
+*State generally refers to application data or properties that need to be tracked.
+
+ex:
+=====
+
+
+
+import React,{useState} from 'react'
+
+import ReactDOM from "react-dom";
+
+ const App = () => {
+    const [color, setColor] = useState("blue");
+  return (
+    <div>
+<h1>My favorite color is {color}!</h1>
+
+    </div>
+  )
+}
+
+export default App;
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
+
+
+ex:
+=====
+import React,{useState} from 'react'
+
+import ReactDOM from "react-dom";
+
+
+ const App = () => {
+    const [color, setColor] = useState("red");
+  return (
+    <div>
+        <h1>My favorite color is {color}!</h1>
+      <button
+        type="button"
+        onClick={() => setColor("blue")}
+      >Blue</button>
+      <button
+        type="button"
+        onClick={() => setColor("red")}
+      >Red</button>
+      <button
+        type="button"
+        onClick={() => setColor("pink")}
+      >Pink</button>
+      <button
+        type="button"
+        onClick={() => setColor("green")}
+      >Green</button>
+    </div>
+  )
+}
+
+export default App;
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+Hook Rules:
+===========
+
+There are 3 rules for hooks:
+
+Hooks can only be called inside React function components.
+Hooks can only be called at the top level of a component.
+Hooks cannot be conditional
+
+EX:
+---
+
+import React,{useState} from 'react'
+
+import ReactDOM from "react-dom";
+
+
+ const App = () => {
+    const [brand, setBrand] = useState("Ford");
+    const [model, setModel] = useState("Mustang");
+    const [year, setYear] = useState("1964");
+    const [color, setColor] = useState("red");
+  
+  return (
+    <div>
+
+<h1>My {brand}</h1>
+      <p>
+        It is a {color} {model} from {year}.
+      </p>
+    </div>
+  )
+}
+
+export default App;
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+USE Effect:
+===========
+*The useEffect Hook allows you to perform side effects in your components.
+*fetching data, directly updating the DOM, and timers.
+*useEffect accepts two arguments. The second argument is optional.
+*useEffect(<function>, <dependency>)
+
+
+
+
+
+
+import React,{useState, useEffect } from 'react'
+import ReactDOM from "react-dom";
+
+
+
+ const App = () => {
+    const [count, setCount] = useState(0);
+    useEffect(() => {
+        setTimeout(() => {
+          setCount((count) => count + 1);
+        }, 1000);
+      });
+  return (
+    <div>
+<h1>I have rendered {count} times!</h1>;
+    </div>
+  )
+}
+
+export default App;
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
+ex:
+====
+
+
+import React,{useState, useEffect} from 'react'
+import ReactDOM from "react-dom";
+
+ const App = () => {
+    const [count, setCount] = useState(0);
+    const [calculation, setCalculation] = useState(0);
+
+    useEffect(() => {
+        setCalculation(() => count * 2);
+      }, [count]); // <- add the count variable here
+    
+  return (
+    <div>
+        <p>Count: {count}</p>
+      <button onClick={() => setCount((c) => c + 1)}>+</button>
+      <p>Calculation: {calculation}</p>
+    </div>
+  )
+}
+
+export default App;
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

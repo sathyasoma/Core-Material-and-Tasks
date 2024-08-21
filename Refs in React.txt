@@ -1,0 +1,70 @@
+Refs In ReactJS:
+==================
+
+
+*Refs are shorthand, similer to keys in react.
+
+*Thet are used for reference 
+       to store a reference to perticuler Dom node.
+	   to access react Dom  nodes
+	   to interact with the react Dom nodes.
+	   to intract with react elemnts
+	   to chnage the value of the child component, without using props
+	   
+
+* It can also be used while integrating with third-party DOM libraries and in callbacks.
+
+
+
+Creating Refs:
+---------------
+React.createRef() method is used to create React Ref.
+
+
+
+Code:
+-=====>
+
+
+class MyComponent extends React.Component {  
+constructor(props) {  
+super(props);  
+this.callRef = React.createRef();  
+}  
+render() {  
+return <div ref={this.callRef} />;  
+}  
+}
+
+
+Accessing Refs:
+================
+A reference to the node can be accessed via the current attribute of the ref when
+         a ref is passed to an element inside the render method in ReactJs.
+
+Code:
+======
+const node = this.callRef.current;
+
+
+
+Current Properties of the React Ref:
+-----------------------------------
+
+*Depending on the type of the node, the value of the ref can differ.
+
+*The underlying DOM element is received as its current property, 
+      by the ref created with React.createRef(), 
+	      when the ref attribute is used in HTML element.
+		  
+*The mounted instance of the component is received as its current property, 
+     by the ref object, 
+	  if the ref attribute is used on a custom class component.
+	  
+*The ref attribute doesn’t have instances, 
+    and thus they cannot be used on function components.
+	
+	
+	
+	
+	

@@ -1,0 +1,131 @@
+
+project link:
+-------------
+
+// clone the project
+git clone https://github.com/bbachi/react-nodejs-example.git
+// strat the apicd api
+npm install
+npm run dev
+// start the react appcd my-app
+npm install
+npm start
+
+
+
+
+
+
+
+
+
+Error Handling:
+---------------
+
+We can divide errors broadly into two types, and error handling into two aspects.
+
+The two error types:
+
+1.JavaScript errors
+2.Render errors
+
+JavaScript errors are those which occur in the code and can be handled with standard try/catch blocks,
+                while render errors occur in the view templates and are handled by React error boundaries.
+
+
+The two aspects of error handling:
+
+1.Displaying information to the user
+2.Providing information to the developer
+
+In general, you want to show only the minimum amount of error information to users, 
+   and you want to reveal the maximum amount of information to developers,
+       both at development time and at other times like test and production.
+
+Note:
+------
+
+Error boundaries do not catch errors for:
+
+*Event handlers (learn more)
+*Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
+*Server side rendering
+*Errors thrown in the error boundary itself (rather than its children)
+
+
+
+ex:=--
+------>
+
+
+import React, { Component } from 'react'
+
+ class CountError extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+         count:0
+    }
+  }
+
+  handlecount = () =>{
+
+    this.setState({
+        count:this.state.count+1
+    })
+  }
+  
+
+
+  render() {
+
+    if(this.state.count===3)
+    {
+        throw new Error("crashed code re write again")
+    }
+
+    return (
+      <div>
+       <h2>count is {this.state.count}</h2>
+       <button onClick={this.handlecount}>click me</button>
+      
+      </div>
+    )
+  }
+}
+
+export default CountError;
+
+
+
+====>error boundary
+
+import React, { Component } from 'react'
+
+ class ErrorBoundary extends Component {
+   constructor(props) {
+    super(props)
+   
+    this.state = {
+         haserror:false
+    }
+   }
+   
+componentDidCatch(error,erroinfo){
+
+    this.setState({
+        haserror:true
+    })
+}
+
+  render() {
+
+    if(this.state.haserror){
+        return <h3>something went wrong</h3>
+    }
+    return this.props.children;
+  }
+}
+
+export default ErrorBoundary;

@@ -1,0 +1,127 @@
+
+*Routing is a process in which a user is directed to different pages based on their action or request.
+
+*ReactJS Router is mainly used for developing Single Page Web Applications.
+
+*React Router is used to define multiple routes in the application.
+
+*When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, 
+  the user will be redirected to that particular route.
+
+
+
+//install react dom;  npm install react-router-dom --save
+//install bootsrp: npm install bootstrap@5.2.2
+//index.js file: import 'bootstrap/dist/css/bootstrap.css';  
+
+
+
+
+
+About.js:
+--------
+
+
+import React from 'react'
+
+ const About = () => {
+  return (
+    <div>About</div>
+  )
+}
+export default About;
+
+
+Home.js:
+--------
+
+import React from 'react'
+import { useNavigate } from 'react-router-dom';
+
+ const Home = () => {
+    const navigate=useNavigate();
+
+  return (
+    <>
+    <div>Home</div>
+    <button onClick={()=>navigate('order-summery')}>Place order</button>
+    </>
+  )
+}
+export default Home;
+
+
+
+NavBar.js:
+-----------
+
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+
+export const NavBar = () => {
+  return (
+   
+    <nav>
+        <NavLink to='/'>Home</NavLink> 
+        <NavLink to='/about'>About</NavLink>
+    </nav>
+  )
+}
+
+
+
+
+OrderSummery.js:
+-----------------
+
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+
+export const OrderSummery = () => {
+
+    const navigate=useNavigate();
+  return (
+    <>
+    <div>Order confirmed</div>
+    <button  onClick={()=>navigate(-1)}>Go Back</button>
+    </>
+  )
+}
+
+
+
+
+
+App.js:
+-----------
+
+
+          <>
+     <NavBar></NavBar>
+      <Routes>
+            <Route path='/' element={<Home></Home>}></Route>
+            <Route path='about' element={<About></About>}></Route>
+            <Route path='order-summery' element={<OrderSummery></OrderSummery>}></Route>
+      </Routes>
+     </>
+	
+	
+index.js:
+----------
+import { BrowserRouter } from 'react-router-dom';
+
+  <React.StrictMode>
+  <BrowserRouter>
+    <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
+	
+	
+
+
+
+
+
+
+

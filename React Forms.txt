@@ -1,0 +1,298 @@
+
+
+
+HTML form elements work a bit differently from other DOM elements in React,
+                        because form elements naturally keep some internal state.
+
+
+For example, this form in plain HTML accepts a single name:
+
+<form>
+  <label>
+    Name:
+    <input type="text" name="name" />
+  </label>
+  <input type="submit" value="Submit" />
+</form>
+
+
+
+*This form has the default HTML form behavior of browsing to a new page when the user submits the form. 
+
+*If you want this behavior in React, it just works. 
+ But in most cases, it’s convenient to have a JavaScript function that handles the submission 
+                         of the form and has access to the data that the user entered into the form. 
+
+*The standard way to achieve this is with a technique called “controlled components”.
+
+*React uses forms to allow users to interact with the web page.
+
+*In React, form data is usually handled by the components.
+
+*When the data is handled by the components, all the data is stored in the component state.
+
+*you can control changes by adding event handlers in the onChange attribute and that event handler will
+        be used to update the state of the variable.
+
+
+
+
+
+
+
+
+
+
+forms submition:
+-----------------
+
+
+
+import React, { Component } from "react";
+class FormSubmission extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      FirstName: "",
+      Email: "",
+    };
+  }
+
+  handlechange = (event) => {
+    const t = event.target;
+
+    if (t.id === "firstname") this.state.FirstName = t.value;
+    else if (t.id === "email") this.state.Email = t.value;
+  };
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+    window.alert(`Your name is ${this.state.FirstName}-${this.state.Email}`);
+  };
+
+  render() {
+    return (
+      <div>
+        <h1>Form Handling</h1>
+        <form onSubmit={this.handleSubmit}>
+          <div>
+            <label>
+              FirstName:
+              <input
+                type="text"
+                id="firstname"
+                placeholder="type firstname here"
+                value={this.FirstName}
+                onChange={this.handlechange}
+              />
+            </label>
+          </div>
+          <div>
+            <label>
+              Email ID
+              <input
+                type="text"
+                id="email"
+                placeholder="type email id here"
+                value={this.Email}
+                onChange={this.handlechange}
+              />
+            </label>
+          </div>
+          <div>
+            <input type="submit" value="submit" name="submit" />
+          </div>
+        </form>
+      </div>
+    );
+  }
+}
+
+export default FormSubmission;
+
+
+
+
+
+ex 2::
+----------->
+
+
+import React, { Component } from 'react'
+
+ class FormSub extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             username:'',
+             comment:'',
+             topic:'angular'
+        }
+    }
+    
+    handlechange =(event) =>{
+        this.setState({
+            username:event.target.value
+        })
+    }
+    changeComent = (event) =>{
+        this.setState({
+            comment:event.target.value
+        })
+    }
+
+    handletopic =(event) =>{
+        this.setState({
+            topic:event.target.value
+        })  
+    }
+
+    handleSubmit = (event) =>{
+        
+        alert(`${this.state.username} ${this.state.comment} ${this.state.topic} `)
+        event.preventDefault()
+    }
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+          <div>
+          
+          <label>Username</label>
+          <input type="text" 
+          value={this.state.username}
+           onChange={this.handlechange}/>
+          </div>
+          <div>
+          <label>Comments</label>
+          <textarea value={this.state.comment} onChange={this.changeComent}></textarea>
+          </div>
+          <div>
+          <label>Topic</label> 
+          <select value={this.state.topic} onChange={this.handletopic}>
+            <option value="react">React</option>
+            <option value="angular">Angular</option>
+            <option value="vieu">vieu</option>
+          </select>
+          </div>
+          <button type="submit">Submit</button>
+      </form>
+    )
+  }
+}
+
+export default FormSub;
+
+
+
+
+ex 2:
+-------------->
+
+
+
+import React from 'react'
+import { useState,useEffect } from 'react';
+
+ function FormValid() {
+    const initialValues={username:'',email:'',password:''}
+    const[formvalues,setFormValues]=useState(initialValues);
+    const[formErrors,setFormErrors]=useState({});
+    const[isSubmit,setIsSubmit]=useState(false)
+
+    const handleChange =(e)=>{
+
+        const {name,value}=e.target;
+        setFormValues({
+            ...formvalues,[name]:value
+        })
+    }
+
+    const handleSubmit = (e) =>{
+        e.preventDefault();
+        setFormErrors(validate(formvalues));
+        setIsSubmit(true);
+    }
+
+    useEffect(
+        ()=>{
+            console.log(formErrors)
+            if(Object.keys(formvalues).length===0 && isSubmit)
+            {console.log(formvalues)}
+        },[formErrors]
+    )
+    const validate =(values)=>{
+
+        const errors={};
+
+        const regex=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+
+        if(!values.username){
+            errors.username="username is required";
+        }
+        if(!values.email){
+            errors.email="Email is required";
+        }else if(!regex.test(values.email)) {
+            errors.email="this is not a valid email";
+        }
+        if(!values.password){
+            errors.password="password is required";
+        }else if(values.password.length < 5) {
+            errors.password="pasword must be more than 5 chars";
+        }else if(values.password.length > 10) {
+            errors.password="pasword must be less than 10 chars";
+        }
+
+         return errors;
+    };
+  return (
+    
+   <form onSubmit={handleSubmit}>
+   {
+    Object.keys(formvalues).length===0 && isSubmit ? 
+    (<p>hel</p>) : 
+    (<pre>{JSON.stringify(formvalues,undefined,5)}</pre>)
+}
+   
+       <div>
+      <h2>Login Form</h2> 
+       </div>
+       <div>
+       <label>Username</label>
+       <input type="text" 
+       name="username"
+       placeholder='Username' 
+       value={formvalues.username}
+       onChange={handleChange}
+       />
+       <p style={{color:'red'}}>{formErrors.username}</p>
+       </div>
+
+       <div>
+       <label>Email</label>
+       <input type="email" 
+       name="email"
+       placeholder='Email' 
+       value={formvalues.email}
+       onChange={handleChange}
+       />
+       <p style={{color:'red'}}>{formErrors.email}</p>
+       </div>
+
+       <div>
+       <label>Password</label>
+       <input type="password" 
+       name="password"
+       placeholder='Password' 
+       value={formvalues.password}
+       onChange={handleChange}
+       />
+       <p style={{color:'red'}}>{formErrors.password}</p>
+       </div>
+
+     <button type='submit'>Submit</button>
+   </form>
+  )
+}
+export default FormValid;

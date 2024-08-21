@@ -1,0 +1,51 @@
+
+
+
+
+In React, 
+whenever you want to render something on the screen, you need to use a render method inside the component.
+* This render method can return single elements or multiple elements.
+*The render method will only render a single root node inside it at a time.
+*if you want to return multiple elements, the render method will require a 'div' tag and
+       put the entire content or elements inside it.
+*This extra node to the DOM sometimes results in the wrong formatting of your HTML output 
+
+
+By using "div" tag:
+-------------------
+
+       <div>  
+           <h2> Hello World! </h2>   
+           <p> Welcome to the JavaTpoint. </p>   
+         </div>   
+		 
+
+To solve this problem, React introduced Fragments 
+
+
+Why we use Fragments:
+---------------------
+The main reason to use Fragments tag is:
+
+1.It makes the execution of code faster as compared to the div tag.
+2.It takes less memory.
+
+
+
+
+
+
+<React.Fragment>  
+      <h2> child1 </h2>   
+    <p> child2 </p>   
+      .. ..... .... ...  
+</React.Fragment> 
+
+------"or"----------
+
+       <>    
+        <h2> Hello World! </h2>   
+        <p> Welcome to the JavaTpoint </p>   
+      </>   
+
+

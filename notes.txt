@@ -1,0 +1,28 @@
+
+
+Reactjs is a "javascript library" for building user interface.
+
+
+React is used to build single-page applications.
+
+
+react is allow us to create reuseble UI components.
+
+relased in 2013 , july
+
+current version is v17 august.
+
+
+what is react:
+============
+react is frontend javascript framework , is a javascript library created by "Facebook".
+
+  for building UI components.
+  
+  
+    how does it work?
+	       creats virtual DOM in memory.
+		         *instead of manipulating browsers DOM directly,react creates virtual DOM in 
+memory, where it does all the manipulating changes before making changes in the Browser DOM.
+
+

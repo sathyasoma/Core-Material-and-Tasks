@@ -1,0 +1,401 @@
+React Component lifecycle:
+===========================
+  In React, every component created is goes through process that involves various lifecycle
+  methods is termed as component’s lifecycle.
+  
+  The lifecycle methods are invoked at different
+  phases of the lifecycle of a component. Component’s lifecyle methods are basically divided
+  
+  into four phases –
+  
+  Initialization
+
+  Mounting
+
+  Updating
+
+  Unmounting
+
+
+
+  Initialization :-
+  --------------
+  
+In this phase a component is provided with default props and initial states. This is done in the
+
+constructor of a Component Class.(if we want we can set state in constructor)
+
+
+
+
+class Welcome extends Component {
+constructor(props)
+{
+// Parent Class React.Component
+super(props);
+// Setting the initial state
+this.state = { date : new Date() };
+}
+}
+
+
+
+Mounting :-
+In this phase React component is created and mounted into the DOM. There are two methods
+gets called in this phase are –
+
+
+componentWillMount() :- The componentWillMount() method is 
+invoked once and just
+before the React Component is about to mount into the DOM.
+ All the tasks that we want to
+do before a component is mounted are defined here.
+
+componentDidMount() :- The componentDidMount() method is
+ invoked once and just after
+the React Component is inserted into the DOM and render function is execute
+
+Updating :-
+
+This is the phase where the state or props of a component is get updated. React component
+can be updated when sending new props or or when updating the state. Following methods
+are invoked in updating phase and are executed in following order –
+
+componentWillRecieveProps() :- This method is invoked when a component is receiving
+new props.
+
+shouldComponentUpdate() :- This method tells the React that should it re-render
+component or skip rendering. This method returns a boolean (TRUE or FALSE) value and
+accordingly the component would be re-rendered or skipped. By default it return TRUE.
+
+componentWillUpdate() :- This method is executed just before rendering of component,
+when the shouldComponentUpdate method returns TRUE.
+
+componentDidUpdate() :- This method is executed right after rendering of component,
+when the component has been updated.
+
+Unmounting :-
+------------
+In this phase, React component is get unmounted from the DOM. This is the final phase of
+the Component’s lifeycle. There is only one method is called in this phase –
+
+componentWillUnmount() :- This method is called just before the component is
+unmounted from the DOM. This method can be used to perform any cleanup task such as –
+invalidating timers or cleaning up DOM elements.
+
+import React,{Component} from 'react';
+class App extends Component {
+ constructor(props)
+ {
+ super(props);
+ this.state = { hello : "World!" };
+ this.changeState = this.changeState.bind(this)
+ }
+ componentWillMount()
+ {
+ console.log("componentWillMount()");
+ }
+ componentDidMount()
+ {
+ console.log("componentDidMount()");
+ }
+ changeState()
+ {
+ this.setState({ hello : "welcome to react !" });
+ }
+ render()
+ {
+ return (
+ <div>
+ <h1>ReactJS Component's Lifecycle</h1>
+ <h3>Hello { this.state.hello }</h3>
+ <button onClick={this.changeState}>Click Me!</button>
+ </div>);
+ }
+ shouldComponentUpdate(nextProps, nextState)
+ {
+ console.log("shouldComponentUpdate()");
+ return true;
+ }
+ componentWillUpdate()
+ {
+ console.log("componentWillUpdate()");
+ }
+ componentDidUpdate()
+ {
+ console.log("componentDidUpdate()");
+ }
+}
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+	
+ 
+ 
+ 
+FORMS:
+======
+Forms are integral part of any modern website or application. The forms are mainly used to
+allow users to interact with the application and it gives application a way to gather
+information from its users. Forms can be used to perform many tasks depending upon the
+nature of your business requirement and logic such as – user authentication, searching and
+filtering of products, booking a product/service, order submission etc.
+Creating a Form
+When it comes to form-building, React offers a stateful, reactive approach for form building.
+In React, the form data is usually handled by the component rather than the DOM, and is
+usually implemented using controlled components.
+Uncontrolled Component
+The traditional HTML forms has the default HTML form behavior, the form data is usually
+stored in DOM. The HTML Elements like <input>, <select>, and <textarea> maintains their
+own state, which is updated when the input value changes. and input field value can be
+accessed using using a ref.
+
+Controlled Components
+In controlled component the form data is usually handled by the component rather than the
+DOM, the container component is responsible to maintain the state.
+In controlled component callback functions being used to handle form events and to maintain
+forms data using components local state. This way component have better control over the
+form elements and the form data.
+
+import React,{Component} from 'react';
+class App extends Component {
+  constructor(props) {
+  super(props);
+  this.state = {value: ''};
+  this.handleChange1 = this.handleChange1.bind(this);
+  this.handleSubmit1 = this.handleSubmit1.bind(this);
+  }
+  handleChange1(event) {
+  this.setState({value: event.target.value});
+  }
+  handleSubmit1(event) {
+  alert('Name: ' + this.state.value);
+ 
+  }
+  render() {
+  return (<div>
+    <h1>ReactJS Forms</h1>
+    <form onSubmit={this.handleSubmit1}>
+    <label>
+    Name:
+    <input type="text" value={this.state.value} onChange={this.handleChange1}/>
+    </label>
+    <input type="submit" value="Submit" />
+    </form>
+    </div>
+    );
+    }
+   }
+   export default App;
+   
+   
+   
+   
+   
+   
+   KEYS:
+   =======
+   
+    constructor() {
+      super();
+		
+      this.state = {
+         employees:[
+            {
+               empName: 'John',
+               id: 1
+            },
+            {
+               empName: 'Steve',
+               id: 2
+            },
+            {
+               empName: 'Alex',
+               id: 3
+            }
+         ]
+      }
+   }
+   render() {
+      return (
+         <div>
+           <h1>React Keys</h1>
+            <div>
+               {this.state.employees.map((data, i) => <Employee 
+                  key = {i} empData = {data}/>)}
+            </div>
+         </div>
+      );
+   }
+}
+class Employee extends React.Component {
+   render() {
+      return (
+         <div>
+            <div>{this.props.empData.empName}</div>
+            <div>{this.props.empData.id}</div>
+         </div>
+      );
+   }
+}
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+KEYS with delete:
+----------------
+
+import React,{Component} from 'react';
+import Emp from './Emp'
+class App extends Component
+{
+  state={emps:[
+    {id:101,name:'x',salary:2000},
+    {id:102,name:'y',salary:2000},
+    {id:103,name:'z',salary:2000},
+    {id:104,name:'l',salary:3000}
+        ]}
+        render()
+        {
+        return(
+        <div>
+        <table style={{width:'200px',color:'red'}}>
+        <tbody>
+        {
+        this.state.emps.map((emp)=>{
+        return (<Emp salary={emp.salary}>{emp.name}</Emp>)
+        })
+      }  
+      </tbody>
+      </table>
+      </div>
+        );
+      }}
+        export default App;
+			
+			
+			Emp.js
+import React from 'react';
+
+const Emp=(props)=>
+{
+return (
+<tr width="50%">
+<td>{props.children}</td>
+<td>{props.salary}</td>
+</tr>)
+
+}
+export default Emp;
+
+
+
+}
+
+
+
+
+After Changes:
+==============
+import React,{Component} from 'react';
+import Emp from './Emp'
+class App extends Component
+{
+  state={emps:[
+    {id:101,name:'x',salary:2000},
+    {id:102,name:'y',salary:2000},
+    {id:103,name:'z',salary:2000},
+    {id:104,name:'l',salary:3000}
+        ]}
+        delEmp=(index,e)=>
+        {
+          const copyemps=Object.assign([],this.state.emps);
+          copyemps.splice(index,1);
+          this.setState({emps:copyemps})
+        }
+        render()
+        {
+        return(
+        <div>
+        <table style={{width:'200px',color:'red'}}>
+        <tbody>
+        {
+        this.state.emps.map((emp)=>{
+        return (<Emp salary={emp.salary}
+            </Emp>)
+}
+      }  
+      </tbody>
+      </table>
+      </div>
+        );
+      }}
+        export default App;
+
+
+
+REFS:
+=====
+import React, { Component } from 'react';
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.txtReff = React.createRef();
+    this.focusToTxt= this.focusToTxt.bind(this);
+  }
+
+  focusToTxt() {
+    // focus to text input 
+     this.txtReff.current.focus();
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>W3Adda - ReactJS Refs</h1>
+        <input
+          type="text"
+          ref={this.txtReff} />
+        <input
+          type="button"
+          value="Set focus"
+          onClick={this.focusToTxt}
+        />
+      </div>
+    );
+  }
+}
+export default App;
+
+
+
+React Router:
+=============
+

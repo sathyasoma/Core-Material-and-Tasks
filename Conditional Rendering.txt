@@ -1,0 +1,226 @@
+
+
+
+
+*In React we can create multiple components.
+   we can render them depending on some conditions or state of our application.
+*based on several consitions, component decide which element returns.
+
+
+There is more than one way to do conditional rendering in React. They are given below.
+
+*if
+*ternary operator
+*logical && operator
+*switch case operator
+*Conditional Rendering with enums
+
+
+
+if:
+--------->
+
+create two compoenents:
+-----------------------
+
+
+
+
+function UserGreeting(props) {
+  return <h1>Welcome back!</h1>;
+}
+
+function GuestGreeting(props) {
+  return <h1>Please sign up.</h1>;
+}
+
+
+create a Main component Greetings Componnet:
+-----
+
+
+function Greeting(props) {
+
+  const isLoggedIn = props.isLoggedIn;
+  
+  if (isLoggedIn) {
+    return <UserGreeting />;
+  }
+  return <GuestGreeting />;
+}
+
+
+
+
+2. Element Variables Approach:
+===============================
+
+You can use varibale to store elements.
+
+
+considering two new components representing Login,Logout
+
+
+
+function LoginButton(props) {
+  return (
+    <button onClick={props.onClick}>
+      Login
+    </button>
+  );
+}
+
+function LogoutButton(props) {
+  return (
+    <button onClick={props.onClick}>
+      Logout
+    </button>
+  );
+}
+
+
+
+ create a LoginControl stateful Comonent
+
+
+class LoginControl extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleLoginClick = this.handleLoginClick.bind(this);
+    this.handleLogoutClick = this.handleLogoutClick.bind(this);
+    this.state = {isLoggedIn: false};
+  }
+
+  handleLoginClick() {
+    this.setState({isLoggedIn: true});
+  }
+
+  handleLogoutClick() {
+    this.setState({isLoggedIn: false});
+  }
+
+  render() {
+    const isLoggedIn = this.state.isLoggedIn;
+    let button;
+    if (isLoggedIn) {
+      button = <LogoutButton onClick={this.handleLogoutClick} />;
+    } else {
+      button = <LoginButton onClick={this.handleLoginClick} />;
+    }
+
+    return (
+      <div>
+        <Greeting isLoggedIn={isLoggedIn} />
+        {button}
+      </div>
+    );
+  }
+}
+
+
+3. Inline If with Logical && Operator:
+----------------------------------------
+
+
+You may embed expressions in JSX by wrapping them in curly braces.
+   This includes the JavaScript logical && operator. 
+       It can be handy for conditionally including an element:
+	   
+	   
+	   
+	   
+import React, { Component } from 'react'
+
+class UserGreeting extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      isLoggedIn: true
+    }
+  }
+
+  // #short-circuit-operator-approach
+  render() {
+    return this.state.isLoggedIn && <div>Welcome Ramesh</div>
+  }
+}
+
+export default UserGreeting;
+
+
+ex 2:
+-------
+
+
+import React from 'react';   
+import ReactDOM from 'react-dom';   
+// Example Component   
+function Example()   
+{   
+    return(<div>   
+            {   
+                (10 > 5) && alert('This alert will be shown!')  
+            }   
+           </div>   
+        );   
+}   
+
+
+
+
+
+
+
+
+It works because in JavaScript, 
+    true && expression always evaluates to expression, 
+	           and false && expression always evaluates to false.
+			   
+			   
+			   
+			   
+4. Ternary Operator Approach:
+-----------------------------
+
+
+Another method for conditionally rendering 
+       elements inline is to use the JavaScript conditional operator condition? true: false.
+In the example below, we use it to conditionally render a small block of text.
+
+
+
+import React, { Component } from 'react'
+
+class UserGreeting extends Component {
+
+
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      isLoggedIn: true
+    }
+  }
+
+  // ternary-operator-approach
+  render() {
+    return this.state.isLoggedIn ? (
+      <div>Welcome Ramesh</div>
+    ) : (
+      <div>Welcome Guest</div>
+    )
+  }
+}
+
+export default UserGreeting;
+
+
+
+
+
+
+
+
+
+

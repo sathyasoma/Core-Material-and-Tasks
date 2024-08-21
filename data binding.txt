@@ -1,0 +1,93 @@
+Data Binding:
+-------------
+Data Binding is the process of connecting the view element or user interface, with the data which populates it.
+
+*components are rendered to the user interface 
+*component’s logic contains the data to be displayed in the view(UI). 
+
+The connection between data displayed in the view and data logic in the compoennet is called "Data Binding"
+
+One-way Data Binding:
+---------------------
+
+Component to View: Any change in component data would get reflected in the view.
+
+View to Component: Any change in View would get reflected in the component’s data.
+
+
+Implementing Component to View Data Binding:
+-------------------------------------------
+
+
+import React,{Component} from "react";
+
+class Test extends Component{
+   
+     constructor(){
+        super();
+        this.state={subject:"React js"};
+     }
+
+     render(){
+
+        return(
+            <div style={{textAlign:"center"}}>
+                <h4 style={{color:'red'}}>Data Binding</h4>
+                 <p><b>{this.state.subject}</b>Tutorial</p>
+            </div>
+        )
+     }
+
+
+}
+
+export default Test;
+
+
+
+Implementing View to Component Data Binding:
+---------------------------------------------
+
+import React,{Component} from "react";
+
+class Test2 extends React.Component{
+
+constructor(){
+    super();
+   this.state={
+    subject:""
+   };   
+}
+
+handlerchange =event =>{
+    this.setState({
+        subject:event.target.value
+    })
+}
+
+render(){
+    return (
+
+        <div>
+            <h4 style={{color:"blue"}}>View To Component</h4>
+          <input placeholder="enter text" onChange={this.handlerchange}></input>
+          <p><b>{this.state.subject}</b>Tutorial</p>
+        </div>
+    )
+}
+}
+export default Test2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

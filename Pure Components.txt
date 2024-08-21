@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+Pure Components:
+----------------
+In ReactJS, 
+we use shouldComponentUpdate() Lifecycle method to customize the default behavior and 
+                   implement it when the React component should re-render or update itself.
+*React js provided Pure Component
+   *if we extended a class with pure component, we dont need for shouldComponentUpdate() lIFECYCLE METHOD.
+ 
+*Pure Component Compares the current state and props with new props and states to decide
+      whether the react component re-render or not.
+
+*If the previous value of state or props and the new value of state or props is the same, 
+    the component will not re-render itself. 
+
+*Pure Components are class Components which extends React.PureComponent.
+
+
+example:
+----------
+
+
+import React from ‘react’;
+
+ class Test extends React.PureComponent{
+render(){
+	return <h1>Welcome to GeeksforGeeks</h1>;
+}
+}
+export default Test;
+
+
+
+*By making your component extending with pure component it will get higher performance and 
+                  more faste compared to normal component.
+	
+*

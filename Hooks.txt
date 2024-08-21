@@ -1,0 +1,283 @@
+
+
+
+*Hooks are the new feature introduced in the React 16v.
+
+*Hooks are the functions , it does not work in classes.
+
+*Hooks are backward-compatible, which means it does not contain any breaking changes.
+
+*if you are using any functions , if you want change any state directly will go to the Hooks.
+
+
+Note:
+-------
+* Dont call hooks inside the loops,conditions, na dnested functions.
+
+*You cannot call Hooks from regular JavaScript functions.
+
+*Hooks can also be called from custom Hooks
+
+
+
+
+UseState:
+---------
+
+example is useState Hook,
+   we can call useState inside the function only.
+   
+The useState function will return two parameters(initialstate,exchangevaluestate)
+
+
+syntax:
+=======
+
+
+const [state,setState]=useState(initial values);
+
+ex1 :
+------
+
+import React from 'react'
+import { useState } from 'react';
+
+
+export const UseStateEx = () => {
+
+    const [count, setcount] = useState(0);
+  return (
+    <div>
+       <h2>Number of studen</h2>
+    </div>
+  )
+}
+
+
+ex1 :
+----
+
+import React from "react";
+import { useState } from "react";
+
+const CountApp= () =>{
+
+    const [count, setCount] = useState(0);
+
+    return(
+        <>
+            <h3>Marks:{count}</h3>
+            <button onClick={()=>setCount(count+1)}>click me</button>
+        </>
+    )
+}
+export default CountApp;
+
+
+
+App.js:
+-------
+
+import CountApp from 
+
+
+<CountApp><CountApp/>
+
+
+ex 2:
+---
+
+import React from "react";
+import { useState } from "react";
+
+const FavColor =()=>{
+
+    const[color,setColor]=useState("green");
+
+    return(
+        <>
+           <h3>my color is :  {color}</h3>
+           <button onClick={()=>setColor("red")}>click1</button>
+
+           <button onClick={()=>setColor("blue")}>click2</button>
+
+           <button onClick={()=>setColor("yellow")}> click3</button>
+        </>
+    )
+
+}
+export default FavColor;
+
+
+ex 3:
+------
+
+
+import React from "react";
+import { useState } from "react";
+import { useAge } from "react";
+
+
+
+function UseStateEx2(){
+
+ const [state, setstate] = useState("divya");
+ 
+ const [age,setAge]=useState(67);
+
+
+ const handleChange=()=>{
+    setstate("prakash")
+    setAge(34)
+ }
+
+ return(
+<div>
+          {/* by using event method we did */}
+     Your Name:<h1>{state}</h1><br/>  
+     {/* by using normal setstate we did */}
+     Your age is:<h2>{age} </h2> <br/> <br/>
+     <button onClick={handleChange}>clickName</button>
+     {/* <button onClick={()=>setAge(89)}>Clickage</button> */}
+</div>
+
+ );
+
+}
+export default UseStateEx2;
+
+
+ex 4:
+------
+
+import React from "react";
+import { useState } from "react";
+
+//we need to import useState method thenonly it will allow
+function UseStateEx(){
+
+const [name, setName] = useState("sathya");
+
+return(
+    <div>
+        Your Name is:{name} <br/>
+        <button onClick={()=>setName("prakash")}>click me</button>
+    </div>
+);
+
+}
+export default UseStateEx;
+
+
+ex:
+------
+
+
+import React from "react";
+import { useState } from "react";
+
+function UseEx(){
+
+    const[emp,setEmp]=useState({
+       
+        name:"sathya",
+        age:29,
+        role:"trainer",
+        address:"hyd"
+    })
+
+  const  updateEmp= () =>{
+
+    setEmp({
+        name:"sravya",
+        age:20,
+        role:"ceo",
+        address:"usa"
+    })
+  }
+    return(
+        <div>
+        <h2>Employee detaiols :{emp.name} age is{emp.age} role is:{emp.role} address is{emp.address}</h2>
+        <button onClick={updateEmp}>click me</button>
+        </div>
+    )
+
+
+}
+export default UseEx;
+
+
+ 
+UseEffect:
+----------
+
+*The useEffect will allow us to perform "sideEffects" in the function component.
+
+*Some examples of side effects are: fetching data, directly updating the DOM, and timers.
+
+*It does not use components life cycle methods ,its available in class components 
+
+***useEffect accepts two arguments(<function>,<dependency>)
+
+
+
+exx 1:
+----------------->
+import React from 'react'
+import { useState,useEffect } from 'react'
+
+
+ const FirstEffect = () => {
+
+   const [count, setCount] = useState(0)
+
+   useEffect(()=>{
+    document.title= "clicked me "+count
+   })
+
+   
+  return (
+    <div>
+     <h1>number of clicks{count}</h1>
+    <button onClick={()=>setCount(count+1)}>CLICK</button>
+    </div>
+  )
+}
+
+export default FirstEffect;
+
+ex 2:
+------
+
+import React from "react";
+import { useState, useEffect } from "react";
+
+const  EmptyArryaEffect=()=>{
+
+    const[count,setCount]=useState(0);
+const changeHandler =() =>{
+
+    setCount(count+1);
+}
+
+useEffect(()=>{
+    //console.log("hello only once executed with empty array(as second argument)")
+    document.title="clicked once"+count
+},[])
+return(
+    <>
+        <h3>count::{count}</h3>
+        <button onClick={changeHandler}>clickme</button>
+    </>
+)
+}
+export default EmptyArryaEffect;
+
+
+
+
+
+
+
+
+

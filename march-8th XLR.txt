@@ -1,0 +1,9297 @@
+
+
+==================================Fullstack Demo=================
+
+
+web developemnt vs fullstack 
+
+  web development =web developer 
+  
+  1.front end developer :HTML,CSS,JS(FRONT END APPLICATIONS):front end appliations
+  2.backend developer   : JAVA,PYTHON,.NET,NODEJS :backend appliations
+  3.DBA :sql(mysql,db2,mongodb,postgresql,oracle,sybase):
+  4**FSD(FULLSTACK DEVELOPER): fe+be+dd
+  
+  
+  maild:
+  phonenumber: 099887655443323334  : +91 10digits()
+  
+  js:20mb(burden-->username,mobild,maild)
+  
+  amazon application
+  
+  20laks-->6months-->2fd+2bd+1db-->12lacks-->8lacks
+    20 lack-->6months-->3fsd-------->9lacks--->11lacks---->(profits)
+  
+  application(fd+bd+d)--->fsd
+  
+  advance level:
+   fd: frameworks(developed(choose))--->developer--->lazy
+          Angular js,Reactjs,Vuejs
+		  
+		  
+		          regular dom 
+		  
+		  virtual dom
+		  
+		  class Test{
+		  
+		  
+		  }----------------->byte code(0 1 0 1 )0v-->5v--1
+		  
+		  code---->dom tree===>machine
+		  
+		  
+		  1lack--->applications-->
+		  
+	backend: java--->corejava   advance(spring boot) java
+
+    dba: sql---->mysql,oracle	
+	
+	programming lang----->tables  DBMS--->DATABASE MANAGEMENT SYSTEM(huge np* duplicate)
+	
+	rdbms--->relational databse management system(tables)
+	
+	documnents
+	
+	
+	cagemini--->100 fe-->fsd 
+	ibm--->100bd---->fsd-->bd
+	ibs-->40dba-->fsd
+	
+	
+	@CrossOrigin(port:3000)
+	
+	
+	1amazon app 
+	
+	
+	
+	20 lacks-->code 1 file                     50 files  20 lacks 
+	
+	developers=100
+	101=100
+	
+	spring framwork---> 
+	
+	 little diasvance------->booster dose(spring boot)RAD rapid application devlopment
+	
+	20 modules
+	
+	
+	1234-->ORA4659754- exception handling--->invalid pin please enter valid
+	
+	
+	multiple threds
+	
+	--------------------web------------www
+	
+	
+	static-->
+	
+	server-------->:combination of software and hardware(dynamic)
+	web server ----->static response 
+	application server 
+	webpage---------->its a document or file
+	website---------------->collection of web pages(hyper links)
+	
+	user<------------>server
+	
+	
+	web server 'application server file server 'databse server 
+	
+	
+	web(www) --------------mobile
+	web appliations   ----mobile application (application offline)
+	
+	
+	           watsup(interface)  
+	
+	desktop(laoidng)---->(url)----->amazon
+	
+	
+	url
+	
+	19s
+	
+	mobile--->
+	
+	
+	web ---49%
+	
+	mobile -->51%
+	
+	
+	server-->
+	
+	
+	web designer<-------------->web developer
+	
+	UI/UX-->user interface ------>
+	        user experiance
+			
+	design-->
+	
+	
+	url--->uniform resource locator 
+	uri-->                  identifier
+	
+	
+	           uri 
+			   
+			 url   name
+
+     http
+
+
+stateless protocol-->request 
+statefull 
+
+                 login----->      instagram	 
+				 
+				 remeber me (cocckie)(time-->15seconds )
+				 
+				 key  : value 
+				 sathya  soma
+				 
+				 local storage :sathya
+				 session storage :
+				 
+				 5 mb  20mb
+				 
+				 
+=============================================================
+
+web page-->its a document 
+
+
+designer and developer 
+
+------------------------------Html---------------------
+
+Hyper text markup language: 
+
+Hyper Text:a single letter or a word or a sentence : the text within the text 
+  link
+markup lang: tags 
+
+   login    l    welcometologinpage
+
+      Berners lee---->1991---->1995
+	  
+	 
+	 programming lang                        scripting lang 
+	 
+ we can develope "softwares"            we can develope web pages 
+ 
+ A,B,C,JAVA PYTHON                      HTML,CSS,JS,VBSCRIPT
+ 
+ 
+ 
+ xml-->userdefine 
+ xsml 
+ html 
+ 
+ TAGs:
+ ----   predefined
+ 
+ <tagname>
+ 
+ two types:
+ --------
+ 1.paired tags : opening tags    , closing tag 
+ 
+        <opening Tag>statment or content</closingtag>
+		
+		
+		-------------Element-------------------------
+		
+ 2.empty tags  : one tag 
+ 
+       <onetag> <br>
+ 
+ 
+ Heading  :big
+ 
+ 
+ 
+ types of headings:
+ -------------------
+ 6types of headings 
+ 
+ h1   to h6
+ 
+ 
+ document------>html document
+ 
+ 
+ c program--->
+ txt---->.text 
+ pdf---->.pdf
+ css--->.css 
+ java--->.java 
+ python--->.py 
+ 
+ html---->.html  or  htm 
+ 
+
+
+Hello world
+ 
+ 
+ 
+html struture:
+ --------
+ 
+ 
+ <!DOCTYPE html>----->html5 file 
+ 
+ 
+ <html> :root tag or parent tag 
+     <head> 
+	      title name:<title>
+		  :dover purpose
+		  autor:  lang:  keywords:html,css,java
+		  
+		  refresh:10s 30s content:
+		  
+		  
+	 </head>
+	 <body>
+	 hello world 
+	 </body>
+ 
+ </html>
+ 
+ notepad,notepadd++,idees:,vscode
+ 
+ 
+ pargarphs:  <p>hgcasdahga</p>
+ 
+ 
+ <h1></h1>
+ 
+ --------------------Formatting text-------
+ 
+ -->italic--->i 
+ --->small-->small 
+ --->bold-->b 
+ --->em-->em 
+ --->deleted-->del 
+ --->marking-->mark 
+ ---->subscript-->sub 
+ --->superscript-->sup 
+ --->strong-->strong (importance)
+ 
+ 
+ ---------------ATTRIBUTES-------------------
+ 
+ this attribute will give extra information to tag 
+ 
+ attributeName ="property:value"
+ 
+ 
+ 
+ 
+ <h1 attributeName ="property:value"> welcome to india</h1>
+ 
+ 
+  <h1 style ="color:blue"> welcome to india</h1>
+  
+  ==============================Lists===========
+  
+  *unorderd list : 
+  *ordered list 
+  *other list 
+  
+  
+  <ul> 
+    <li>cucumber</li>
+	<li>brinjal</li>
+	<li>carrot</li>
+	<li>beetroot</li>
+  
+  </ul>
+  
+  
+     types: disc, circle, square, none
+	 
+	 
+	 : hyper text or hyperlinks or links:
+	 ------------------------------------
+	 
+	 anchor tage--->link 
+	 
+	 <a>login</a>  
+	  <a>logout</a>
+	  
+	 target= self:  blank top
+	 
+	 urls:  relative url: our machine  absolute url:browser
+	 
+	 
+	 :  p,---->block level element
+	 i --->inline element 
+	 
+	 ==================Table---------------
+	 
+	 
+	 <table>
+	 
+	 </table>
+	 
+	 
+	 ==================================================================
+	 
+	 
+	   <form>
+	   
+	   <label for="name">Username</label>
+	     <input type="text" id="name" name="uname">
+	   
+	    <label for="pwd">Password</label>
+		 <input type="password" id="pwd" name="password">
+	   
+	   <input type="submit" value="click me" >
+	   </form>
+	   
+	   
+	   
+	   ================semantics: non-semantics============
+	   
+	   : the meaning of tags: 
+	   
+	   <p>-->pared tag
+	   
+	   <div>--->paired tag,<span>
+	   
+	   <header>,<section>,<article>, aside, <nav>
+	   
+	   
+	   canvas:
+	   --------
+	   <html>
+	   <head>
+	   <script rel="scrit" href="first.js"></script>
+	   </head>.
+	   
+	   <body>
+	   <script>
+	   
+	   </script>
+	   <p>welcome to html</p>
+	   
+	   
+	   
+	   <script>
+	   
+	   </script>
+	   </body>
+	   
+	   </html>
+	  
+	  
+	  
+	<a href="http://keerthi/images" target="">  <img src="keerthi.jpg" width="" heigh=""></a>
+	
+	  table:
+	  ------
+	  3rows-->  1 column
+	            3columns
+				1coulmn
+				
+				
+				block line &inline:
+				
+				alwys strts with new line 
+				
+				block :width:100%
+				+inline+inline: width: based on the content width 
+				
+				form: 
+				
+				username box
+				
+				entities:  &nbsp
+				
+				<
+				
+				toptol entiesl
+				
+				20mb 
+				
+				
+				local storage: permannet storage : 
+				
+		1 web		session storage:temporary storage : name="sathya"
+		 1web   
+		 
+		 
+		 localStorage.setItem("username","excelr");
+	
+===========================CSS=======================================
+
+  stylesheet--->
+  
+  
+  css--->apply lot of styles for html documents 
+  
+    
+	we cn lot of tyme-->
+	
+	30 html---->
+	
+	30--->30 tymes
+	
+	30--html-->1  one css
+	maintance easy--->
+	
+	-->code amnipulation 
+	-->animations 2d 3d(trnsition)
+    --->responsive---> 
+	  xs     <360px
+	  small 360 to 440
+	  large 440
+	  xl 860
+	  xxl 1240
+    -->colors,images
+
+
+
+stylesheets are three types:
+--------------------------
+
+1.inline stylesheet : styles: inside opening tag
+2.internal styles sheet or embeded stylesheet :<style></style>
+3.external style sheet : externalsheet: head()--><link>
+
+
+.css
+selectors:
+----------
+
+1.single element selecctor 
+2.group selector 
+3.id selector ---------------->#
+4.class Selector------------> .
+5.universal selector 
+
+
+syntax of seletor:
+-----------------
+
+
+
+selectorName
+{
+propertyname:value;
+}
+
+
+class: for single element we can apply any nof classes: common
+
+id: for single we can apply only one : unique
+
+
+
+
+preference:  inline--->internal--->external 
+
+excution:  external-->internal--inline
+
+
+-------------combinators------------------
+
+relationship btwn the selectors
+
+1.descendant selector -------->space
+2.child selector -------------->  >
+3.adjacent sibling selector --->+
+4.general sibling selector---->~ 
+
+----------------------------------------------------------
+
+psudeo class: elements
+
+
+
+psudo class will provide extra effects to perticulr element
+
+psudo elennts will provide extra effets particular parts in the element
+
+
+selector:psudoclass
+{
+propertyname:priortyvalue;
+}
+
+
+link, active,hover,visited,disable,focus,first-child,last-child
+
+
+
+selector::psudoelement
+{
+propertyname:priortyvalue;
+}
+
+=======================colors===================================
+17677883
+
+1.RGB(RED,GREEN,BLUE):0-255: RGBA(ALPHA)-->0.0--> 1
+2.HEX(HEXADECIMAL):#ff0000:red, #00ff00-->green, #0000ff->blue,
+ #f4f5f4  #ae3f43   :#a7f
+3.HSL(HUE,SATURATION,LIGHTNESS):hsl(0-360deg,0-100%,0-`100%)
+
+
+RGB: 
+
+color:rgb(red,green,blue);
+      
+	  rgb(255,0,0);-->red 
+	  rgb(0,255,0);-->green 
+	  rgb(0,0,255);-->blue 
+	  rgb(0,0,0);--->black
+	  rgb(255,255,255);-->white
+	  rgb(12,45,156);-->bluerel
+	  
+	  =========================Fonts===================
+	  
+	  Google fonts:
+	  ========================background properties=======
+	  
+	  
+	  background-color :rgb(45,78,178);
+	  background-image :url('image');
+	  background-position:
+	  background-attachment:fixed,scroll
+	  background-repeat:repeat-x,repeat-y,no-repeat,repeat
+	  
+	  
+	  
+	  text properties:
+	  ----------------
+	  
+	  text-align:right,left,center,justify
+	  text-decoration:underline overline line-throgh overline underline 
+	  text-transform: uppercase lowercase capitalize
+	  text-indet:px 
+	  letter spacing:-px px 
+	  word-spacing:
+	  line-height:34px
+	 
+
+==============================Box-Model======================
+
+
+box	   :60px
+	  
+	          5px         5px             100px       5          5
+	 width:left border+left padding+content width+right border+right padding
+	  
+	  height:top border+top padding+content height+bott border+bottom padding
+	  
+	  
+padding:
+-------
+
+the space between content to border 
+
+ padding-left:
+ padding-right:
+ padding-bootom:
+ padding-top:
+ 
+ 
+ shorthand: padding:5px 
+ 
+ 
+ 12 34 45 56--->t  r  b l 
+ 
+ 12 45 67----->t rl b 
+ 
+ 89 67----->tp rl 
+ 
+ 45----->trbl
+ 
+ border:
+ ------
+ 
+ border-width:10px,3490px
+ border-color:rgb, hex,hsl
+ border-style:dotted,dashed,groove,inset,outset,none,hidden,solid,double
+ 
+ 
+ border-top-style:
+ border-bottom:
+ border-left:
+ border-right:
+ 
+ 
+ border:2px solid red;
+ 
+ margin:
+ -------
+ element to element space we can margin
+ 
+ 
+ margin-left:
+ margin-top:
+ margin-bottom:
+ margin right:
+ 
+ 12 34 56 78--->t r b l
+ 
+ margin: 12 34 45 56
+         12 23 34 
+		 12 23 
+		 12
+		 
+-----------------------------property:box-sizing:
+
+1.content-box
+2.border-box
+
+width:content width 
+fullwidth:bl+lp+cw+rb+rp
+
+
+padding 10px:
+border:10px:trbl
+
+
+		 200width+left+right+1ef+rig
+		 200px
+		 
+		 
+		 ====================float=================
+		 
+		 
+		 <p>akdaskbcaskjbcbasvcasjhvcsjavsu</p>
+		 
+		 float: left  right  none 
+		 
+		 ----------Display:
+		        inline :
+				block :
+				inline-block 
+				
+			display:	none 
+				visibility:hidden
+				
+				
+				opacity:0.0--1 >images
+				
+
+===============================Flex==========================================
+
+
+float:right,left
+positions:static,relative,absolute,fixed :responsive wb
+
+responsive--based on the screen sizes the application can screen modified
+
+flex:one dimensional layout
+  
+  rows---->columns
+  
+  
+  parent/flex container
+  
+  child/flex items
+    
+   <body>
+   
+   <h2>
+      <p></p>
+   </h2>
+  
+  <body>
+  
+  parent properties: if apply properties on the parent automatically inside flex
+       items adjusting
+  
+  child properties:with in the parent if want to modify child direction we can 
+                         child prop on perticular child 
+  
+   axis: cross axis, main axis
+   
+ Parent Properties:
+ --------------------
+ display:flex 
+ 
+ flex-direction:row,column,row-reverse,column-reverse 
+ 
+ flex-wrap:wrap,wrap-reverse,no-wrap 
+ 
+ flex-flow:row wrap,|| column wrap-reverse||row no wrap|| column wrap
+ 
+ justify-content:(horizontal direction :x axis)(main axis)
+        flex-start, flex-end,center,spece-between,space around,space-evenly
+ align-items: flex-start,flex end, center,
+ 
+ 
+ child properties:
+ ----------------
+ 
+   order:1,2,3
+   flex-grow:1,2,3,
+   flex-shrink:2 
+   align self:flext-start,flext-end,center 
+   
+   
+   700px 
+   
+   80px 200px 200px 200px
+    2     2     3
+	
+	1:
+	
+	
+	
+	flex-direction Row:
+	-----------------
+	justfy-content: main-axis(x-axis)
+	align-items:  cross-axis(y-axis)
+	
+	flex-direction column:
+	-----------------
+	justfy-content: cross-axis(y-axis)
+	align-items:  main-axis(x-axis)
+	
+
+=======================units=====================================
+
+px--->absolute size 
+
+%---->realted to parent width/height 
+
+vw/vh--->related to the screen 
+
+rem--->related to root elemnt font size :16px
+
+em---->related to depends same element font size 
+
+
+
+
+
+
+
+=======================================================
+
+--------------------------outline------------
+if you want apply styles or lines above the border: outline
+
+---------------------width, min-width,max-width/height/max-h/min-h--------------
+
+   div{
+     width:500px; :fixed width
+   }
+   div{
+   min-width:500px;//
+   
+   }
+   
+   div{
+   max-width:500px; : o--500px
+   }
+
+
+
+overflow:hidden,visible,none,scroll,auto
+
+============================Grid------------------------------
+2d layout 
+
+parent:
+-------
+
+  dispaly:grid;
+  grid-template-columns:100px,200px,300px;(width)
+  grid-template-rows:200px,400px;(hieght)
+
+  grid-template:
+  
+  grid-column-gap:20px;
+  grid-row-gap:20px;
+  
+  grid-gap; 30px;
+  
+  justify-content:start,center,end 
+  align-items:start,center,end;
+  
+child:
+------
+
+row-gap:
+colum-gap:
+
+align-self;
+
+==========================Animations=============
+
+
+
+div{
+  width:200px;
+  height:100px;
+}
+
+div:hover{
+ width:
+ height:
+}
+
+===================================javascript=======================================
+
+
+HTML: to structure the web page 
+
+CSS: to style ethe web page 
+           only static web pages 
+		   
+		button--->pading-->border:outline-->margin-->colors 
+		
+javascript:		dynamic perfomance--->javascript
+
+
+different types lang:
+
+oops 
+pop
+logical 
+scripting 
+---
+
+server programming lang                    client     scripting 
+
+c,.net,pyth,java,                      html,css,javascript,vbscript
+
+
+
+10 lines 
+
+5
+6--line getting
+
+
+1990---->devloped--->1995-->Brenden Eich--->at netscape--->10 dys progrmming lang 
+
+java---->trending 1995
+
+Mocha---->livescript------>javascript---->
+
+1997--->Ecmascript--->ES6 ECMA
+
+
+javascript--->browser(js engines)                  javascript---server
+
+
+
+                     Nodejs-->npm(node package manager)
+
+
+chrome,ms edge--->v8 engine 
+firfox,--->spider monkey
+ie--->chkra
+
+jvm(javascript virtual machine)
+
+scripting code--->parsing-->optimization-->AST(abstract syntax tree )
+   compilet--->
+   
+   
+   
+   client side                              server side
+   
+  *staorages                                     *huge amount data 
+	(local,session)								           *manipulate,sorting it 
+	*less amount validation 
+*form validations								           *communication to web browser 
+									         *lot of validations
+									          (perfomnce down)
+  html,cs,js,vbscript                                              php,java,python,nodejs
+  
+
+<html>
+
+<head>
+<script type="text/javascript">
+ //internal 
+</script>
+
+<script src="demo.js"></script> //external file
+</head>
+<body>
+
+
+<script type="text/javascript">
+//inline
+</script>
+</body>
+</html>
+
+
+
+hello world 
+
+differnt ways to print :
+-------------
+1.document.write("hello world"); //HTML PAGE
+2.alert("hello world");  or window.alert("hello world");//HTMP ,POP UP
+3.console.log("hello world");//BROWSER CONSOLE
+4..innerHTML //html page
+
+
+
+
+
+<html>
+
+<head></head>
+<body>
+
+
+
+
+<script>
+
+document.write("hello world");
+</script>
+</body>
+
+
+</html>
+
+
+=============================Variables=============================
+
+its a location or container where we can store our values.
+
+     keyword variableName = value/data;
+
+  Var-->old keyword 
+  ES6--(2015)-->let,const
+
+
+        var   phonenum=87867287244;
+		
+		var name; //declaration
+		
+		name="devasena"; //assigning
+
+      
+	  var city="kunthala"; //initialization=decl+assig 
+
+
+java                              javascript 
+
+static typing                      dynamic typing 
+  
+   "hello world"
+   
+   document.write("hello world");: browser 
+   console.log("hello world");//browser console
+   window.alert("hello world");//pop box 
+   
+   var,let,const:
+   
+   string,boolean,number,null,undefeind,symbol,bigint,
+   
+   arrays,objects,function
+   
+   
+   var age=89;
+   document.write("number datatype :"+age);
+   document.write("type datatype :"+typeof(age));
+   
+   
+   
+   
+   
+   ========================datatypes==================
+   
+   which type of data we are storing into variable name 
+   var name="deva";
+   
+   var age=89;
+   
+   :primitive dt          special dt           composite dt 
+    
+	number,boolean,String  null,undefined       arrays,object
+   
+   
+   bigint,symbol,nan
+   
+   object: key:value 
+           name:"sathya",
+		   age:90
+		   
+		   myVariable
+		   MyVariable
+		   
+		   allwed charecters to represent variables: _,$
+		   
+		   my_variable;
+		   var _=90;
+		   var my_age=78;//---->
+		   var $= 67;
+		   
+		   var total$sum=9000;
+		   
+		   a-z are allwed, 0-9 are allwed 
+		   
+		   var total123 ="sathya"; //a-n
+		   
+		   var 123total="soma";//n-a 
+		   
+=======================hoisting===================
+
+we can functions.
+variables 
+classess 
+
+
+function greet()
+{
+
+}		   
+
+
+var age; 
+
+
+class Test{
+
+
+}
+
+
+document.write(age);
+var age=89;
+
+
+
+var, ---------->global scope
+
+let,const ---->local scope or block scope
+
+==============================================================
+=======================model functions=================
+  alert();,  prompt(), confirm("are you employee") 
+  
+     true or false : ok  cancel
+  
+  
+    prompt("title",default value);
+	
+=========================operators===========================
+
+
+Arithamtic
+assigning
+logical 
+
+
+2+3 
+
+2-3 
+
+2/3 
+
+2%3
+
+2*3
+
+2=3 //assign
+2==3 //comparision
+2===2 //compar+type checking
+
+2==="2"
+
+2<3 :
+2<=3
+
+
+2+3=5;
+2+"3"=23
+
+a=6;
+b=3;
+
+c=a+3;
+
+c=6+3; //
+
+c+=9+3;
+
+var age=89;
+
+  age>18?"adult":"child";
+
+
+====================================================================
+======================flow controls or control flow statements=======
+-=========================================================
+
+
+doucmnet.write("hello world");
+doudoucmnet.write("hello world");cmnet.write("hello world");
+doucmnet.write("hello world");
+doucmnet.write("hello world");
+
+
+
+
+statemnt-1---->7tyms
+staemnt-2---------->9
+statment-3--->2tyms
+statemnt-4----------->5tyms
+statemnt-5------>3tyms
+
+
+no of line sare increing:performnce down 
+
+it will control flow of the program, how many no fo lines excute,at what condition'
+executed.
+
+ 
+ 1.decision making statments oe conditional
+     if 
+	 ifelse
+	 iflelsif
+	 switch
+ 2.iterative statments or looping stat:::::::::::::::::;
+     for 
+	 while 
+	 do-while 
+	 
+	 arays(for-of,for-in)
+ 3.jumping statments or continue 
+    break,continue 
+
+
+------------>conditional 
+
+  if(condition)
+  {
+  //logic executed 
+  }
+
+
+var trafficsignal="red";
+
+switch(trafficsignal)
+{
+
+  case "blue":
+    
+}
+------------------iterative statemnts-----------
+
+for loop:
+------
+whenever we know number iterations in advance : for loop 
+
+
+for(initilization;conditionCheking;incre/decr)
+{
+//logic or statments
+
+}
+
+1--10
+        1   2,5,8    4,7
+for(var i=0;i<=10;i++)
+{
+  d.w(i);//3,6,9
+}
+
+i?  10 11
+
+
+while:  if i dont know the no of iterations in advance: while 
+
+do-while:if u wqnaqt execute at least one statment wo checking ondition
+
+	
+
+  sbi atm while              icic atm (do-while)
+  
+  pin--                savrith
+                       withs
+  
+  
+  width 
+  saving                pin 
+  
+  =================storages=================
+  coockie:  5mb
+  web storages:20mb
+  
+    local storage : permannent data storage:tab specific
+	session storage :temporry staoreage,removed ; t
+	
+	
+	
+	databses
+	static stoges
+	
+	web storages 
+	
+	====================data structures===========
+	
+	
+	  for(var i=o;i<=3;i++) //rows
+	  {
+	      for(var j=o;j<=3;j++) //columns
+		  {
+		  
+		  
+		  }
+	     }
+		 
+		 
+		 
+		 23 34 45  ;; 00 01 02
+		 23 45 67      10 11 12
+		 78 65 54
+		 
+		 ========================
+		 ==================Strings=====================
+		 
+		 
+	String is collection of charecters,numbers,alphabets
+	
+	represnetation of a string:
+	-------------------------
+	1.litteral way 
+	2.by using new keyword 
+	
+	1.LITTERAL WAY:
+	---------------
+	
+	var my_age="78";
+	
+	var schoolName="nhs";  //littearal way 
+	
+	var city='hyderabad';
+	
+	template litterels:
+	-----------------
+	(backticks)
+	
+	var busName =`welcome to india ${city}`
+	;
+	
+	
+	2.by using new keyword:
+	--------------------
+	
+	
+	var colorName= new String("red");
+	
+	welcome@gmail.co.in
+	
+	
+	slice(startIndex,end index);:
+	   extract portion of string in a given string
+	   i can negitive values 
+	substring(start index,end endeindex)
+		   extract portion of string in a given string
+           we cant pass negetiv values:print nothing
+	
+	substr(startindex,length);
+	        
+	
+	
+	10 numbers 
+	
+	6,7,8,9
+	9 numbers 
+	
+	"[6-9][0-9]{9}"
+	
+	var name ="good morning";
+	
+	  var name2=name.replace("good","morning");
+	  
+	  document.write(name);//good morning 
+	  document.write(name2)
+	  //immutable
+	  
+	  
+	  
+	  html,css,js 
+	  
+	  login--> js
+	  
+	  browser ---->js
+	  
+	  server-->js (nodejs)
+	  
+	  
+	  java--server 
+	  
+	  
+	  varibales:
+	  ------------
+	  
+	  var name ="devasena";
+	  
+	  var,let,const 
+	  
+	  datypes:
+	  -----
+	  
+	  number ,boolean.string ,null,undefined, arrays,objects,function 
+	  begin,symbol
+	  
+	  
+	  var marks=67;
+	  
+	  var bonus=907.78;
+	  
+	  
+	  flow control:=
+	  ------------
+	  
+	 document.write("hello world"); //html documnet
+	 console.log("hello world");//browser console
+	 .innerHTML -->
+	 ALERT("HELLOWORLD");//alert box 
+	 
+	 
+	  
+	  
+	  <html>
+	  
+	    <head>
+		//
+		</head>
+		<body>
+		
+		//code
+		</body>
+	  
+	  </html>
+	  
+	  document.write("hellowrold")
+	  document.write("hellowrold")
+	  document.write("hellowrold")
+	  document.write("hellowrold")
+	  document.write("hellowrold")
+	  
+	  flow controls:
+	  -------------
+	  
+	  1.descion 
+	  if 
+	  ifelse 
+	  ifelese 
+	  switch----------->
+	  2.iterative 
+	    for :
+		while : sbi -->pin
+		do while :icici===>no condition:
+		
+		for of loop --arrays
+		for in loop --->objects 
+		
+	  3.jumping : break continue 
+	  
+	  
+	  strings:
+	  --------
+	  
+	  var name="keerthi";
+	  var name1 ='bahubali';
+	  var name2 =`hello world`;
+	  
+	  1.litteral way 
+	  2.by using new kw
+	  
+	  var result= new String("kttappa");
+	  charat(7);-->h
+	  charcodeat(9)-->j-->ascii
+	  name.contains("th")
+	  
+	  extract some portion given string 
+	  
+	  slice(si,ei) substring(st,ei)  substr(si,l) 
+	  negtive          empty            
+	  
+	  
+	  
+	  var name="bahu";
+	  
+	     name=78;
+		 
+		 console.log(typeOF(name));
+		 
+		 number-->
+		 
+==============================Arrays=======================
+
+      
+	  
+	  var age=90; //v 
+	  
+	  var ages=78,56;//in 
+	  
+	  var name="kattapa";//v
+	  
+	  var names="deva","bahu"; //in
+	  
+	  
+	  aRRYS:
+	  
+	   1.litteral way 
+       2.by using new kw 
+
+      const names =[];
+
+      keyword variablename =arrayrepresentation;	  
+		
+		
+		
+		
+		strings-------->by added new kw 
+		boolean 
+		number 
+		symbol 
+		null 
+		undefined 
+		
+		
+		56        55
+		999       998
+		n         n-1
+	4:  4           3
+
+
+for(var k of animals)
+{
+  document.write(k);
+}	
+		
+		
+		for(var i in animals)
+		{
+		  console.log(i);
+		}
+		
+		
+ :----->
+ 
+ var names=["deva","keerthi","bahu"];//v
+ var nums=[45,78,34,12,89];//v
+ var mix=["deva","keerthi","bahu",67,90,23,56,true];//v-->javascript
+ 
+ var result = names.concat(nums,mix);
+ splice(number,index,values);   --->
+        index loca  removeele ""
+		
+		
+		
+		"12"  "34"  23  28  56
+		
+		12  23  23 21
+		
+var let const:
+------------
+
+
+var light="red";
+
+ switch(light)
+ {
+    case "blue";
+	default:
+ }
+
+      1       258    47
+for(var i=0;i<=10;i++)
+{
+//logic //3 6 9
+}
+:
+
+while :  filess.objects 
+
+do-while :
+
+opertors:  ar,ass,log,ternary,conditional 
+
+strings:
+-------
+  collection of char,number,
+  1.itteral way 
+  2.by using new kw 
+  
+  var name="sathya",'',``;
+  
+  var name= new String("sathya");
+
+var name="india";
+
+  :
+  :upeercase,lowercase,indexof('g'),lastindexOf('h'),charat(9),
+  charcodeat(9)-->h->ascii
+  at,slice(-si,-ei),substring(),substr(si,length),
+  serach("ia"),replace('india','welcome'),split(),join(),trim(); 
+  trimstart,trimend
+  
+  arrays:
+  -----
+   ->56-->
+   
+   1,
+   .new 
+   
+    push pop unshift shift splaice slice indexof last find findindex 
+	sort length  includes at, concat ,join,toString()
+  
+  =====================Objects========================
+  
+  
+  king of js is object 
+  
+  boolean --->if i definedd new keyword 
+  String ---->if i defined with new kw 
+  number-->if i defined withnew 
+  dates-->objects 
+  Maths--objects 
+  reguraler expressions--
+  functions 
+  objects---objects 
+  arrays--objects 
+ 
+primitive :
+immutable------------>
+ 
+  boolean 
+  string 
+  number 
+  null 
+  undefined 
+  symbol 
+  begint
+  
+  
+  we can represnet an object---->{}, []. "".''.``
+  
+  let age=90; //varible 
+  
+  object varible:
+  
+  key:value  :named values 
+  
+  name:"devasena", age:34;  
+  
+  
+  
+  var student ={name:"kattappa",age:67,add:kochi};
+  
+  var employee ={
+    name:"bahubali",
+	age:78,
+	add:"hyd"
+  }
+  
+  
+  var person ={};
+  
+  person.name="ballaa";
+  person.age=45;
+  
+  
+  
+  var cities = new Object(); //
+  
+  
+  1.inline  ---->color:red
+  2.internal---->color:green 
+  3.external---->color:yellow 
+  
+  
+
+content to the border: padding 
+
+pt pb pl pr 
+
+padding: 12
+
+
+boxsizing: borderbox content box 
+
+
+width:  width+pl+pr+brlbr=>total width :  600
+
+500px-->  borderbox
+
+p{
+  width:500px;
+  back: red:
+  padding:20px;
+  margin:10px;
+  border:3px;
+
+} 
+
+inline:   block :
+
+<p>i am para</p>:100%
+
+<h1></h1>
+
+<i>i am italic</i>
+
+<small></small>
+
+<p>one</p><p>two</p><i>i am italic</i><i></i>
+
+block-->1000
+
+3 elemnts 
+
+disply: none  visibility :hidden 
+
+
+<p></p>:
+
+
+object: collection of name values 
+
+  const variablename={};
+  cont varibalename = new Object();
+  
+  by using dot operation 
+  by using array notaion 
+  
+  cloning:
+  
+  var x= person;
+  
+  x.age=89;
+  
+  object: mutable (we can manipulate)
+  
+  delete Person.age;
+  
+  var name={
+    key:value;
+	array:[
+	  {},{},{}
+	]
+  }
+  
+  var res={
+    
+	details:{
+	   
+	    expel:{
+		  name:"devasena";
+		}
+	}
+  }
+   
+   res.details.exple.name
+   
+   for(kw reference in variablename)
+   {
+     console.log(varibalename[reference])
+   }
+   
+   for(var i in details)
+   {
+    console.log(details[i]);
+   }
+   
+   for(var i of details)
+   {
+   console.log(i);
+   }
+   
+   
+   arrays:
+   ------
+   
+   charec:sort();
+   
+   numbers:  12 34  39 23 6  90  9 67 
+             
+			 "12" "23" "34" "39" 6 67 9 90
+			 
+			 12-23: -11  0>-11
+			 
+			 var nums=[12,56,3,5,89,23,];
+			 
+			 nums.sort();
+			 
+			 
+		12,56,3,5,89,23(b-a)  12,56,3,5,89,23(a-b)  12,56,3,5,89,23(a=b)	 
+		
+		string:
+		  INDEXOF 
+		  last 
+		  charat 
+		  charcodeat 
+		  at 
+		  slice 
+		  substring 
+		  substr 
+		  search 
+		  repalce 
+		  toupper 
+		  tolower 
+		  split 
+		  
+		  
+		  by using litteral way 
+		  by using new kw 
+		  
+		  
+		  
+		  
+		  
+	varaible:
+	   
+	flex:parent prop:       grid:
+	                         display:grid 
+	disply:flex            
+  direction 
+  just-cont 
+align 
+flex-flow:  
+
+animations;
+-----------
+
+
+@keyframes  animationname
+{
+     from{
+	 
+	 }
+	 to{
+	 
+	 }
+}
+0 25 50 75 100
+
+string:
+------
+
+singl,double,template litterals 
+
+indexof('c'); lastIndexOf('c'); charAt(5); at(), charCodeAt(3);
+slice  substring substr : extract the portion of string 
+si end  si end    strt,lngt
+neg      not       alwd 
+
+join(); split() 
+
+arrays:
+-----
+arrays-->hetero dta
+
+1.litteralway
+.by new kw 
+
+const--variable --arrays 
+
+const val=[];
+const va2= new Array();
+
+const names=["welocme","to","javascript"];
+
+const names= new Arryay("","");
+
+ push-->last 
+ unshift--front 
+ 
+ pop-->last 
+ shift->first 
+ 
+ slice-->extract the portion 
+ splice-->remove,add elemnst to the arary
+ split--->
+ sort-->atring-->nums-> function-->return a-b;
+ 
+ concat();
+ includesserach 
+ 
+ 
+
+
+
+
+
+
+arrays:
+-----------
+1.littaral way 
+2.by using new kw 
+
+
+inde,last,sort, length, concat,join,split, slice ,splice 
+find  findindex incudes push,unshift,   pop,shift 
+
+object:
+------
+collection of named values  : key values  
+
+JSON: 
+
+
+{
+
+name:"deva",
+
+}
+
+{
+
+"name":"deva",
+
+}
+
+var person=
+{
+[
+  {name:"",value:""},
+  {},
+  {}
+]
+}
+
+dot notation : person.name  : person.details.add: person.display();
+array notation : person["name"]::person["display"]()
+
+
+========================DOM=======================
+
+Document Object Model:
+---------------------
+
+
+html document---------DOM----------->browser
+
+tree structure 
+
+                    Document 
+					
+					 Html 
+		head                  body 
+		 
+		 title               p     h2
+		                  ""       ""
+		 
+		 "welcome"
+		 
+		 console.log(document);--->complete html document
+		 
+Dom: methods and properties:
+======================
+
+html dom -->js 
+   
+   create an html elemnet 
+   modify 
+   remove 
+   replace it 
+   add styles 
+   add attributes 
+   
+   Dom properties: 
+        
+		doucment.body 
+		document.head 
+		document.anchors 
+		document.forms
+		document.image 
+		
+	methods:
+------------------:
+  <p class="wel" id="demo">welcome </p>
+  <p class="wel" id="demo">welcome </p>
+
+
+       getElementById("id"),
+	   getElementsByClassName("classname")
+	   getElementsByTagName("tagname");
+	   querySelector("id/class/tagname");
+	   querySelectorAll("id/class/tagname");
+
+
+
+<body>
+<p id="demo">welcome to html</p>
+
+<script>
+
+ var result=document.getElementById("demo")
+
+  result.style.color="red";
+</script>
+
+</body>
+
+
+
+
+
+
+    var paraEle=document.querySelectorAll(".wel");
+
+    paraEle.
+	
+	
+	  var x=document.createElement("p");
+	  text and html 
+	  only content   tag+content 
+	  x.innerText("everyone is ready to sleep");
+	  appendchild
+	  replaceChild 
+	  rmovechild 
+	
+	advanced:
+	-------
+ 
+
+   * document.getElementById("id");
+	*document.getElementsByClassName("classnmae");  
+   *document.getElementsByTagName("tagname");
+   *document.querySelector("id/clasname/tagnme");
+*document.querySelectorAll("id/class/tagnm");   
+
+	
+		
+		innerHTML  vs  innerText
+		<p>contnt</p>   content
+		
+		
+		Test t= new Test();
+		
+		 syso(t);//object add 
+		 
+		 
+		 public String toString()
+		 {
+		   return "";
+		 }
+		
+js: 
+--------------------------------------------------------
+
+  1.create an element :createElement('p');
+      innerHTML/innerText : tag+content 
+  2.modify the element 
+  . insert the element 
+    insert before the leement 
+	remove an eelement 
+	remove child ele 
+  
+
+
+
+border:2px solid red 
+       border-width border-style border-color 
+
+background-color:css
+backgroundColor:js
+
+
+http://localhost:3000/emp/logout
+
+	  
+	  var areYouReady="yes,,ready to sleep";
+
+     
+	 conosle.log(areurdy);
+	 
+	 
+	 var x;
+	 
+	 
+	 x=78+89;---->action 
+	 
+	 console.log(x);
+
+
+
+
+
+
+
+
+
+============================Functions==========================
+
+loop--->iterting same logic at atime num of times
+function-->executed only once-->num of   
+
+ function is the location where we can write our logic 
+     to perfome some action.
+	 
+	 alert, confirm, promt
+	 
+	 code reusebility 
+	 
+	 
+	 function functionName()
+	 {
+	   //logic or console,docu,alert 
+	 }
+	 
+	 functionName();
+	 
+	 
+	 
+	 function Greet()
+	 {
+	   console.log("dont sleep...wakeup");
+	 }
+	 
+	 greet()
+	 after 250
+	 greet()
+	 500
+	 greet()
+	 750
+	 greet()
+	 
+	 normal function 
+	 named function 
+	 function expression 
+	 
+	var wel= function greet()
+	         {
+	 
+	       }
+	 
+	 
+	 wel();
+	 
+	 anonymous:
+	 
+	  var name= function()
+	   {
+	   //logic
+	   }
+	 
+	 name();
+	 
+	 iife:
+	 ---
+	 
+	 (
+	 function demo()
+	 {
+	  //logic 
+	 }
+	 )();
+	 
+	 
+	 arrow function:
+	 ------
+	 
+	   const hello=()=>{console.log("demo")}
+	 
+	 
+	 hello();
+	 function functionName()
+	 {
+	 
+	  //body or logic 
+	 }
+	 
+	 
+	 function Sleep()
+	 {
+	   console.log("we are sleeping!!gurr gurr");
+	 }
+	 
+	 sleep();//we are slppng
+	 
+	 	 
+	 function functionName(parameter1,paramter2,paramter3)
+	 {
+	 
+	  //body or logic 
+	 }
+
+
+      function MyName(first_Name,Last_Name)
+	  {
+	    console.log(fname+""+lname);
+	  }
+
+       
+	  MyName("sathya prakash","soma");//sathya p soma
+	   
+	   
+	  function functionName(parm1,param2)
+	  {
+	  
+	    return  result;
+	  }
+
+      
+	    
+		function fullName(fname,lname)
+		{
+		   
+		   var full=fname +" " +lname;
+		   
+		   return full;
+		}
+	  
+	  
+	    fullName("SATHYA","SOMA");// action 
+	  
+	  console.log(fullName("SATHYA","SOMA"));//sathya soma
+	  
+	  
+	  
+	  Function Expression:
+	  ---------------
+	  
+	     
+		 var result =    function Holiday()
+		                        {
+		                    console.log("comng two days are jollydays");
+		                         }
+	  
+console.log(result);
+
+
+===>
+    Named Functions 
+	Anonymous Functions :  
+	IIFE
+	Arrow Functions 
+      
+	  
+	 Anonymous function:
+	 -----------------
+	   the function doent have any name :
+	   
+	      var variablename=function()
+		  {
+		    //logic
+		  }
+		  
+		  
+		  var result = function()
+			{
+			  console.log(" iam anonymous function");
+			}
+			
+			result();
+			
+	named: fun name
+	anony: no name 
+	
+	function: code resusebility
+	
+	iife:
+	-----
+	
+	
+	  (
+	     function product(a,b)
+		 {
+		 console.log(a*b);
+		 }
+	  )(7,5);
+	  
+	  product;
+	  
+	  arrow functions:
+	  -------------
+	  
+	  the function doent have function keyword, no function name 
+	   
+	   =>(javascript)         -> (java)
+	  
+	  
+	   function display()
+	   {
+	     console.log("welcome to arorw function");
+	   }
+	  
+	  display();
+	  
+	  AarowFunction
+	  :-------------
+	  
+	  
+	  
+	   () =>
+	   {
+	     console.log("welcome to arorw function");
+	   }
+	  
+	  
+	  
+	    function wel(x,y)
+		{
+		x();
+		console.log();
+		}
+		
+		
+		function  hel()
+		{
+		  var x=y+90;//local scope
+		}
+		
+		var y=89;
+		
+		console.log(x);
+		
+
+
+
+flex:
+------------>
+
+positions-->flex-->1d-->r, c-->grid 
+
+parent            child          
+
+display:flex          order         display:grid      
+flex-direction    fgrow          g-t-c.g-t-r,r-g,c-g:grid-gap 
+flext-wrap        shrink         alignitems
+flex-flow: direction wraping selfialign
+justify-content:m-x, c-y 
+align items :m-y, c-x
+
+
+animations:
+
+div{
+
+animation-name:deva;
+animation-duration:
+animation-iteration:
+animation-position:
+animation-delay:
+animation-direction:alternate
+}
+
+@keyframes deva{
+   
+   0%{
+   //logic
+   }
+   
+   12.5%{
+   //logic
+   }
+   25%{
+   //logic
+   }
+   
+   30%{
+   //logic
+   }
+   50%{
+   //logic
+   }
+   75%{
+   
+   }
+   
+   100%{
+   
+   }
+
+}
+
+js:
+--
+
+variables:
+----------
+
+keyword variablename=values;
+
+datatypes:  primitive  n-prim  
+        string,boolean,number,null,undefined,bigin,symbol 
+		objects,arrays,function.....
+
+functions:
+---------
+-->code reusebility
+
+-->avoioding duplicating code 
+
+named functions, function expression,anonymous function 
+IIFE,arrowfunctions
+
+
+function Hello()
+{
+  //logic 
+}
+-->call-->Hello();
+
+
+fun ex:
+------
+
+var result =function Hello()
+                 {
+             //logic 
+                 }
+
+--->result-->result();
+
+anon:
+--------
+
+
+var ann=    function()
+      {
+       //logic 
+      }
+
+->ann();
+
+iife:
+----
+
+(
+  function Hello()
+  {
+  //logic
+  }
+)();
+
+arrow:  (fat arrow function)
+-------
+
+ var result=()  =>
+    {
+     //logic 
+    }
+
+-->result();
+
+---------->object--->
+key:value 
+
+var p={};
+var p= new Object();
+Object.defineProperty(t,p,s);
+
+
+--->
+
+const person= {
+    
+	k:v,
+	k:v,
+	display:function()
+	{
+	 //logic
+	}
+
+}
+
+person[display()]
+person["display"()]
+person["display"]()
+person"[display()]"
+
+arrys:
+------
+litteral way :
+new key :
+
+push,pop,shif,unshift,indexof,lindex,incluse,search,slice,splice,
+find finindex,sort,length
+string:
+----
+
+''
+""
+templatelitters
+backtics
+noof above
+
+a, b, c,  b,c, d ,a,b
+
+inde.la,cht at,chcode,lice,subst,substr,join,spit,concat,search,includes 
+
+
+===========================Events,EventListner(event handler)============================
+
+event is nothing but some action 
+
+: user :kywpres/clicking,scrolling
+ system:error,aborting
+ 
+ browser events:
+ 
+ Dom events:
+ 
+ "on"
+ 
+ mouse events : click,dbclick,contextmenu,mouseover,mouseout
+ keyborde events :keyup,keydown,keypress
+ focus events :focus,blur
+ form events :submit,reset,clear,change,load:form validations
+ 
+ 
+ 
+ <button type="button" onclick="alert('u clicked me')">click me</button>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ :inline events 
+ : event properties: 
+ :addEvenetListener():
+ 
+ 
+<button id="demo">click me<button>
+
+
+<script>
+
+   var result=document.getElementById("demo");
+    
+	result.onclick =fistfun;
+	result.onlick=secfun;
+	
+	function  fistfun()
+	{
+	  document.write("first executed");
+	}
+	
+	function  secfun()
+	{
+	  document.write("second executed");
+	}
+
+</script>
+
+
+
+btn.addEvenetListener('event',functionanme);
+
+#ff0000
+
+  var color='0123456789abcdef'  
+  
+  1<6  :#78af67
+     math.random*16
+====================================
+
+ ---------------html,css------------------------
+
+html,css--->static web pages : button
+js-->dynamic web pages 
+
+
+3 ways:
+-----
+1.iniline styling :
+2.internal styling
+3.external styling 
+
+html:
+---
+
+<p style="color:red">wlecome to sleeping world </p>: time lot time
+
+1000lines-->1 webpage 
+
+1000 pages -->
+
+internal:
+----------
+
+within the head tag 
+<head>
+<style>
+   selectors:
+</style>
+</head>
+
+
+syntax:
+-------
+
+selectorname 
+{
+proprtyname:propertyvalue;
+}
+
+types of selectors:
+------------------
+
+1.single element selector 
+2.group selector 
+3.id selector :#
+4.class selector : .
+5.universal selector :*
+
+*class: for multiple classes we can apply single  element
+*id:  for multiple elemenst we can apply multiple ids,
+
+
+lists:
+-------->
+1.orderd : default-numbers,alpha,roman nums
+2.unordered :symbols: circle,square, default:disc
+3.other list: dt,dd,dl
+
+
+extra--file--css :
+
+html<---->css file
+
+
+<link rel="stylesheet" href="style.css">
+
+
+output:  inline-->internal-->external
+
+execution: external-->internal--inline 
+
+
+inline-->internal->extenral
+
+
+
+========================Box-model==============
+
+
+ box-->
+ 
+  tag-->box model 
+  
+  padding:
+    margin-left:
+    padding-right:
+    padding top:
+    padding-bottom:
+
+   padding: top right bottom left 
+   padding: top left-right bottom;
+   padding: top-bottom left-right;
+   padding:trbl;
+   
+   
+   border-width:1px 2px 3px 4px;
+   border-style:solid,dashed,dotted,none,hideen,ridge,inset,outset
+   border-color:rgb,hsf,hue;
+   
+   
+  content 
+  width 
+  heigth
+  margin : 30px 30px 50px 36px;
+
+ block: 100% width:
+ inline: content width
+ 
+ welcome 
+
+
+
+
+Q; create a box model with all sides different borders width,color,style 
+
+outline: 
+
+padding:
+margin:
+
+ele:border: outline
+
+block: entire width
+inline : based on the content width 
+
+
+
+display:none :we dont have elements,its removed from document 
+visibility:hidden :we have element but we cant see it
+
+       
+ -=========================css units========================
+ 
+ px------absolute sixe
+ %--------->relatd parent width/height 
+ vw/vh------->related to screen size 
+ rem----->related root element :html: 1rem=16px
+ em----->related to its same element 
+ 
+
+ html:16px
+ 
+ 
+ ============================text-properties================
+ 
+ text-align: right left center justify
+ text-decoration: underline overline linethrogh overline underline
+ text-transform: uppercase lowercase capitalize
+ text-indent:  100px 
+ letter-spacing: 1px-:  -2px
+ word-spacing:
+ line-height:1.2
+ 
+ 
+ =============================================================================+=
+ ======================
+ 
+ types of style sheets: 3: inline,internal,external 
+ 
+   internal styling: 
+      selectors:
+	  
+	  1.single element 
+	  2,group select 
+	  3.id :single element we can apply only one id 
+	  4,class: singl element we can apply multiple classes 
+	  5.universal:
+
+     combinators:
+-----------------
+relationship between selectors 
+  
+ 1.decendent selector : sapace
+ 2.child selector  :>
+ 3.adjacent sibling selctor :+
+ 4.general sibling  :~
+ 
+ psudo classess: elemnts:
+ 
+ sectorname:pname{
+ 
+ }
+ 
+ links:  link,visited,hover,active,disable,focus, before,after,first-child,last-child
+        markerd, selection, empty, 
+ 
+ 
+ inline : we cant apply height,width
+ block: by default:100%width  
+ 
+  sectorname::pname{
+ 
+ }
+ 
+ display:none ---->there is no element inside the document 
+ visibility:hidden--->we have an elemnet we can see it: it will occup spacec
+ 
+ text-align.text-decoration,text-indent, word psacing letter spacing line height 
+ 
+ background:
+ b-color:
+ b-image:
+ b-attachment:scroll fixed
+ b-position:
+ 
+ 
+ ========================================flex==========================
+ 
+ 
+ float: left right 
+ inline/block :
+ positions:fixed, static ,relative,absolute
+ 
+ 
+ th-->200px
+ 
+ flex-1D   rows  and columns 
+ 
+ flexbox--flex container 
+ 
+ parent properties:(flex-container)
+ 
+ display:flex
+ 
+ flex-direction:row column row-reverse column-reverse
+ flex-wrap: wrap no-wrap wrap-reverse 
+ flex-flow:(shorthand property of flex-dir,flext-wrap)  row wrap 
+ justify-content:flex-start,flex-end,space-around,space-evenly,center,space-between
+ align-items:flex-start,flext-end,space,......
+ 
+ 
+ child properties:(flex-items)
+   
+   flex-grow :
+   order : 123:--> 231
+   flex-shrink 
+   align-selft
+ 
+ 
+ 
+ 2 axis:
+ 
+ 1.main axis:  row --->ju-cont:main axis(x-axis) ,cross (y-axis)
+ 2.cros-axis: column-->jus-cont:y-xis: x--cros axis 
+ 
+ 
+ ==============================================================
+ 
+   parent child 
+        1d           rows  columns 
+		
+
+display:flex 
+flex-direction:row,column,row-revers,column reverse 
+flex-wrap: wrap,wrap -revers 
+flex-flow:direction wrap 
+(main-x axis)justify-content:flex-start,flex-end,spacce-between,space-around, space-evenly 
+align-items:(cross- axis -y)(main-x-axis)
+
+ order:1,2,3 
+ flex-grow:
+
+700px --7ele-->3elemnts 
+
+
+100px--->10elemnts-->1000px
+
+3elemnt--100px:-->600px: 2elemnst-shring
+
+1-->felx-grow
+flex-shrink:
+align-self:
+
+==========================
+
+flex:1D                   grid:2dlayers
+content-based layout      staructure layeout
+
+
+parent properties:
+------------
+
+diaply:grid 
+
+grid-template-columns:1 2 3 4;
+grid-template-rows:1, 2;
+
+grid-column-gap:10px
+
+grid-row-gap:20px
+
+grid-gap:20px;
+
+justify-items:
+align-items:
+
+child:
+-----
+
+grid-colum-start;
+grid-column-end:
+
+grid-column:
+
+grid-row-start:
+grid-row-end;
+
+grid-row;
+
+align-self:
+
+========================Generator Function,resuseble function---------
+
+ named functions 
+ function expression 
+ anonymous function 
+ arrow function 
+ IIFE 
+
+  
+  function  greet()
+  {
+  
+  console.log("hello");
+  }
+  
+  greet();
+  
+  
+  advance function-->execute sequese of values 
+  
+  
+  generator object 
+  
+  
+  function  functionName() {
+  
+  //logic 
+  }
+  
+  function* functionNname()
+  {
+  
+  //yield statments 
+  //return logics
+  //generator.next()
+  }
+  
+  yield statement 
+  
+  fun{
+  1 to 10 
+  }
+   1
+   2
+   3
+   
+   next()--->next value 
+   
+   yield--->
+   
+   
+   
+   function greet()
+   {
+   console.log("hello");
+   }
+   
+   greet();
+   
+   
+   function* greet()
+   {
+   yield console.log("hello");
+   }
+   
+   var result=greet();
+   
+   console.log(result.next());
+   
+   
+   1,2,3
+   
+   value:1,done:false 
+   value:2,done:false;
+   value:3,done:true;//
+   value:undefined,done:true;;
+   
+   =============================Timers----------------
+   
+   
+   function greet()
+   {
+      alert("demo");
+    }
+	
+	greet();
+	
+	setTimeout(functionaName,timeinmilliseconds);
+	
+	
+	
+varibales 
+datatypes 
+flow controls 
+functions ------>sequenctial manner 
+dom : methods-->create,delete,replce,insertbefore
+events:browser events,mouse events,keybord events 
+Arrays,Strings :interview (methods )
+
+
+onclick    onClick 
+
+ {
+ 
+ }   {{}}
+
+   setInterval(diaplsy,1000);(inifinite loop )
+   
+   event:
+   ------
+   
+   action--->browser or user 
+   
+   click-->event triggered-->action-->browser or user 
+   
+   
+   <Document html>
+   <html>
+       <head>
+	   
+	   </head>
+       <body>
+	   
+	        <button onclick="">
+	   </body>
+   </html>
+   
+   
+   event life cycle:
+   ----------------
+   
+   the proces of reaching the target from root element to 
+     target element : event propagation 
+   
+   
+   1.capturing phase 
+   2.target phase 
+   3.bubbling phase 
+   
+   
+
+			      div(p)	       div(p) 
+				    div(ch)   div(ch)
+					       button
+						   
+						   
+						   html 
+						   
+				head            body 
+				                   div.p 
+								      div.ch 
+	==============Event Loop=============
+	
+	=================Form validation----
+	
+	
+	username 
+	password valiation 
+	mobile validation 
+	email validation 
+	
+	
+	===========================form validation=====================
+	
+	document.formName.fieldName.value;
+	
+	10digits 
+	
+	1st number: 6,7,8,9
+	9 numbers:0-9
+	
+	reg:  [6789][0-9]{9}
+	     [6-9]+[0-9]{9}
+		 
+		 /\d{10}/
+		 
+	with regx:	 /([a-z\d-\.]+)@([a-z\.\d-]+)\.([a-z]{2,8})/
+		 
+		 var x= documnet.forname.field.value; //sathya @  gmail  .com 
+		 var at=x.indexOf("@");
+		 var dot=x.lastIndexOf(".");
+		 var mail =x.slice(at+1,dot);
+		 
+		 var g="gmail";
+		 if(at<1 || at+2<dot || ||mail!=g)
+		 {
+		 invalid
+		 }
+		 valid 
+		 
+		 
+		 var AGE=78;
+		  var Age=90;
+		  var aGE=78;//v
+		  var myAge=90;//v
+		  
+		  var keerthi=78;
+
+==========================================================
+
+html,css,javascript:
+-------
+ ------------------
+ 
+ css---->lot of code 
+ 
+ bootstrap---->prdefined classes:(properties)
+ 
+ classes--->functionality
+ 
+ 
+ heading vs display
+
+
+formatting tags 
+forms tags,input tags 
+tables 
+
+backaground properties 
+box model (width,maxwidth,min width,border,margin,padding,outline)
+display:inline,block,inline-block 
+boxsizing: borderbox,content box 
+float:left,right,clear 
+grid,
+flex 
+animations 
+colors,fonts--->websites
+
+ 
+datatypes,variables 
+---->type conversion******************************
+functions 
+DOM,Events 
+storages:local storage ,session storage  
+arrays:arrays methods 
+strings--string methods 
+objects-->object types,methods 
+
+
+html,css,js,---->java(springbootrest)<--------->(postman)--->reactjs
+
+
+
+===========================java================================
+======================================================================
+
+introduction:
+-----------
+
+Language:
+--------
+  communcation betweenn person to person to perfomr some action 
+  
+  general kind lang: englsih,hindi,marati,
+
+programming lang:
+---------------
+  comuncation between persone to machine to perfome some action 
+   
+   binary lang:byte code 0101010-->
+   
+   volatage:0v-->0
+   v---->5volts-->1
+
+
+softwares/applications 
+
+1,calculator applications 
+2.billing application 
+3.atm application 
+
+applications are two types:
+
+1.standalone application:
+  the applications which we can run on our machine wo server 
+  eg:vlc,antivirus,acr
+  we cant share the dat across globe
+2.distributed applications:
+  the applications which we can run on server 
+  eg:gmial,inst,wats,
+  we can share the across the globe 
+  
+
+procedureorinetd 
+object oriented 
+logical langige
+scripting lang 
+-----
+
+pop                                    oop 
+procedure oriented lang             object oriented pr lang 
+
+A,B,C,COBAOL,FORTRAN.              python,java,.net,LISP
+
+
+100%-->25%  75%
+
+----------------->perfomance---,security
+
+oops                                      oopl 
+object oriented                   object oriented
+    programming sysytem               programming lang 
+
+features or methodoligies         python,java,.net,LISP
+
+omg(object management group)
+ canadian org
+ 
+ 1.inheritance 
+ 2.polymorphism ---->performance
+ 3.abstraction 
+ 4,encapsulation--->hiding,security
+
+
+ 1.platform independent 
+ 2.garbage collection 
+
+=========================java introduction===============
+
+java:
+----
+java is one of the object oriented programming lang 
+      for the purpose of developing both standalone and distribute appli 
+
+father:  james gosling  1995 -->sun micro system 
+
+oak------------>java 
+
+-->indonasia--->java 
+
+   beta version---1995
+   
+   
+   LTS:Long Term Support  8 11 17 21
+   
+   
+   base varsion:
+   
+   sun micro system----copy rights---->Oracle
+   www.oracle.com 
+   
+   1.JSE:java standard edition:standalone app:corejava
+   2.JEE:java enterprise edition:distributed:advance
+   3.JME:java micro edition :mobile appl 
+   
+   1.software :download 
+   2.install software 
+   3.editors:(notepad,notep++,intelij,eclipse)
+   4.save the file 
+   5.compile the file 
+   6.execution
+
+c program--->c software-->turboc
+cpp progrm -->cpp soft --->turbocpp 
+java pr -->java softw-->jdk(java development kit) 8,11,
+  
+  53-kw-->2 unused:goto,const--51-->
+   
+   
+   // single line comments 
+   /*
+     multiline comments
+   */
+ structure of java program:
+ --------------------------
+  syntax:
+----------
+
+
+
+  
+   class ClassName  //class declaration 
+   {
+   //variable,methods,constcrutors,objects 
+     //main method 
+   
+   }
+   
+   
+   eg;
+   ---
+   class Sleep 
+   {
+   
+    public static void main(String args[])
+	{
+	
+	System.out.println("hello world");
+	
+	}
+   
+   }
+   
+   .txt  .pdf  .css .html  .js  .java
+   
+   
+   .java 
+   .class 
+   compilation 
+   jvm 
+   
+           compiler(compilation)
+   .java-------------------------.class--->jvm-->byte code 
+user un lang                 machine und 
+
+syntax:  javac filename.java   eg:javac Sleep.java 
+
+syntax: java classname       eg: java Sleep 
+
+jdk,   eclipse 
+
+jdk,jre,jvm  
+
+jdk 
+ jre  java runtime enevronment 
+   jvm java virtural machine
+      main method 
+
+
+
+can i compile without main method:yes 
+can i execute without main method:no 
+
+
+
+
+class classname
+{
+
+//variables,methods,construtor,objects
+method
+{
+ statement 
+}
+}
+
+classname: Test 
+
+
+class Test 
+{
+
+public static void main(String args[])
+{
+
+System.out.println("hello world");
+System.out.println("hello world");
+System.out.println("hello world");
+
+
+}
+}
+
+
+class class{}    class Test{}   class test{}     CLASS TEST{}
+
+
+compilation: javac filename.java 
+
+
+eclispe:
+------  ide 
+
+main 
+
+syso
+
+empnams:collection
+
+
+==========================Class/Object======================
+
+class is a logical entity or its blueprint
+   collection of variables,methods,constrcutors,objects
+
+blueprint:   house(object)
+
+
+   have you seen a car?
+      yes/no
+   have you seen a tree?
+    
+	
+
+object has: state and behaviour
+  object is instance of a class:
+   dog:color:  wagging a tail
+    car: state:  drive
+	
+	: capitalcase
+	
+	
+	class SleepWell
+	{
+	
+	
+	}
+	================datatypes:
+	---------------------------
+	which type of data we are storing into variable name:
+	
+type of datatypes:
+-----------------
+there two types 
+
+1.primitive dt 
+
+2.non-primitive or reference dt 
+
+	
+	1.primitive:
+	--------------8
+	
+	byte 
+	short 
+	int 
+	long ----------->to store numbers
+	
+	float 
+	double ----------->to store decimals
+	
+	char ---------->to store charecters
+	
+	boolean--------->to store logical valu(true,flase) 
+	
+	
+	
+	non-prmi:
+	------
+	classess,objects,strings,arrays,enums
+	
+	
+	byte:
+	-----
+	
+	size: 1byte=8bits
+	
+	max range:127
+	min range:-128
+	
+	forma:  min to max 
+	       -2*(n-1)  to 2*(n-1)-1
+		   
+		 n?--->8
+	
+	byte b=89; //v
+	byte b1=890; //iv
+	byte b2="wel";//iv
+	byte b4=90.90;//in
+	byte b5='d';//in
+	byte b6=128;//iv
+	byte b7=0;//v
+	
+short:
+-----
+  size: 2bytes 
+  max: 32767
+  min-->-32768
+  
+  
+  short s=90;
+  short s1=890;
+  short s2="soma";//in
+  
+int:
+----
+
+size: 4bytes
+
+
+int phone=7729938257; ///error
+  
+long:
+----
+size: 8bytes
+
+
+float:
+-----
+4bytes 
+-3.1e23.78
+
+float  salry=890.89f;
+
+double:
+-------
+size: 8bytes 
+
+double  bonus=678.89;
+
+
+
+char:
+----
+1byte 
+
+
+size:256 chare--ascii 
+
+unicode--->18 international lang --->65535---->2bytes 
+
+char  c=p; //inv
+char c1='j'; //v
+char c2=67;//in..........>
+char c3="sathya";//inv
+char c5=890.0;//inv
+
+boolean:
+------
+
+size: 1, 2by,,,,depends on the jvm 
+
+
+boolean b=1; //i
+boolean b1=0;//i
+boolean b2="True";//in
+boolean b3="flase"//iv
+boolean b4="true";//iv
+boolean b5=True;//in
+
+
+byte --->1----->0
+short----2 
+int -----4
+long-----8 ------>0
+float----4------>0.0f 
+double---8------>0.0d 
+char ----2  space
+boolean---1,jvm-->false 
+
+ 
+
+
+
+byte b=89;
+
+
+byte b; //declaration 
+
+b=89;  //assiging
+
+byte b=89; //ini=dec+assing
+
+	
+	
+	
+	
+	
+	
+	variables:
+	---------
+	
+	variable is a location or container where we can store the values 
+	
+	syntax:
+	------
+	
+	datatype variableName =data/value;
+	
+	int      age         =  89; 
+	String   name=     "sleep";
+	
+	two types:
+	------
+	1.local variable : e can declare with in the method 
+	2.global variable : we can declare with in the class 
+	   i.instance variable 
+	   2.static variable 
+	   
+	   
+	   
+	   
+	   class Test {
+	   
+	      int age =90; //instncae
+		  
+		static  int marks=89;//static type
+		  
+		  
+		  psvm()
+		  {
+		  
+		  //local
+		  }
+	   }
+	   
+	   
+	   global properties:
+	   -------------------
+	   
+	   1.syntax:
+	   
+	wo static kw we can its instance variable : eg: int age=89;
+	with static kw we acn sy static variable: eg: static String schnma="dps";
+	  
+	  2.memory allocation 
+	   
+	  static prope will get memory space @tym of .class file loading into jvm 
+	  instnce prop will get memory space @tym of Object Creation
+	   3.how to access/call/print 
+	   static properties we can call by using ClassnAME
+	   INSTANCE PROPER we can call by using OBJECT rEFERENCE 
+	   4.when to acces/when to go for 
+	   
+	   common propeR: static 
+	   unique  : instcnae
+	   
+	   
+	   object createion:
+	   -----------------
+	   
+	   classname: Demo
+	   
+	   
+	   className  objectReference = new ClassName();
+	   
+	   Demo     d   = new  Demo();
+	   
+	   
+	   what is the super class for all java classes: Object class 
+	   what is the default package in java:  java.lang 
+	   
+	   
+	   Hospital
+	   
+	   com.demo 
+	   10000clases
+	   
+	   int a=90;
+	   int b=89;
+	   int c=a+b;
+	   
+	   Syso ("sum of two values is :"+c)
+	   
+	 compilation:  javac filename.java 
+	 .java ----compiler---- .class
+	 execution: java classname 
+	 
+varibale:
+---------
+datatype:
+
+2--->
+primi  non-primitive or refernece type
+
+bsil fd cb
+
+socae
+
+2:local,global(1.instance,static)
+4 diff:
+
+1.syntax,2,memory allocation,how to acces,4,when to acces 
+
+
+=====================Scanner class======================
+
+Hello,Sleep ---->i defined 
+
+
+Scanner-->java.util
+
+int a;
+
+Syso(a);
+
+int age=89;
+
+              Scanner sc = new Scanner();
+			  
+			  Syso(sc.age);
+			  
+			  12
+
+scanner methods : nextXXXXX
+
+nextInt(), nextByte(),nextFlaot(), nextDouble(), nextBoolean()
+next(), nextLine()
+
+
+       class Demo{
+	   
+	   
+	   public static void main(String sathya[])
+	   {
+	   
+	    Scanner sc= new Scanner(System.in);
+		
+		Syso("enter your name");
+	       String name= sc.next();  //sathya
+		Ssyo("enter your age");
+		    int age=sc.nextInt();
+			
+	 Syso("uname :"+name +"  "+age);
+	   }
+	   
+	   
+	   
+	   
+	   
+	   "sathya" "prakash" "soma"
+	   }
+
+   keerthi    keerthi123
+
+
+-->  write a java program for area of rectangle by using scanner 
+-->area of squre?
+
+  enetr length 
+  double l= sc.nextDouble()
+  enetr width 
+  double w= scc.nextDouble();
+  
+  area=l*w;
+  
+  
+  int num1=sc.next();
+  int num2=scc
+  int num=sc 
+  
+  int avg=num1+mnum2+num3/3;
+  
+  
+  class Test{
+  
+  //gloobal variables 
+     1.instance variabel
+	 2.static variable
+  
+  public void main(String args[])
+  {
+  
+   //local variables 
+  }
+  }
+  
+  
+  class Car{
+  
+            int wheels=4;//instance
+	 static String engineName="tubo";//static 
+	psvm()
+	{
+	
+	String oilType="crudecastroil";
+	
+	Syso(oilType);
+	
+	Car c= new Car(); //object cretaion
+	
+	Syso("wheels are :"+c.wheels);
+	Ssyo(Car.engineName);
+	
+	}
+  }
+  
+  ======================Methods=========================
+  
+  method is the location where we can write our logic 
+                                            to perform some action 
+
+1.predefined methods 
+    main,sqrt(),
+
+2.user defined methods 
+
+
+
+  public static void main(String args[])
+  {
+  
+  
+  }
+  
+  synatx:
+  0-----
+  
+  accessModifier returnType methodName(if any parmas) //method head
+  {  
+  //logic  or method body
+  }
+
+
+  public static void display() //instance method no rtntype no paramters
+ {
+  System.out.println("welcome to india");
+ 
+ }  
+ 
+  public static int sumOfTwoNums(int a,int b) //instance m,with rtn with parma
+  {
+  
+   return a+b;
+  }
+
+  public static void subOfTwoNums(int a,int b)// instance m.wo retn ty with param 
+  {
+  Syso(a-b);
+  }
+
+Test  t= new Test();
+t.dispaly();
+t.sumOfTwoNums(12,67);
+t.subOfTwoNums(78,45);
+
+Test.display();
+Test.sumOfTwoNums(23,89);
+Test.subOfTwoNums(90,78);
+
+
+public void demo()
+{
+//logic
+} 
+//implemented method or concrete methods
+************we can write only in the classess 
+
+
+public void m1();//unimplemented method or non-concrete methods 
+
+
+
+class ScannerDemo{
+
+
+main(){
+
+  Scanner sc= new Scanner();
+}
+}
+
+{
+
+
+
+=======}
+========================main method===================
+
+
+.without main method can i compile:yes 
+without main method can i execte:no 
+
+JVM--->
+
+public static void main(String args[])
+{
+
+
+}
+
+  class: AnnualSalary
+  variable: salary 
+  method: getSalary(int salalry);
+  out: annuala slalary 
+
+
+class: Car 
+variables: engine,seats,wheels,typeoFoil,cc
+method: getCarDetails();
+
+out:  
+   car has engine : true 
+   car has seats: 5
+   car has wheels :4
+   car has typofoil: castroil
+   car has cc :1000
+====================================================================
+
+   
+
+
+
+
+    class Remo {
+	
+	   
+	   int nums=89;
+	   static int age=90;
+	
+	  public int wel(){
+	     //logic 1
+	  }
+	  
+	  public static void m2()
+	  {
+	  //logic2
+	  }
+	  
+	  void demo()
+	  {
+	    //logic3
+	  }
+	  
+	  static void m4()
+	  {
+	  //logic4
+	  }
+	 
+  public static void main(String args[])
+{
+
+  Remp r= new Remo();
+ }  	
+	} 
+  r.wel();
+  Remo.m2();
+  r.demo();
+  Remo.m4();
+  r.nums;
+  Remo.age;
+  
+  =================================Command Line Arguments=========================================
+  
+  
+public static void main(String args[])
+{
+
+  args[0]=89;
+  args[1]=78;
+
+}
+The arguments which are passing direectly to main method: string
+
+    int age[]= new int[5];
+	datataype variablename = new datatype[size];
+	
+	array size is: 5 
+	array index size: 4
+	230     229 
+	999     998
+	n       n-1 
+	
+	
+	67  89 34 56 13
+	0   1  2  3  4
+	
+	---------------------Wrapper classes--------------------
+	
+	datatypes to objects -->autoboxing
+	objects to datatype --->autounbaoxing
+	
+	primitive dt      wrapper clases
+	
+	byte--------------->Byte 
+	short ------------->Short
+	int --------------->Integer
+	long--------------->Long 
+	float ------------->Float
+	double ------------>Double
+	char --------------->Charecter
+	boolean------------->Boolean 
+	
+	
+	
+	"12"------parseInt("12")------->int(12)
+	"23.56"-----parseDouble("34.78")------>double(34.78)
+	"s"-------------->charcete
+	"true"----------->boolean
+	
+	parseXXXXX------->static methods 
+	
+	
+	==================================
+	command:
+	wrapper classes:related type:
+	
+	className.methods:parseXXX(string)
+	Scanner:class->user input->datatypes->nextXXX-->instacne-->obj.methods 
+	methods:pre,user:
+	
+	accessmodifier retyrnTYPE METHODNAME(PARA)
+	{
+	//LOGIC
+	
+	}
+	
+	implimented/concrete merhods 
+	unimp/non-concrete 
+	
+	instance : np static kw:-->call?--->obje ref.methodname
+	stataic: with static kw:===>call?---?clasdname.methodname 
+	varible:location--?action-->local,global(instance,static)
+	                                  ::1syntax,memory allocation,how to acces,wheen to accesc
+									  
+		datatypes: 2-->primitive:8:1248 48 2 1or 2
+		                            0    0.0  flase  
+
+=============================================================================
+==================Constructors===================================
+
+
+how to create object?
+
+class Sleep{
+
+Sleep s= new Sleep(); //object cretaeion
+
+}
+
+objective: 
+    to write initilization logic inside the constcruor
+	
+*constructor is called whenever we created object 
+*constrcutor is same as like className 
+*constrcutor is a special memeber method 
+*we dont need to return type : we cant write evene void also 
+
+*basically to avoid explicitly calling of methods 
+syntax:
+--------
+
+AccessMoidifer  className()
+                   {
+				   //inilization logic 
+				   }
+
+*type of constcrutors:
+--------------------
+1.no-argument constcrutor 
+2.parametrized construor
+3.default or sysytem defined consctruor
+
+
+
+
+public DefaultConstr()
+{ 
+  id=0;
+  name=null;
+
+}
+
+********if i created any default consctrutor in my program 
+                          compiler will not create any consctrutor 
+*in a single program we cant write more than one default or no -arg consct 
+   we can ryt any no of param consctruors 
+
+
+
+
+
+class: Employee
+variables: employeeId,EmployeeName 
+
+
+
+only methods: 
+default constcrur:
+param consctr:
+
+
+
+methodnaem same ()
+
+add()2
+add()3
+add()4
+add()5
+
+
+layerd architecture--------->corejave level 
+
+
+
+  'public','static',' void',' main,(,),
+  {
+  
+  }
+
+
+
+
+===================================================================================
+================================
+
+construtor:
+----------
+
+  
+  public  welcome()
+  {
+  //logic 
+  }
+  
+  public  void  Welcome()
+  {
+  //logic 
+  }
+  
+  public demo()
+  {
+  //logic 
+  }
+  
+  public felt()
+  {
+  //logic 
+  }
+  
+  instance variable/instance method ----->calling is same :object ref 
+  
+  static varibale/static method ---->calling : clasname
+  
+  
+  =======================Flow controls or control flow statements =====
+  ============================================================
+  
+   system.out.println("sathya");
+    system.out.println("sathya");
+	 system.out.println("sathya");
+	 
+	 statement-1------>5tyms
+	 statement-2----->7 >tyms
+	 statement-3-------->6tyms
+	 statement-4---->2tyms
+	 statement-5--------->10tyms
+	 
+	def:  it will control flow of the program where it will execute 
+	        how many no of tyms its executed.
+			
+		there are 3 ways to control it 
+		
+		  1.conditional statements or desicion making statements 
+		  
+		    1.if 
+			2.if-else
+			3.if else-if 
+			4.switch 
+		  2.iterative ststments  or looping statements
+		     1.for loop 
+			 2.while loop 
+			 3.do-while 
+		  3.jumping statements  or continue statments
+		     break;
+			 continue 
+			 
+			 
+			 
+if:
+----
+
+if statements 
+
+syntax:
+---------
+if(argumnet)
+{
+ //logic executed 
+}
+
+
+int a=89;
+int b=67;
+
+  if(a>b)
+  {
+  system.out.println("a is greter");
+  }
+  else{
+   system.out.println("b is greter ");
+  }
+ 
+  System.out.prinln("i am exceuted");
+  
+  1.a,b,lasr  2,b is 3.a is 4,noo fthe above 5,i am executed
+  
+  
+  without curly braces we can write only one statement 
+   
+   
+   case1:answr1 case2:answr2  case3 cas4:
+   
+   
+   
+   restaurent:
+               feedback:good,bad,wrost,execllent
+			   
+			   
+			   
+			   String feedback="good";
+			   
+			   if(feedback=="wrost")
+			   {
+			   Syso("your serivce is wrost please go...");
+			   }
+			   else-if(feedback=="bad")
+			   {
+			   SysO("service is bad..learn more...");
+			   }
+			   else-if(feedback=="excellent"
+			   {
+			   Syso("service excellent..will give u incremnt");
+			   }
+			   else-if(feedback=="good")
+			   {
+			   Syso("service is good...take a tip..");
+			   }
+			   else{
+			   Syso("no service is matched....");
+			   }
+			   
+			   )
+			   
+			   if   if-else  ifelseif
+			   
+			   
+			   
+			   
+			   switch(argumnet)
+			   {
+			   
+			   case expression1:
+			      logic;
+			   case expression2:
+			      logic2;
+			   }
+			   
+			   
+			   int age=89;
+			   
+			   switch(age)
+			   {
+			    case 67;
+				   logic1;
+				case 34:
+				  logic2;
+				case age:
+				   logic3;
+				case "56":
+				  logic5;
+		
+			   }
+			   
+			   
+			   create a class: Trafic
+			   
+			   string color="red"
+			   
+			   switch: red,green,yellow,deffrnt color ;default 
+============================opearators------------------
+
+
+
+a+b
+
+a,b--->operands
++,-,--?operators
+
+1.arithamatic opertaors:+,-,/,%,* 
+2.assiging operators : a+,a-,a/,a*,a%
+3.equal opearos : =,<,>,<=,>= ,!=
+4.logical operators:&& ||   
+5.ternary operators :a>b?1:3;
+
+-------------------------------------------
+
+if ifelse  ifleseif switch: 
+
+
+if()
+{
+// 
+}
+else if(){
+
+}
+else{
+
+}
+
+
+
+switch(argument)
+{
+
+case expression;
+
+}
+
+
+:write a java program find out maximum number in two numbers .
+by scanner 
+  
+  12  45 
+  
+  12>45 
+     maxini:12
+12<45
+   maxinum--:45 
+both are equal 
+
+a>b && a>c 
+   max: a 
+b>a &&b>c
+max: b--
+  c
+----------->//given num is divisible by 5 and 11
+
+   a-z   A-Z
+   
+   input>'a'&& input<'z'
+   
+   p np--->2loc, global 8-bsilfdcb,saeoc,syn,memoy,howac,whntc,med:
+    acm rtty methodname(if any)
+	{
+	}  :local var-->insisde the method 
+	   :gloa: inside the 
+	   
+	   instance variable call:object ref.varianlnmae
+	   static variable call: classname.staticvariable
+       instance method :objref.methodname 
+      static method :  classname.static method 
+
+  constcrur:initilization logic 
+   
+accemodfir classname()
+{
+  //initialization logic 
+}   
+
+methods           constcrutors 
+--------         ---------------
+return void      not return any 
+
+commandline arg;
+--------------
+the argmnts passing directly main method-->
+    we cant perform arithematic opertions
+wrapper clases:
+  BSLIFDCB-->STRING->BSILFDCB-->parseXXXXX-------
+scanner:class-->java.util-->instacne methods-->scanner object-->objref.nextXXXXX
+
+flow controls:
+-------------
+1.conditional 2.looping 3,jumping types 
+  if if else ifelseif switch 
+  for while dowhile 
+  break,continue 
+
+
+
+
+
+
+
+looping statements:iterative statments 
+-------------------------------
+
+1.for loop :if we know no fo iterations in advance:
+2.while loop:if we dont know the no of iterations in advance:
+3.do-while  :at least one ststment is executed without checking condition 
+
+
+for-loop:
+----------
+
+
+for(initilization;condition checking;incrtent/decrement)
+{
+//logic 
+}
+
+*initialization logic is executed only once in the life time 
+*condition checking-->true 
+*logic executed 
+*incretement/decrtmnet
+
+
+       1       25811     4710
+  for(int i=0;i<=10;i++)
+  {
+  syso(i);//36912
+  }
+
+last value of i?10-->11
+
+
+
+int age=19;
+
+while(age<67)
+{
+syso(age);
+age++;
+}
+
+do while:
+-------
+do{
+syso("wleomce");
+increment;
+}while(condition);
+
+
+
+SBI                      ICICI 
+pin number:                withdrwa:7000
+                                pinnumber:90
+ with 
+ sav
+
+===============================================================================
+
+if(argument)
+{
+//logic
+}
+
+if(argument)
+{
+//logic1
+}
+else{
+//logic 2
+}
+
+if(argument)
+{
+//logic1
+}
+else-if(condition)
+{
+//logic 2 excuted
+}
+else{
+//logic3 executed 
+}
+int age=89;
+
+switch(argumnet)
+{
+
+case expression:
+      break;
+}
+
+
+      1              25811               4710
+for(initilization;conditionchecking;incr/decrment)
+{
+//logic  -->36912
+}
+
+
+
+initilization;
+
+for(;conditionhcking;)
+{
+//logic;
+  incrment/decr;
+}
+
+initilization; //1
+
+while(condition)//258
+{
+//logic;//369
+incren++;//4710
+}
+
+
+
+do{
+//loguic;
+ince/dec;
+}
+while(condition);
+
+
+by using scanners:
+----------------
+
+1,print all natural numbers : 1 to 100 numbers (for,while)
+2.print all even numbers 0 to 400;(for,while)
+3.print all odd numbers 0 to 500;(for,while)
+
+4.by using scanner give the input of starting point and ending point 
+  display some values: 
+5.by using above program revere all the values.
+
+
+
+
+2*1=2
+2*2=4
+
+
+
+2*34=
+
+//print upto numbers addition of all number 1 to 10 sum=1+2+3+10=sum values
+ //by using scanner: 1 to 100
+ 
+ ficbonnici
+ amstrong number 
+ reverse 
+
+
+what is dt: 
+  2types: p,npor ref 
+  8->bsilfdcb cosae
+  
+  static typing--> 
+v:2-->l,g(i,s)->4dff->syntx,mmry,how,whn ->
+global->variable->inst->objec ref.variablename 
+global ->varibae--static variable--classname 
+methods-->2typs:inst,stat-->instan->objref-->sati method-->clasname 
+construtos-->initilization-->3ty:defauly,param,syste-->def,any no of param 
+flow-->condi,loop,brak,-->if ifled ifl switch-->for,while,do while-->break-->continue 
+wrapper class-->parseXXX-->STRING-->RELATED DATATYPE
+
+======================PATTERNS==========================
+type of patterns:
+
+1.star pattern 
+2.number pattern 
+3.charecter pattern 
+   
+   int rows=5;
+    for(int i=1;i<rows;i++) //4<5 
+	  for (int j=1;j<=i;j++)//5<=5
+	  {
+	  Syso("* ")
+	  }
+*
+* *
+
+
+
+
+
+
+
+
+
+
+*
+**
+***
+****
+*****
+
+1
+12
+123
+1234
+12345
+
+A
+AB
+ABC
+ABCD
+ABCDE
+  
+  
+  
+  int rows=5;
+  int ch=65;
+  for(int i=1;i<=rows;i++)
+  {
+  
+    for(int k=rows;k>rows;k--)
+	{
+	Syso(" ")
+	}
+  
+     for(int j=1;j<=i;j++)
+	 {
+	  sYSO("*");
+	 }
+  }
+
+
+
+12 45 67 
+23 34 78 
+23 23 12
+
+
+1
+22
+333
+4444
+55555
+
+A
+BB
+CCC
+DDDD
+EEEEE
+
+
+
+    *
+   **
+  ***
+ ****
+*****
+
+       1
+     1 2
+   1 2 3
+  1 2 3 4
+1 2 3 4 5
+
+
+    1
+   1 2
+  1 2 3
+ 1 2 3 4
+1 2 3 4 5
+
+    1
+   2 2
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5
+
+charecter patterns:--->
+==================================TPIP:--Concepts====================
+1.intro,datatypes,variables,model functions,how to execute hello world 
+2.types of data storages,Strings,strings methods 
+3.Arrays, arrays methods, Objects ,Object methods ,Timers(setTimeout,setInterval)
+4.DOM,DOM Manipulation 
+5.Functions,types of functions 
+6.events,event handler,event listners, type of events 
+7.form validations,with /without regulaer expression 
+
+===================Names==============
+
+Verma------->(2)
+Shiva------->(5)
+mahith------>(3)
+gopi-------->(1)
+Harindra----->(6)
+krishna------(1)
+dhansri------<(5)
+
+
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+
+
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+
+
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 
+
+
+rows--->for loop --->main for loop : executed one time one each iteration
+columns--for loop--->until condition false of internal for loop--> 
+
+
+=========================================================
+datatypes:pr. nop 
+8-bsilfdcb  coeas
+
+variabes=: --->  datatype varibal=data;
+
+lo,glob 
+-->with in the method 
+-->with in the class(instance,static variable )
+
+local variable-->call direclty
+instance--->obj cret-->obj ref-->objref.instance variable 
+static ===>classname.variablename 
+methods:in-->st --->void 
+constrc:
+ sys -->compiler --->default-->
+ def--->not rete internally  
+ para--->passing parameters 
+
+command wrapper --->
+
+arguments-->direcly main method ---> arithmatic-->commnd 
+string-->b,fl,
+
+parseInt("12")--->12
+
+wrapper:parseXXxX IN-->INPUT--STRING--">RELATED DATATYPE 
+8--8 
+byte--Byte 
+short---Short 
+boolean--Boolean
+
+flow contrsols:
+-------------
+
+1tym-->0-100000
+
+1.conditional statments 2.looping, 3.jumping stst 
+ if ifelse if else if switch while dowhile for break continue 
+patterns:
+
+
+table:
+------
+
+ constrcutors,methods,variables
+=========================================================================
+================oops=============================
+
+constructor:initilization logic 
+
+system :compiler will call
+default : devloper is created but no compiler is created 
+parma: passing paramters to the constcrutir
+
+var:
+
+
+class Test{
+
+  int age;
+  
+  String name;
+  
+  Test(int age,String name)
+  {
+   this.age=age;
+   this.name=name;
+  }
+  
+  public void demo()
+  {
+  sYSO(age+" "+name);
+  }
+
+}
+
+
+-------------------------------------------
+oops:
+------
+features or methodologies: canadian org (omg)
+
+oops                        oopl 
+                            java,c++.net
+inheritance 
+polymorphism--------performance 
+abstraction 
+encapsulation ---------hiding security 
+
+
+class,object 
+
+class:properties (variable,methods,consctruos,objects)
+   blue print--logical entity-->
+object: instance of a class(allocating suffiecient memory space for 
+class properties)
+  
+  object-->state  and behaviour 
+  
+  loptop-->color--black programs
+  dog--->color: brown  wagging atail
+  car -->color green drive it 
+  
+  
+  class-->logical entity  object-->physical entity 
+  
+  one blue print---->any number of objects 
+  
+  one house blue print--->any no of houses
+  
+  
+  class Test {
+  
+  main{
+    
+	//object creation 
+	Test  t = new Test();
+	
+  
+  }
+  
+  }
+  
+  syntax:  classname objref = new clasname();
+  
+  //1990
+ class OldProject{
+ //1000 methods 
+ //200 variables
+ 
+ }
+  
+  //1995
+ class NewProject{
+ //30 methods 
+ //20 variables 
+ 
+ //1000 methods 
+ //200 variables
+ }-------------------------->parent 
+  
+  //2002
+  class NewPro{  //1230 methods , 254 variables
+  //200 methods 
+  //34 variables 
+  
+  --------------------------->child 
+ 
+  }
+  
+  
+  
+  
+ =======================Inheritance============================== 
+ 
+ aquiring properties from parent to child --->inheritance 
+                          base   to derived 
+						  Super to  subclass
+ 
+ 
+ two keyword:  extends and implements
+ 
+ 
+ 
+ class Parent {
+ 
+ // method a
+ }
+ 
+ class child extends Parent{
+ 
+ // method b
+ 
+ }
+ 
+ syntax:
+ -------
+ 
+ 
+ class Parent {
+ 
+ 
+ }
+ 
+ class child extends Parent 
+ {
+ //variable 
+ //methods 
+ 
+ }
+ 
+ 1.IS -A :
+ ----------
+ 1.single level inheritance:1p--->1ch 
+ 2.multilevel inheritance :1gp-->1p--->1ch 
+ 3.hirarchial level inheritance : 1p, -->--->2childs
+ 4.hybrid level inheritance :combo any two inheritanes
+ 5.multiple inheritance : 2p------> 1child(error)-->ambiguity issu
+ 
+ 
+ 
+ ----------------->code reusebility<--------------------------
+ 
+  pLion   cubc    Animalgp
+
+  
+  Car    byke     Vechile (hirarchial)
+
+  
+  Animal   Dog    Lion  
+  
+  Bird  greenParrot  parrot
+  
+  
+ 
+ 
+ 
+ 2.HAS-A
+ 
+ 
+ 
+ father  -->ts
+ 
+ 
+ 
+ yonger --->trivendrum (6startd)--->bdy
+ 
+ 
+ elder ---->jammu kashmir(btech)--further usa
+ 
+ 
+ userg  adminch   developer p
+ 
+ 
+ Electronics    Grinder     wet-Grinder --->multilevel
+ 
+ Person   student     employee ------------->multilvele
+ 
+ Shape   Rectangle Circle
+ 
+ 
+ cc:this:current class:vmco
+ super:
+
+ 
+ this,super,final----------------->global and local variables are same 
+ 
+ this:this is a keyword it is used to represent current class properties 
+                (varibales,methods,constcrutors,objects)
+ super:super is a keyword it is used to represent parent class properties
+            (varibales,methods,consctruors ) 
+ 
+ final:final is a keyword we can use three places(varibale,method,class)
+ 
+  final variables cant changed 
+  final method cant override 
+  final class cant extends 
+ class Parent{
+ 
+ public void m1()
+ {
+ 
+ }
+ 
+ }
+ class Child extends Parent{
+    
+	int age=89;
+   public void m2()
+   {
+     Syso("i am m2 method ");
+	 super.m1();
+	 this.age;
+   }
+   
+   main{
+   
+    Child ch- new Child():
+	ch.m2();
+	
+   }
+ 
+ }
+ 
+ class Wel{
+  
+  int age=65;
+ 
+ public void demo()
+ {
+ 
+ }
+ 
+ }
+ class Test etnds Wel{
+ 
+   int age=90;
+   
+   public void getAge(int age)
+   {
+   
+      Sysy(age);//45
+	  Sysy(this.age);//90
+	  sys(super.age);//45
+	  super.demo();
+
+   }
+ main{
+ 
+   Test t= new Test();
+   t.getAge(45); //45
+ }
+ }
+ 
+ -->vmc-->
+ 
+
+ 
+  ====================polymorphism==============
+  
+  poly---many 
+  morphism-forms 
+  
+  4+6=10
+  4+"shiva"=4shiva
+  operator overloading
+  
+  1.Method Overloading or static polymorphism
+  2,method overriding  or dynamic or run time polymorphism
+  
+  
+  
+ 1.Method Overloading 
+ ----------------------
+ 
+ method name is same but signature is different 
+ 
+ public void demo()
+ {
+ //logic
+ }
+ 
+  public void demo(int age)
+ {
+ //logic
+ }
+  method name is same but number of parameters are differnet 
+  method name is same but type of parmaters are different 
+  method name is same but order of paramters are different 
+  
+  
+  addition(int a,int b)
+  
+  addition(int a,int b,int c)
+  
+  
+ 
+  addition(---)
+  
+  
+  
+  public void demo()
+ {
+ //logic
+ }
+ 
+  public void demo(int age)
+ {
+ //logic
+ }
+ 
+  public void demo(float age)
+ {
+ //logic
+ }
+ =========================Method Overriding===================
+ 
+ 
+ method name is same but implmenetation is different.
+    or 
+ child class has method same as parent class method but logic is diffeent from 
+   parent to child 
+   
+   or 
+   
+   as a child if he is not satified with parent implemntation change as child implemnation
+   
+   
+   class MahithParents{
+   
+   
+     public void property()
+	 {
+	  Syso("1000 crores prperty");
+	 }
+	 
+	 public void marrige()
+	 {
+	  Syso("arrange marrige ");
+	 }
+   }
+  
+   class Mahith extend Parets{
+      
+	  public void job()
+	  {
+	  Syso("4o lac/annu");
+	  }
+	  
+	  @Override
+	  public void marrige()
+	  {
+	   Syso("love marige");
+	  }
+   
+   
+   }
+   
+   
+   oldtv{
+   
+   scree:
+    lcd
+   }
+   
+   newtv{
+   
+   screen 
+     led
+   }
+   
+   ==================================packages====================================
+   its a collection of class,interfaces,sub pacakges
+   
+   2 types :
+   
+   
+   1.system defined packages :60000 ppredefined pacakges 
+   2.user define paacjages
+   
+   java.--->main pacakges
+   lang.--->sub pacakage
+   Object -->class 
+   
+   
+   1.java.lang.Object 
+   2.java.lang.*
+   
+   
+   
+   pacakage com.demo.core.variable;
+   
+   clas Test{
+   
+   
+   }
+   
+   compi: javac filename.java 
+   compile: javac -d . fielname.java 
+   
+   exec: java classname 
+   execu:  java packagename.clasname 
+   ======================Access Modifiers=========================
+   
+:--> public,private,protected,default
+
+
+--->final,volatilea,abstarct,transint
+   
+   
+   pack1    pacak2 
+   emploee  hackaer
+   
+   
+   Employee{ 
+     id
+	 name 
+	 
+	 details()
+	 {
+	 
+	 }
+	double calculatesalry()
+	{
+	}
+	}
+	FullTimeEmployee{
+	  double monthlySalary;
+	
+	
+	
+	partTIMEeMPLOYER{
+	  double hourlysalrly;
+	  double hoursteach;
+	
+	}
+	
+	
+	
+	Employee{
+	
+	int id;
+	String name;
+	
+	public Employee(int id,String name)
+	{
+	this.id=id;
+	this.name=name;
+	}
+	
+	public void details()
+	{
+	Sys0("id"+id+"  +"name :"+name);
+	}
+	
+	
+	public double calculateSalry()
+	{
+	return 0.0;
+	}
+	
+	}
+	
+	
+	
+	class FullTImeEmployee extend EMployee{
+	  
+	  double monthlysalry;
+	  
+	  public FullTimeEmploye(int id,String name,double montly)
+	  {
+	   super(id,name);
+	   this.monthlySalary=monthlySalary;
+	  
+	  }
+	
+	  piublic void details()
+	  {
+	  Syso(id +"  "+name +" " +monthlySalary);
+	  }
+	
+	public double calculateSalry()
+	{
+	return monthlySalary;
+	}
+	}
+	
+	
+	
+	class TEST{
+	
+	main{
+	
+	Employee emp= new Employee(123,"sathya");
+	Full  fem= new Fukl(100,"deepika",8900);
+	Part part= new pART(100,"sathya",90,8);
+	
+	fem.details();
+	fem.calculateSalry();
+	
+	part.detauls();
+	part.calac();
+	
+	}
+	
+	}
+	
+oops                 oopl
+
+inheritance 
+ploymorphism ---->perfomance
+abstraction 
+encapsulation ---hiding securtiy
+
+
+
+
+
+objective:code reuse bility---->performance-->parent nd child-->data not duplicate 
+        -->parent --->child===>5 ways si(1p-->1ch),mi(1gp->1p-->1ch),
+		hi(1p-->eqlllydata--->2ch),hyi(simihi),mui(2p--->1ch)(ambiguity issue(confusion btwn classess))
+
+polymorphism:
+-----------
+
+1.method overloading or static polymorphism 
+        methodname is same but signature is differnet 
+		  
+		  public void demo()
+		  {
+		  //logic
+		  }
+		 public void demo(int age,float b)
+		  {
+		  //logic
+		  }
+		   public void demo(flaot age,int )
+		  {
+		  //logic
+		  }
+		  
+	methodname is same but no of paramters are different 
+	methodname is same but order of parameters are different 
+	methodname is same but type of params are differnet 
+	
+2,method overriding  or runtime polymorphism
+		
+		
+		
+		class Test{
+		//data1--->45
+		}
+		class Demo extends Test{
+		//data()2
+		//data()1(logicslly presnt in child)-->45
+		}
+
+
+ method name is same but implimentaton is dffrnt 
+ 
+ 
+   parent{
+   travel()
+   {
+   //i want to london
+   }
+   }
+   clas child extends parent {
+   
+   @Override 
+   travel()
+   {
+   
+   //i wnt to usa
+   }
+   
+   }
+
+this,super,final:
+current class properties(vmco)
+parent class(vmc)
+before three places(bvbmbc)
+ v--cant --modfiy
+ m---cant--override 
+ c ---cant--extends 
+ 
+pacakges:we can store class,sub packeg,interfaces 
+  pu-->6000-->java.lang.Object,
+  
+  *java.util.Scanner 
+  *java.util.*
+accessModifier: pppd-->pub--scscsub,sp,spdfdnc
+n-accessModifier:favt
+
+==========================Abstraction==================================
+                         Hiding the data 
+	def:hiding the data showing the functionality 
+	def: hiding unessary data showing necessary functioanlity
+
+class:implimented methods or concrete methods 
+
+    public void travel(); //unimplemtated or non-concrete methods 
+     
+     public void travel() //impl or concrte
+	 {
+	 
+	 //logic
+	 }
+
+  twow ways 
+  1,by Using aBSTARCT CLASS --->0% to 100%
+  2.by using interface======>100%
+  
+  
+class: impl 
+abstarct class:both-->impl,unimpl 
+interface:unimpl
+
+
+
+class Test{
+
+  public void demo()
+  {
+  Syso("wlecome");
+  }
+
+ public void welcome(); //unimp :compile
+ 
+ main{
+ 
+  Test t= new Test();
+  t.demo();
+ 
+ }
+}
+
+
+
+calss Demo
+{
+
+m1()
+{
+}
+}
+
+
+calss Test {
+
+Demo d= new Demo();
+}
+
+
+class:impl 
+interf:unimpl-->100%-->multiple 
+
+
+
+
+interface Test {
+
+  public abstarct void demo();
+         abstacrt void demo1();
+		          void  demo2();//
+
+}
+
+
+class to abstc class --->e
+abstac--class--e
+interf to class--->imp
+class to interface-->imp
+class to class--->exte
+interface to inteface-->extends 
+
+
+
+
+Animal-->absatct 
+   eat();
+Lion-->class 
+  sound();
+Bird---->
+   fly();---->
+   
+ Test --->
+ 
+ 
+ 
+ payment--->abstarct class 
+   processPayment(double amount);
+   printRecit("recit aount is :"+amount+"");
+CreditCard---->class
+   long creditcardnumber;
+
+   
+PayPal-------->class 
+  String email;
+  
+  
+  Test---->test the class 
+  
+===================================================
+
+
+pnp-->8->bsilfdcb,np-soaec
+varibles:2->lg->instance(non-static)
+loc:within the method
+gl:with in the clss
+ca:arg-main method-->we cnt arithamtic op-->wraper--parseXXXXX
+control:3->con,itera,jump--
+cond-ififelseifelseif switch 
+iterat:while,do whiel for 
+jump;break continue 
+inheritance;aq parent to chile--->ode reusebility-->exetnds,implemnts
+
+c to c-->ext 
+c to inter --impl 
+int to intr ->ext 
+c to absct c-->exet 
+5->singlemu,tilhirachhybridmultipl
+2p 1ch  1gp1p1ch
+
+whenever local and global variable are same 
+
+this:currnt class:varibales,method,objet,constrs
+super :parent class :variable,methods,constcr 
+final :bvaribake,before method,befor class 
+    
+	  we cant modify varibales 
+	  we cant override final methods 
+	  we cant extends final classess 
+
+package: collection of subapackages,classes,interfcae
+  
+  1.built in or syste or predefined 
+  2.user defined pacakges 
+  
+  specified:  java.util.Scanner 
+              java.util.*
+			  
+			  
+			package com.
+			          demo.
+					     wel.
+						   core;
+						     .class 
+			
+	compile:javac filename.java 
+	        javac -d . filename.java 
+    execution: java classname 
+	           java pacakganeame.classname 
+AccessModifer:
+n-a: abst volatile final transient
+                     public  protected default private 
+		   
+same class            y       y         y       Y
+same pkg subclass     y       y         y        n
+same pkg not subclass  y      y         y        n
+dffrnt pcakg subclass  y      y         N       n
+dffrnt pkge not subclas y     N         N       n
+
+ploymorphism: 
+
+12+13=25
+12+"devasena"=12devasena
+  
+  1.method overloading  or static polymorphism 
+  2.method overriding   or run time polymorphism 
+  
+  method name is same but signature is dffrnt
+                          no of paramters are differnet 
+                          type of params are dffrnt 
+                          order of params dffrnt 
+						  
+  
+   public void demo()
+   {
+   //logic
+   }
+ method name is same but implmntation is dffrnt 
+  
+  parent --child =method-->change the logic 
+  
+class : imple
+
+ab-class: imple, unimpl :  no -->hackaer -->realation-->hiding the data 
+0 t0 100 ---->100%
+
+interface:unimpl -->no-->
+  
+  
+  abstarction; hiding the data showing the functionality 
+   
+   
+   abstacrt class Demo{
+      
+	  public void phone();
+   
+   }
+   
+   class Test extendS Demo{
+    	  public void phone()
+		  {
+		  
+		  //loafkjadvjfvdfvadgkhfvkhgasnbv,adjffd
+		  fdsfdsfds
+		  fdsf,nbdsfkjbdskbfds
+		  dsfkdjsfbdsfndsbfdjbshf
+		  dsfdshfbds
+		  \}
+
+   }
+  
+hiding:
+
+====================Encapsulation========================
+
+binding or grouping of private membrs  with public methods 
+
+Student 
+ 
+ private studentid;
+ private studentmarks;
+ priavte studnetaddress;
+ 
+ //
+
+
+Employee--->
+  emoid;
+  empnaname;
+  empsalry;
+  empatmpin; ---->setit --->not give get 
+  
+  32 36 40 44 50 70
+  -------------------------
+  
+Room SingleRoom DeluxRoom  Person  Customer
+ 
+ 
+ ============================================================
+ 
+ ============  Object class==========
+ -->java.lang.Object 
+ 
+ class A extnds Object{
+ 
+    int age;
+	String name;
+ 
+ }
+ 
+ class B extends A{
+  
+  
+  A  a= new A();
+  a.age=67;
+  a.name="sathya";
+  
+  a.11 methods+2 variables 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ class Object{
+ 
+  public java.lang.String toString()
+  {
+  return  getClass().getName() + '@' + Integer.toHexString(hashCode());
+
+  }
+ 
+ }
+ 
+ class Child extends Object{
+ 
+ @Overrride
+ public String toString()
+ {
+ return brand+":"+price;
+ }
+ 
+ }
+ 
+
+  
+   
+   Room SingleRoom DeluxRoom  Person  Customer
+
+customer extnds person 
+Person extnds Room 
+Room extnds SingleRoom 
+Room extnds DeluxRoom 
+
+
+Room 
+  roomid 
+  roomfare 
+  roomprice
+  
+singleroom 
+  ac avialityty;
+
+====================================
+
+has-a relation:
+---------------
+
+
+person {
+
+Person p= new person();
+}
+
+Employee   
+{
+
+ int empid;
+ String empname;
+ Person p;
+ 
+employee emp= new Employee();
+Syso(emp);
+
+
+}
+
+//by using getters 
+//by using param 
+//by using default 
+
+==========================Arrays================================
+
+
+  int age=90; //v
+  String name="sathya","soma";//in
+  double bonus=90.78;//v
+  double salary=89,76.89;//in
+  boolean ispresent=true,flase;//in 
+  String movies="bahu","ratnam","rayudu";//in 
+  
+  
+  String name="sathya";
+  Strimg name1="soma";
+  String name2="prakash";
+  
+  String names="sathya","prakash","soma";
+  
+  Arrays:
+  -------
+  
+  arrays is a collection of elements whic are same type of data 
+  
+   *we can store any number values 
+   *every value is stored some location(indexes)
+  
+  
+   23 45 56 67 78
+   0  1  2  3  4
+   
+   array size is :78 --->78-->1 to 78
+   array index size: 77-->78-->0 to 77
+   
+   45  44
+   999 998
+   88458  88457
+   n     n-1 
+   
+  
+ dis:
+ ---
+ *we can store only same type of data 
+ *the size of array is fixed 
+
+two types:
+--------
+1.single dimenstional arrays :[]
+2.two dimentional arrays :[][]
+   1.multidimensional : rows and columns are same :   
+       67 89 
+	   67 90
+	   
+   2.jagged array : rows and columns are not same: 
+       
+	   90 78 67
+	   56 45 34 12
+	   34 56
+	   
+	   ABCD 
+	   CDAB
+	   
+	   
+	     sTRING VAL="ABCDABCD"
+
+ how many ways we can represent array:
+ ------------------------------
+   1.by using new keyword 
+   2.by using litteral way 
+   
+   int age; //variable declaration 
+   
+   int ages[]; //decalration of array 
+   
+   
+   String names[];
+   
+   syntax:
+   -----
+   
+   datatype variablename[] = new datatype[size];
+   datatype [] variablename = new datatype[size];
+   
+   //declartion
+   int subjects[]= new int[6];
+
+//initilization
+    subjects[0]=67;
+    subjects[1]=78;	
+	subjects[2]=09;
+	subjects[3]=12;
+	subjects[4]=34;
+	subjects[5]=56;
+	subjects[6]=76;
+	subjects[7]=98;
+   
+   
+   Syso(subjects[7]); // empty   compile err  run err  noof abo 78
+   
+   String names[]={"devasena","kattapa","bahubali","kalakeya"};
+   
+   Syso(names[5]);//arrayindexoutbound exception 
+   
+   
+  1.arrayindexoutbound exception  with example?
+  
+  
+  for(datatype ref:variable)
+  {
+  sYSO(ref);
+  }
+  
+
+
+23 45 67
+12 23 89
+90 67 56
+
+==========>>>
+array:collection 
+
+single,two dim ' multi jagged 
+
+ 1.new by using litteral way 
+ 
+   int age[]= new int[size];
+   int age[]={22,34,55}
+ encapsulation: binding or 
+ 
+ tostring()--->classname@hascode--->override tostring()-->
+ equls()-->object-->
+ hascode()-->
+ clone()-->
+ abstr: hiding :
+ 2wys:
+   by using abstract class :0 to 100%
+   by using interface :100%-->multiple inheritance 
+ polymorsm:
+   
+   methodenae but signature dfft \
+   
+   method but no of param are dffrnt 
+                  type of params are dffrnt 
+				  order of parm dffrnt 
+ method name is same as parent but implemttion is dffrnt comapred to parent 
+ 
+ inheritace:
+ 1single level 
+ 2,multileve;l*w 
+ hiracrgial 
+ hybrid 
+ multiple 
+ \method:
+ -------
+ 
+ acces abstarct  returty methodname();
+ {
+ //logic 
+ }
+ 
+ 
+ variable:
+ ----------
+   local global--->instance static :4 dffrnt:syntax,memory allo ,howt i cal 
+   when to call 
+   
+   dt:pnp-->p8n->saeco-->
+   cmnd arg:main method-->airthematic-->wrapper cllasess-->parsemethod-->
+       static-->
+ 
+ 1.write a program to print ascending order.
+   
+   int ages[]={23,78,12,56,9,90,12};
+ 
+ : original order; Arrays.toString(arr); //
+   ARRYS.SORT(AGES);
+  : ascending order:ARRAYS.TOsTRING(AGES);
+  
+    
+	5-->
+	for(i<5)
+	scanner -->
+	i[0]=89;
+	i[1]=86;
+	
+	
+	i[5]=56;
+	
+	for(int g:i)
+	{
+	sum+=i;
+	}
+	
+	print only odd numbers in given array 
+	
+-->Object class-->methods  deafult package:java.lang 
+ 	
+==================================================================
+===================MultiTasking--------------------------
+
+executing multiple tasks at a time this process is called multitasking 
+  
+  1.process based multitasking 
+  2.thread based multitasking 
+  
+process: 
+  executing several task at a time where each task seperate independnt 
+     process.
+	 
+eg: os level 
+
+  vlc, chrome,eclipse 
+Thread based:
+   executing several tasks at a time where each task seperate independnt
+     of same program.
+	 eg: programmatic level 
+	 
+	 1000 lines of code 
+	 
+	 2 hrs
+	 
+	 1000-->2hrs
+	 dev--->4hrs
+	 money-->2hrs 
+	 1000---->
+	 
+	 500   500 
+
+atom-->e,p n 
+
+atom =e
+
+sa
+
+process  thread --->thread is a light weight process 
+
+--->grapghic 
+gaming 
+vedio games 
+
+obje
+========================Multi threading--------------------
+
+
+objective:  reduce response time  more perfomnce 
+
+old--->multit app--.>lot of time 
+
+java-->rich multithreading api()
+
+
+how to create a thread:
+----------------
+1.by exetnding a Thread class :methods
+2,by implemnts Runnable interface:fi:sam 
+
+
+
+Demo extends Thread 
+Demo imlments Runnable 
+
+run()-->
+
+samnatha--->sam--->single abstract method 
+
+Runnable --->functional interface 
+
+Thread scheduler--->
+
+
+max-pro:10
+norm-pri:5
+min-pri:1
+
+7 9 4 2 6 5
+
+main:5 
+chil:5
+
+ thread life cycle :
+ method 
+ yield ()-->same priority
+ join ()-->thread is waiting other thread execution 
+ sleep()-->slideshow-->sleep(4000);
+
+
+
+
+6-->run---------->3  2  6(yield)--->
+
+ 
+  9  3  2 6-->
+
+
+2 2--->
+
+
+3 threds 
+ 
+ [welcome][to][java]--->3 threds 
+ 
+ 
+ 400--->40
+ 
+   withdrw 
+   deposite 
+   enquiry
+synchronization:
+------------------
+kw as wel as its a bloc 
+
+executing only one thread at a time and also it will not follow ant order 
+
+
+3 4 5
+
+=====================Strings,StrigBuffer,StringBuilder===========
+
+
+String:
+------
+string is a colletion of charecters 
+
+string is a non-primitive dt as welas its a class 
+
+java.lang.String 
+
+representation of string:
+--------------------
+
+1.by litteral way 
+2.by using new keyword 
+
+String name="devasena"; //litteral way 
+
+***********************************
+*************String is Immutable**************
+
+
+
+String name="keerthi";
+ name.concat("india");
+ 
+ Syso(name);
+ 
+ keerthi  india   indiakeerthi keerthiindia noa
+
+== :refrences are reffring same locationor not 
+equal :values are equal or not   
+
+  capgemini 
+  
+  capgeminiindia
+
+
+
+StingBuffer StringBuilder:
+----------------------------
+mutable--------->
+  String class              Object class 
+  
+  equals-->both value            equals()--->references
+
+sbuffer:synch --->less perform-->more thread safety
+sbuilder:not synch-->more perfo -->less thread safety 
+foreach
+
+size-->
+
+we can store more no of values 
+
+same type 
+size is fixed 
+
+[]
+[][]-->3*3 rows and columns --multidimesional 
+            jagged array 
+
+
+Q.all the methods in string class ..;
+
+1.Concat the two strings 
+   eg:  sathya 
+    st=sat 
+	st1=thya
+	
+	-----------wrapper classes:
+	
+	8 primitive datatypes 
+	
+	variable: 2types local global--instance static 
+	instance method static methods 
+	
+	instnce: by using obj ref 
+	static :by using class name 
+	
+	
+	inheritance :
+	=========
+	aquaring prop from parent to child :
+	parent ---->child 
+	1.single levele--1p 1ch 
+	2,multi level --1gp 1p 1ch
+	3.hirarchial level---ip 2ch  
+	4,hybrid level --combi of any two inheritances 
+	5.multiple --2pa 1ch --->not possible in java level -->interface level 
+	
+
+abstraction:hiding the data showing the impl 
+  
+  1.by using abstarct class :class-->atleast 1 abstac meth-->abstarc clss :0 to 100%
+  2.by using interface -->only abstacrt methods :100%
+
+access modifiers:public private protected default 
+this,super,final:metod,aria,class 
+polymos:method name same logic 
+  
+  1,method overloading:signature ddff: params,order,type 
+  2.method overriding runtime poly : parent --method--child->chil method 
+  
+encapsulation:hide the private-->methods--public methods-->
+  corrsponding dat realted t the fileds
+  
+
+arrays:
+  
+  same type -->more no of values-->same type 
+  fixed in size  
+  homo data allowed 
+  
+  1.single levlel
+  2,two dimension 
+      multo dimensional 
+	  jagged array 
+strings:
+charecters --->
+ immutable-->class non p dt 
+==   equals 
+1.by litteral way -->== equlas--->true-->scp-->no duplictes--perfomece
+2,by using new kw --->==  equals -->tf-->
+heap-->duplicates are allowed -->less perfom 
+ 
+======================Exception Handling==============================
+
+
+  exception handling is a mechanism of converting system defined error messages to 
+     user understanable error messages.
+	 
+	 
+without exception handling:
+----------------------------
+1.abnormal termination  or sudden termination
+2.system definedd error messages
+
+with excpetion handling:
+------------------- 
+1.normal termination 
+2.user friendly error messages 	
+	
+	 
+what is error:
+--------------
+1.compile time error:
+  those errors which are occuring bcz of user has poor in language
+2.run time error :
+  those errors which are occuring bcz of user enter invalid input 
+3,error or exception 
+
+                              Object 
+							  
+							  Thowable
+pre-defined                                                    user defined ex 
+ asynchronous ex          synchrnous 
+   Error:hardware                      Exception Api
+    Virtual machine er     checked exc   unchecked(main memory)
+	bootsrap error            hard disc 	  RunTime Excpetio					   
+	ill                      class not found     Arithmatic
+	memeory error            filenot ex          ArrauIndexou b 
+	outof memeory error                          StringIndexoutofbu
+                                                 Null ointer
+                                                Number format 
+												
+
+
+	 try   catch   finally-->(predef)  throw throws--->userdefined exceptions
+	 
+	 
+  try-->is akw 
+  
+  
+  try{
+  
+  //error code :arithmatic 
+  }
+  catch(Exception ref)
+  {
+  Syso("dont enter denomitor as zero");
+  }
+  
+  --->String-->class as well as non primitive
+        litteral way 
+		by using new kw 
+		charat(),codepointat codepontbefore index lastindex isempty containes
+		getfirst getlast substring trim replace valueof 
+multitasking:
+  1.process based multi tasking 
+  2,thread based multitasking 
+    thread--->main thread-->
+	
+	multithreading:
+	1.by exeting a thread class :we have commonly used method 
+	2.by implnting runnable interface :multiple inheritance 
+  
+  name: thead:main thread --main 
+        
+		
+		run()--->Runnable interface -->functional interface -->one method 
+		
+		abstarct method 
+
+2 6 8 5 4--->priority
+
+default priorities: 
+max:10
+norm:5
+min: 1
+
+
+both  threads are having same priority?
+   thread shchduler
+   
+   thread life cycyle methods 
+     yield 
+	 join 
+	 sleep 
+
+synchronization:
+-----------
+at a time only one thread executing ,it will not follow any order 
+
+exceptions:
+--------
+ system def to user frndly 
+ 
+ .system definef error messages 
+  abnormal termination 
+ 
+with exeption 
+ 
+ normal termination 
+ userfriendly error messages 
+ 
+Object-->Throwable-->prede user-->asy   synch -->Error  Exception
+   -->checked uncheked exc -->hard disc->runtime ex-->
+   predefinef exceptons
+   
+   try catch finally throw throws 
+   
+   try--?error code -->gene-->exception class 
+   catch(classname y)--->syso("it will dispaly");
+   finally-->close all the connetions 
+   
+   
+ ================  User defined Eceptions or custome exceptions:============
+                   ---------------------------------------------
+	
+	throw throws keywords 
+	
+	throw                                      throws 
+*it is a keyword it is used to       *throws is a kw its is used to throws an
+throw an exception                      an exception 
+*we can use with in the method       * we can use with method  signature 
+*we can throw only one time          *we can throw any no of times 
+*throw is folled by an instcnae(new) *throws is follwed by class 
+* THROW CANOT PROPAGATE CHECCKED EXE  *THROWS CAN PROPAGATE CHECKED EXECP
+
+(************imp
+1.your class should be extends with exceptional class(superclass)
+2.your class atleast have one param constructor
+
+
+ class NoSleepException extnds Exception{
+ 
+   public NoSleepException(String message)
+   {
+    super(message);
+   }
+ 
+ }
+ 
+ <18
+ 
+ p.write a program generate nullpointer exception 
+ 
+ p.wriet a program generate numberformat exception 
+ 
+ p.write a program generate arithmatic exception 
+ 
+ p. write a program genearate arrayindexoutboundexcpetion
+ 
+ p.write a program genearate StringIndexoutof boundexception 
+ 
+==>variable:
+
+int age;//declaration
+
+age=90;//assigning
+
+int age=89;//inilization=dec+assign 
+
+datatype varibalename= value/data;
+2types->primi,non-primi-->8dt->b1s2i4l8f4d8c2b1->acseo->
+
+local,global-->win method-->outside me or win d class ->
+-->inst,stata-->syntax->i->wo st,s-->static kw,memoryall-->i-obj create
+sta->.clss,,how to-->in->obj ref,st-->clasname,when-:unique,common 
+main method-->canot perfomr arithmatic opr-->wrapper class->BSILDFBC-->parseXX-->string
+-->relatred datatype 
+-->dij->ififelseswitch,for,while,do-while,break,continue 
+->methods:instance,static methods 
+obj ref,classname.
+logic to perfomr some action 
+
+acessmodifier returntupe methodname()
+{
+//logic 
+}
+
+accemodfir classname()
+{
+//initlization logic
+}
+oops:inheritance:apfptch-->sl-1p1ch,ml->1gp1p1ch,hi->1p 2ch,hy-comb,mt->2p1ch
+code reusebility-->extends,impliments
+
+imlmented method  : method head+method body or concrte methods 
+unimplemnted method:only method head or non-concrete methods or abstact methods 
+
+abstration:hiding the data showing the implemntation 
+  1.abstact class :0 to 100%
+  2,by using interface :100%-->mult 
+polymorphism:many forms :
++
+method overlaoding :method name is same but signature id dffrnt 
+                                            order is 
+											type 
+											no of 
+method overridng:the methdo whicha has parent to chiild method name i but logic is ddfrnt
+
+encapsulation:private members with public methods:
+         
+String:
+
+by litteral way :scp:string constant pool,
+by iuisng new kw :heap:duplicates are allowed == fteqlsa
+
+
+==: refren
+equals : values 
+=============================Files i/o=================
+
+java.io.
+
+:Absolute path : entire path
+:relative path : short localtion 
+
+File--->
+
+File f- new File(filenam);
+
+ createNewFile()-->exception--->handle that exception
+ 
+ File flie= new File("welcome.html");
+ 
+  file.createNewFile();
+  
+  
+  3 classes:
+  -------
+  1.FileWriter
+  2,BufferdWriter
+  3.PrintWriter
+  
+  
+  scanner 
+  FileInputStream
+  FileReader 
+  BufferdReader
+  
+commandline argument:
+any no of values to main method -->
+
+
+public static void main(String args[])
+{
+
+arithmatic opertion 
+
+  +-->concatenation operatior
+  +-/--->  Wrapper classes 
+
+
+
+}
+
+
+parseXXXXX--->INPUT-->stRING --->OUTPUT>RELATED DATATYPE
+ 
+Integer.parseInt(String)------------->int 
+eg: "123"                     123
+Float.parseFloat(String)----------->float 
+eg: "456.89f"                     456.89
+
+Byte,Short,Integer,Float,Double,Charecter,Boolean 
+===================
+=========================Collection(Framework)================================
+
+autograwable in nanture
+
+10-->11-->16
+
+int age=89;
+String name="sathya","prakash";
+
+*we can store only one value ata atime in variable 
+
+double salarys[]={122.67,89.90,65.98,63.87};
+
+int ages[]={56,89,12,34,78,89.90,76,32};//ce
+
+*we can store only similer type of data 
+*the sie=ze of array is fixed
+
+collecton           Collection                    Collections 
+def                  interface                      class 
+
+java.util---->Collection 
+
+                      Iterable(i)
+					  
+					   Collection(i)-->add remove
+					   
+		List             Set                  Queue
+		 .ArrayList      HashSet->           priorityqueue-->head poll peek
+          .LinkedList1.2 LinkedHashSet->     arraydeque
+		   .Vector(legacy classes) treeset
+	        .Stack1.0(old classes)	
+def:collection is a group of similer or individual objects as single entity 
+
+-->only objects can store 
+
+12---int
+
+12.8 --double
+
+true --boolean 
+
+1.single dimensional collection :LIST,SET,QUEUE
+2.two dimensional collection ;MAP
+
+
+
+interface List extends Collection{
+  
+  Collection c= new Collection();
+  List li= new List();
+  Collection ct= new List();
+  List li= new ArrayList();-->class
+  ArrayList al= new ArrayList();-->
+  
+}
+
+List  li= new ArrayList();
+AraryList al= new ARrayList();
+
+List:
+-----
+*it can allow th duplicates
+*insertion order is preserved
+*null insertion also possible
+
+class Test{
+
+  main{
+     
+	 ArrayList  al = new ArrayList();
+	 
+	 al.add(14);
+	 |||jvm
+	 al.add(new Integer(14));
+	 al.remove();
+  
+  
+  }
+  primitive to Object converion-->autoboxing 
+  Object to primitive-->autounboxing
+
+
+
+}
+
+size-->63 capacity-->120
+
+c.c*3/2+1      :10*3/2+1 --->16-->17 -->16*3/2+1--25
+
+ArrayLIST :
+  DEFAULT CAPACITY:10-->11-->16-->50%--not synch--more perfom-less thread safety
+
+vECTOR:
+  DEFAULT CAPCITY:10--->11-->20-->100%-->synch--less perf-->more thread safety  
+  
+  
+  
+  ArrayList:
+  
+  frequent operation is serching or fetching will go for arraylist
+     RandomAccessMemory
+  
+  LinkedList: frequent operation is modifiying,removing,adding will go for linked
+    doubley linkedlist alg
+	
+	cursors:
+	------
+	traverse and 
+	
+	
+	enumeration ':legacy classess :vector stack
+	iterator   :universal iterator(lis,set,queue)
+	listiterator:list related classes only 
+
+list can allow the duplicates 
+insertion order is preserved 
+null insertion also possible 
+  
+  vector and stack--legacy classes(old-->Enumeration)
+  
+  ArrayList->capacity->10->11->16->50%->not synchronized-->more perfomnce-->less thread safety 
+  vector-->capcity->10->11->20->100%->synchronized-->less performce-->more thred safety
+  
+  ArrayList :frequent opetrions serching or fetching-->Random Access Memory 
+  LinkedList:frequent operations insertion,deletion,udation-->Doubly linked list algorithm
+  
+  =====Set=====
+  
+  set is child interface of collection interface 
+  
+  set cant allow th duplicates 
+  insertion order is not prserved
+  null insertion is possible 
+       HashSet :
+	   LinkedHashSet:insertion order is preserved 
+	   TreeSet:homo ->gene-->predict o/p 
+  
+  
+list can allow the duplicates 
+insertion order is preserved 
+null insertion also possible 
+
+===============Queue=================
+FIFO-->first in first out---queue 
+Lifo--last in first out -->stack
+
+==========MAP======================
+
+key value--->
+key object 
+object value
+
+employee(123,"sathya")
+
+telephoeno :;key  value 
+
+phone numbers names 
+
+  HashMap :
+  LinkedHashMap :insertin order is preserved 
+  TreeMap :sorting order 
+  
+  ==========================Java 8 Features========================
+  2014-->
+  PYTHON,R,SCALA...  one line 
+  
+  print("hello world");
+  
+  the concising the code -->less code more performncce
+  
+  1,Lamda Expression 
+  2,Functional Interface 
+  3.default and static methods 
+  4.pre-defined functional interface 
+     i.Predicate 
+	 ii.Function 
+	iii.Consumer
+	iv.Supplier 
+  5.Date and Time API 
+  6.streams
+  7.double colon operator(::)
+  8.optional class 
+  
+    1,Lamda Expression 
+--------------------------
+
+1930-mathmaticians-->
+software-->
+
+the function doent have any return type any accessmodifier and any methodname 
+  this type of function :anonymous function or nameless function 
+  
+Noraml function:
+----------------
+public void m1()
+{
+System.out.println("welcome to java 8 features");
+}
+
+
+lamda function:
+---------------
+
+  () ->{System.out.println("welcome to java 8 features");}
+  
+
+public void sum(int a,int b)
+{
+System.out.println("sum is :"+(a+b));
+}
+
+
+  (int a,int b) ->{System.out.println("sum is :"+(a+b));}
+  
+  *compiler will guess automatically the type 
+  
+  (a,b) ->{System.out.println("sum is :"+(a+b));}
+
+
+public int nameOfLength(String s)
+{
+
+ return s.length();
+
+}
+
+
+  (String s) ->{return s.length();}
+  
+   s->{return s.length();}
+  
+    s->s.length();
+
+
+public int sqre(int n)
+{
+return n*n;
+}
+
+
+  (int n) ->{return n*n;}
+  
+   n->{return n*n};
+   n->n*n;
+   
+Functional interfaces:
+--------------------
+
+@Functional Interface
+interface A {
+
+public void demo();
+public void demo1();
+public void demo2();
+public void demo3();
+public void demo4();
+
+}
+interface B{
+
+public void assign();
+}
+
+
+samantha--->sam-->single abstarct method 
+
+  
+  
+ Runnable '
+ Comparator 
+ ActionListner 
+ Clonable 
+  
+
+interface A{
+
+public void demo();
+}
+@Functional Interface
+interface B extends A{
+
+public void sleep();
+}
+  
+  Default and static methods:
+  --------------------------
+  
+  
+  interface Demo{
+  
+   public void m1();
+   public void m2();
+   default void sleep();// i want use 100th child class
+  
+  }
+  class Test1 implemnts Demo{
+  
+  public void m1(){};
+  public void m2(){};
+  }
+  class Test2 implemnts Demo {
+  
+   public void m1(){};
+  public void m2(){};
+  }
+   class Test3 implemnts Demo {
+  
+   public void m1(){};
+  public void m2(){};
+  }
+  
+  class Test100 implments Demo{
+  public void m1(){};
+  public void m2(){};
+  
+  }
+  
+  
+  ========================================================
+  ===================core java(TPIP TOPICS)============
+  
+  1.introduction,datatypes,veariables
+  2.flow controls ------------------------->Krishna kulkarni
+  3.methods and constructors and differences-->harindra,
+  4.oops features(inheritance,polymorphism) --->mahith
+  5.oops features(abstarction,Encapsulation) -->roja
+  6.this,super,final,accessmodifiers----->
+  7.exceptional handling ------------------->hitesh
+  8.strings,arrays, with methods ---------->jagdeesh
+  9.collection(list,set)-------------------->shiva
+  10.colletion(Queue,Map)-------------------->
+  
+           Iterable
+		   
+collection Collection   Collections 
+
+   list      set             queue 
+   
+arraylist   hashset->            priorityQueue
+linkedlist  linkedhashset->p      ArrayDequeue
+vector       TreeSet->sort 
+stack 
+
+Map:two dimenional collection interface 
+key,value 
+key object 
+object value 
+
+lamda expression default static stream
+->
+
+collection : is group of individual objects 
+streams : to process thos objects 
+  map,filter,count,collections,toList
+  
+ Q.write a java program display string values by using arraylist?
+       insert first position ->"welcome"
+	   insert 5th position ->"sleep"
+
+ Q:print all the values  before removing:(list)
+    remove 5 th index value->
+	after removing list:
+
+Q.insert string values by using Arraylist :
+    print before sorting:
+	print after sorting:
+	*shuffle all the objects present in the list 
+
+
+Q.write a java program insert string value to hashset 
+   *print all the values :
+   *remove all the values :
+
+datatypes:
+---------
+2 types 
+1.primitive-->byte shortint long float double charboolean 
+2,non-primitive-Stings arrays enums objets wrapper 
+ 
+
+variable:
+------
+      datatype variablename= value/data;
+	   int     age          =89;
+	   
+local variable 
+global variable -->instance variable static variable 
+
+4 diffrence properties global properties(variables,methods)
+
+1.syntax :
+ instnace: without static keyword 
+ static : with static keyword 
+2.memory allocation :
+  instance prope will get memeory space @tim object createion 
+  sttaic properties will get memoryspace @tym of class loading into jvm 
+3.how to access 
+  instaccne: we can acess byu isng object refrence 
+  static; we can access by using classname 
+4,when to access
+   instajce: whenever unique prop 
+   static: common properties 
+
+command line:
+  the arguments whih=ch we are passing directly to main method 
+      string--->we can perform any arithmatic opertaions 
+	  wrapper clasess:---->parseXXX-->string-->any datatype 
+scanner: java,iutil -- by using to take enedunser ijput 
+
+  scanner sc= new Scanner(System.in);
+    nextXX-->primitive dat from the user 
+flow controls:
+-------------
+  3 ways 
+  conditional : if iflelse ifelseif switch
+  iterative : for while do while
+  jumping stat : break continue 
+  
+ oops:
+-----
+inheritance: aquring prop from parent to child-
+                               base      derived  
+                               super     sub class 
+5 ways to share the data fromparent to child 
+  1.single level 
+2 multilevel inheritance 
+3,hirarchial inheritance 
+4,hybrid 
+5,multiple--->not possible in java level .interface level 
+  
+polymorphism:
+  static poly : metho overloading :
+    method name is same but signature is differnet 
+	                    but no of params are differnet 
+						but type of params are dffrnt 
+						but order of paremas are dffrnt 
+						
+  dynamic : method overriding 
+     metod has same name with parenta nd child with differnt implementations'
+	  parent ref= new child();
+	  child ref= new child();
+	  
+abstyarction ;
+hiding the dat showing the functionality 
+ 1,by using abstacrt class :0 to 100%
+    weeneed at least one abstacrt method in the abstacrt class then only 
+	the class we can consider abstacrt class 
+	
+ 2,by using interface : 100% we can use only abstacr methods
+   by default methods are public absatcrt
+encapsulation: 
+    gourpingor binding of private embers with correposnding public methods 
+this: this is a keyword used to represent current class properties 
+     variables,methods,constcructors,objects 
+super:
+    it is used to represent parent class properties 
+	 variable , methods,constrcutirs 
+final:
+ fonal is a keyword we can use in three places 
+   before tye varible 
+   before the method\
+   before the class 
+packages: 
+  packages are two type s- 
+   build in pacages :6000 predefined 
+   user define pacakages :
+   
+ javac -d . filname.java 
+ java classname.java 
+
+import mainpacakage.subpacakge.classname ; 
+       java.util.Scanner 
+import mainpacakage.subpacake.*;
+import java.lang.*;
+accessmodifiers:
+------
+
+public:same class sacme apcah sub not sub dffrt pacakg 
+protected :we cant access dffrnt pacjge not sub class 
+default:only package level scope,outside thepacajge 
+private :only child class 
+   
+  exceptions:
+  ---------
+                         throwable
+	   predefined                                 user 
+	synch               asynch
+
+aeRROR             EXCEPTOION 
+         CHECKED    UNCHECKED 
+          FILE      		 
+  
+ IS A MECHANISM OF CONVERTING SYSTEM DEF USERFRJIJDY 
+   TRY CATCH FINALLY THROW THOWS 
+COLECTIONS:
+  collection     COLLECTION       cOLLECTIONS 
+  
+                COLLECTION 
+	LIST       SET        QUEUE 
+ArrayLIST:    HASHSET        PROPEROTYQUEUE
+LINKDLIST:    LINKEDHASSET
+VECTOR       TREESET 
+SATTCK
+  
+  MAP: TWO DIMENSIOANL COLLECTIONA INTERFACE 
+  HASHMAP 
+  LINKEDHASHMAP 
+  TREEMAP 
+  
+LAMDA:  -> slim arrow function 
+  arm  ()->{}
+fnctioanl interface:
+  runnavble 
+
+predicate :conditional-->predicate p=(x)->x%2==0;  test()
+functions:---------------update-------------->apply 
+consumer ------------------->accept: syso 
+supplier---------------------->get-->objects 
+
+date and time api:
+jav.util 
+jodha time api 
+
+LocalDate date= Locladate.now() -->current date 
+ 
+LocalTime time= LocalTime.now();-->cureent time 
+LocalDateTime dt= LocaldateTime.now();--->
+of(year,month,date,housr,minus,sec,nonsec)
+
+1994 06 04 :
+plusmonths(6):
+minusmonths(6):
+
+cureent date 
+bdy date: 
+
+  peroide.between(today,bdy);
+  
+  date years --->
+
+  100 400 4 
+  year() 
+   isleap(num):
+  strams:
+  processing teh collections 
+  
+   araylist al= new array;ist() 
+   
+   al.add("satah");
+   10//
+   List<Integers> evenums=al.stream.predicate((num)->num%2==0).collect(Collectors.toList());
+
+optional class:null -->exception  
+ exception by using ipryimnal class 
+
+==================================================
+
+
+Employee Management Appliation:
+-------------------------------
+
+pizza type-non  
+pizza price : 300rs
+prizaa size:small 
+pizza address: lb nagr
+
+cart-->2 mnts 
+
+
+pizza type-veg non  
+pizza price : 600rs
+pizaa size:large 
+pizza address: kphp
+
+saved to cart again 
+
+get pizza deatils:
+
+small,large,medium --->medium 
+
+delete small pizaa 
+
+selct or insert or save 
+update 
+get 
+getall
+delete 
+
+CRUD--create  read  update delete 
+
+Employee Management Appliation:
+------------------------------
+creating details 
+update the deatils 
+getemployeebyid
+getallemployees 
+deletebyemployeeid
+
+1000 employees 
+
+	 1.Add Employee:  empname empsal empadd empmail
+	 2.Update Employee :
+	 3.Get Employee
+	 4.Delete Employee 
+	 5.GetAll EMployees 
+	 
+1.Encapsulated class:Employee  
+2.Client class :Test class 
+
+key value 
+key object 
+
+------------>170 lines code--->error-->resolve bug fixes 
+========================Layerd Architecture====================
+
+flipcart---->login  logout  home 
+
+class--> class   class  home 
+
+==============collection--->
+entity or object 
+
+only objects are allowed in the collection 
+
+variable-->one value 
+arrays-->we can store only similer typeof data,size is fixed 
+collection: we can store any type of data :
+similer or dissimiler 
+-->auto growable in nature 
+
+data--->tmrw-->we cant use it-->temporary storage -->access levels are easy 
+
+===============================Database=======================
+
+1986--database--->DBMS(database management system)
+ 
+ store,update,delete,manage 
+   we can store any type of information 
+   *redenuncy more duplicate 
+   *RDMS-->
+   SQL->STRUCTURED QUERY LANGUGES 
+
+flat files-->searching-->lot of time -->
+
+SQL---->ORACLE,MYSQL,POSTGRESQL,DB2,SYBASE
+NOSQL--MONGODB
+
+subcategoris:
+------------
+
+15 concepts
+
+RDBMS:relational database management system 
+  e.f codd 12 rules 
+  
+  int,varchar,date,datetime timestamp,year,decimal
+  
+  Q2ueries--->databses 
+  
+  how to create database:
+  ------------------
+  command:  create database databasename;
+            create database excelr
+
+tables:
+------
+cmnd:  create table tablename(datatype column1(size),datatype column2(size));
+ex:    create table student(stid int(23),stname varchar(20),studsal decimal(4,2));
+
+
+sub categories:
+---------------
+
+DDL:(Data Definition Languge):create,alter,rename,drop,truncate
+
+DML:(Data Manipulation Lnaguage):insert,update,delete
+
+DRL:(Data Retrival Language):select
+
+DCL:(Data Control Languges):grant,revoke
+
+TCL:(Transaction Control language):commit,rollback
+
+
+alter: add,rename,drop,modify 
+
+alter table student add column stadd varchar(40);
+
+stid--stnum
+alter table tabalename rename column oldcolumnaname to newcolumnname;
+alter table studemnt rename column stid to stnum;
+
+alter table tablename modify column columnaname(size);
+alter table student modify column stname varcahr(50);
+
+
+alter table student drop column stsal;
+
+rename table student to stud;
+
+
+
+create table student(stid int(23),stname varchar(20),studsal decimal(4,2));
+
+insert into tabalename values(val1,val2,val3);
+insert into student values(78,'sathya',678.56);
+
+
+capgemini               ibm 
+
+employe-------------->
+
+
+truncate                        delete                                drop 
+
+delete all records               delete all records                deleet all the records
+we cant delete single recird     delete single record also         delete structure 
+table strcuture cant delete      table strcuture cant delete 
+data dleeted permanently         data deleted temporarly 
+
+
+
+
+create database marchexlr;
+
+use marchexlr;
+
+
+create table employee(empid int(10),empname varchar(255),empsal decimal(5,2));
+
+insert into employee values(123,'devasena',789.90);
+
+create role kalki_mv;
+
+grant update,delete,select  on marchexlr.* to 'kalki_mv';
+
+create user 'rohi' identified by 'rohi123' default role 'kalki_mv'; 
+
+revoke update,delete,select on marchexlr.* from 'kalki_mv';
+
+
+
+DDL:DATA DEFINITION LANAGUGAE
+  CREATE,RENAME,ALTER,TRUNCATE,DROP
+DML,:DATA MANIPULATION LANG : INSERT,UPDATE,DELETE
+DRL:DATA RETRIVAL LANGUGEG  : SELECT
+TCL:TRANSACTION CONTROL LANG : COMMIT,ROLLBACK
+DCL:DATA CONTROL LANGUGE 
+
+
+DDL:AUTOCOMMITED(DATA IS PERMANATLY HAPPEN)
+
+CREATE TABLE TABLENAME(COLUMNANME DATATYPE(SIZE),.....);
+RENAME TABLE OLDTABLENAME TO NEWTABLENAME
+ALTER->MODIFY THE COLUMNS IN THE TABLE 
+ALTER TABLE TABLENAME ADD COLUMN COLUMNANAME DATATYPE(SIZE)
+ALTER TABLE TABLENAME RENAME OLDCOLUMN TO NEW COLUMN 
+ALTER TABLE TABLENAME MODIFY COLUMN COLUMNANAME DATATYPE(SIZE)
+ALTER TABLE TABLENAME DROP COLUMN COLUMNANAME;
+TRUNCATE TABLE TABLENAME 
+DROP TABLE TABLENAME 
+
+
+DML:  MODIFY THE TABLE DATA 
+
+INSERT INTO TABLENAME VALUES(VAL1,VAL2,VAL3);
+INSERT INTO TABLENAME VALUES
+(VAL1,BVAL2,VAL3),
+(VAL1,BVAL2,VAL3),
+(VAL1,BVAL2,VAL3);
+INSERT INTO TABLENAME VALUES(VAL1,VAL2,NULL);
+INSERT INTO TABLENAME(COL1,COL2) VALUES(VAL1,VAL2);
+
+
+UPDATE TABLENAME SET COLUMNAME=VALUE;
+UPDATE TABLENAME SET COLUMNAME=VALUE WHERE COLUMNAME=VALUE;
+
+DELETE FROM TABLENAME;
+DELETE FROM TABLENAME WHERE COLUMNANEM=VALUE;
+
+DRL: SELCET: FETCH ALL THE DATA, OR PERTICULAER DATA 
+
+SELECT COLUMNAME FROM TABLENAME;
+SELECT COL1,COL2 FROM TABLENAME;
+SELECT * FROM TABLENAME;
+
+TCL: WANT TO STORE DATA PERMANTLY IN DB, ROLLBACK AGAIN SAME DATA 
+--
+
+COMMIT;
+ROLLBACK;
+
+DCL: DATA CAN BE CONTROLLED BY GIVING PERMISSIONS 
+
+GRANT UPDATE,DELETE,SELECT ON DATABASENAME.* TO DEFAULT ROLE ROLENAME;
+REVOKE UPDATE,DELETE,SELECT ON DATABASNAME.* FROM DEFAULT ROLE ROLNAME;
+
+HOW TO CREATE A NEW USER:
+-------------------------
+
+CREATE A ROLE :
+  CREATE ROLE ROLENAME;
+
+
+CREATE USER 'USERNAME' IDENTIFIED BY 'PASSWORD' DEFAULT ROLE ROLENAME;
+
+RNEMAE DATABASE DATABSENAME;
+SHOW TABLES;
+SHOW DATABASES;
+
+==========================Constraints========================
+constraint is a rule or ristriction on table data
+
+not null:
+  it will not allow the null values into the table ,
+     but it will allow the duplicates
+check:
+  based on the condition :ex: sal>6000
+unique:
+   it will not allow th duplicate values 
+      but it will allow the null values 
+primary key:
+  it will not allow the null,duplicate values :combi=not null+unique
+default :
+  deault values on the table data 
+foreign key:
+    parent and child realtion
+	
+
+Employee:
+---------------------------
+
+empid  empname  empsal  depid (fk-child) 
+
+1       a        100     10     
+2       b        100     20    
+3       c       100     30     
+4      d        100     10     
+5      e        100     20    
+
+
+DepartmentTable:
+----------------
+
+depid(pk)  depname deploc
+10     dev     mumbai
+20     admin     hyd
+30     techi     bnglr
+
+------------------------------================================
+----------------------
+
+rule or ristriction table definitions(columns)
+
+not null:(column level)
+  it will not allow the null values,but it will  allow duplicates
+check:columnlevel,table level 
+based on conditional requirements
+unique:
+  it will not allow the duplicate values,but it will allow null values
+
+primary key:
+ it will not allow the both null,duplicate :combi=>not null+unique
+default:
+  only by deffault valuess are assigned for columns
+foreign key :
+  both tables having common column duplicate data: foreign key :child 
+  both table having common column with unique data :primary key :parent 
+  
+create table emp(empid in not null,empname varchar(20),empsal int);
+create table emp(empid in not null,empname varchar(20) check(empname<5),empsal int);
+create table emp(empid in not null,empname varchar(20),empsal int,check(empname<6));
+
+subcategories:
+-------------
+ddl:create,rename,truncate,alter,drop 
+dml:insert,update,delete
+drl:select
+dcl:grant,revoke
+tcl:commit,rollback
+
+root  sathya@123                         kalki,kalki123
+  wlecome                            
+     12 tables 
+grant updatemdelete,selct on demo.* to defult role to "rolename";
+revoke updatemdelete,selct on demo.* from  defult role to "rolename";
+
+==================joins========================
+1.cross join 
+2.equi join 
+3.left jin 
+4.right join 
+
+
+
+====================================================================================
+
+ddl:create,rename,alter,drop,truncate 
+dml:insert ,update,delete 
+drl:select 
+dcl:grant,revoke 
+tcl:commit,rollback 
+
+truncate:ddl:we can delete all the records at a time,  
+drop   :ddl:we can delete entire strutcure,as wel as data also
+delete :data deleted single,multiple, data deleting temporarly 
+
+Constraints:
+-----------
+
+1.column level , 2.table level 3.alter level 
+
+rule or ristriction on table definitions (columns)
+
+not null:not allow the null values,it will the duplicates(column level)
+
+check :based on the condition 
+
+unique:not allowing duplicate values,allow the null values 
+
+primary key:it will not allow both null+duplicates
+
+default: default values are assigned for the perticuler ccolumns 
+
+forigen key:parnet and child realtionshp 
+
+
+ create table emp(empid int not null,empname varachar(20)) //column level
+  create table emp(empid int,empname varachar(20),unique(empname),empsal int);//table levele
+  
+  alter table emp add constraint check(empsal>5000); //alter level 
+  
+  joins:
+  ----------
+  inner join or equi join  :both parent and child properties should be same 
+  cross join :parent and child are not matching output
+  left join :left side all the matching reconrd with right side table 
+  right join :right side table matching records with left sid table 
+  
+  ==================================JDBC===================================
+  
+  java-----------------JDBC api --------------------database
+  
+                    dRIVERS 
+					
+					JDBC-ODBC BRIDGE DRIVER (odbc driver-(c lang))+vendor
+					NATIVE DRIVER +vendor-->disadv
+					NETWORK PROTOCOL DRIVER --------->server(network)->dias
+					THIN DRIVER ------------->PURE JAVA DRIVER 
+  
+  API:application programing interface classes,interface,
+  
+  JDBC:JAVA DATABASE CONNECTIVITY
+  
+  5lines code 
+  0.loading the jar file -->jdbc api-->driver,classes,interfaces,subapcajegs
+  
+  1.loading the driver class  :
+     Class.forName("com.mysql.jdbc.Driver")
+      
+  2.get the connection 
+      Connection conn=DriverManager.getConnection(url,username,password);
+  3.create a stsents
+  statment stmt=conn.createStatement();
+  4.execute statments
+//ddl->execute("query") dml-->executeUpdate("query"),drl-->executeQuery("query"); 
+stmt.execute  
+  5.close the coinection
+  
+  conn.close();
+  querys-->databse-->java-->methods-->statemnt object-->connection interface object 
+  
+  jdbc:mysql://localhost:3306/databsename,"root","Sathya@!23"
+  
+  create table login(username varcahr(30),password varcahr(30));
+   insert into login values('sathya','keerthi123');
+   
+   only one value 
+   same type of data 
+   collection:homo,hetero -->temporary storage 
+   
+   datbase--->huge amount-->any type of data-->databse 
+   
+  java appli  ---- jdbc api ---databse 
+  
+  ------------------------------------------------>
+  
+  databse r
+  
+  5 steps:
+  
+  
+  add jar files to our project 
+  
+  1.loading the driver class 
+  com.mysql.jdbc.Driver 
+  2.get the connection 
+  url,username,password 
+  "jdbc:mysql://localhost:3306/march"--->msndetory to handle exceptions 
+  
+  getconnection()--static-->class-->Drivermanager 
+  
+  create a statment 
+  
+  createstatment()-->connection interface object-->
+  sattement tmt=conn.createstatement();
+  
+  methods-->realted db method 
+  //execute(), execute update execute query 
+  conn.close();
+  
+  preparestatemt()
+  insert valus-->set methods and get  methods 
+  
+  limitations of jdbc:
+  ======================
+  
+  *jdbc code is dependent on the databse software 
+  *jdbc we can insert data by value by value 
+  *querys are databse dependent 
+  *changing of databse is too costly 
+  *jdbc code is not portable to acces to databse software 
+  *jdbc here it is mandetory to handle exceptions 
+  *jdbc is not supporting object relationships 
+  *jdbc boiler plate code 
+  
+  ORM-->HIBERNATE-->
+  ORM-->TOOL-->OBJECT RELATIONAL MAPPING 
+  
+  ===========================Hibernate=======================
+  
+  2001-->GAVEN KING-->EJB2
+  
+  hibernate is java framwork->
+     java apaplication too databse interaction
+	 
+	 light weight,open sorce,orm tool,
+	 
+	 =============JPA-----
+	 JAVA PERSISTENCE API 
+	 JAKARTA PERSITENC API 
+	 
+	 JPA---SPECIFICAYION ,HIBERNATE IS IMPLEMENTATION 
+	 
+	 TOPLINK,ECLIPSELINK ,HIBERNATE---.
+	 
+	 hibernate-->3mnths-->toplink-->(too costly,lot of time)
+	 jpa-->interface-->hibenate,toplink,eclipselink
+	 
+	 
+	 
+	 data manipulation,data accessing,
+	 orm 
+	 
+	 java applaition-->object--orm-->databse 
+	 
+	 open souce-->performnace-->independent db--table creation auti
+	 complex solution-->query langugegs
+	 
+	 
+	 
+	 objects 
+	 
+	 
+	 session factory,trasaction, session,connection ,standard service registry
+	 
+	 java aplication layer 
+	 backend laye 
+	 databse layer 
+	 hb later
+	 
+	 employee-->employee
+	 
+	 
+	 *auto ddl operations :table,drop 
+	 *writing query by hibernte only 
+	 *hibernate is cretaing tables 
+	 *auto primary also hibernate 
+	 *not dependent on datbase 
+	 *HQL queries(hibernate query langgge)
+	 *hibernate will take care about exceptions 
+	 *object can store into dabase
+	 *cache :primary :secondary cache 
+	 
+	 to develope persistce logic 
+	 
+	 configuration:
+	 ---------
+	 mapping file --->xmk  
+	 configuration 
+	 
+	 
+	 hibernate.cfg.xml -->for configuration
+	 hibernate.hbm.xml -->hibernate mapping
+	 
+	 
+	 session factory:
+	 -------------
+	 interface-->object session 
+	 
+	 SessionFactory factory = cfg.buildSesison()
+	 
+	 session:
+	 ----
+	 SESSION SESSION =factory.buildsesion))
+	 
+	 session--
+	 used to perform crud operations 
+	 
+	 transaction:
+	 ------------
+	 
+	 
+	 projectname 
+	   package 
+	     classes :entity,client 
+	   configuration:
+	   cfg 
+	   hbm 
+	
+
+hibernate.cfg.xml:
+==================
+
+
+<hibernate-configuration>
+
+     <session-factory>
+	 
+	    //databse properties
+
+<priperty name="connection.driver.classname">com.mysql.jdbc.Driver</property>
+<priperty name="connection.driver.username">com.mysql.jdbc.Driver</property>		
+<priperty name="connection.driver.password">com.mysql.jdbc.Driver</property>		
+
+<priperty name="connection.driver.url">com.mysql.jdbc.Driver</property>		
+		
+		//hibernate properties 
+	 name="dialect"--->oracledicalect,mysqldialect postgreqsqldiaclect
+	     nam=hbm2ddl.auto ----->create-drop/update
+	   name=show_sql=true
+	   
+	   <mapping resource="">
+	 </session-factory>
+
+
+
+</hibenate-configuration>
+		 
+	 hiber.hbm.xmk
+	 
+	 xsd==>formaula
+	 
+	 <hibernate-mapping>
+	         <class name="com,demo.employee">
+			    <id>
+				<generator> class="ssigne
+				d"
+				name 
+				address 
+			 </class>
+	 	 </hibernate-mapping>
+
+	 
+	 
+	 
+	 entity class------------>table 
+	 test class->
+	 
+	 
+	 
+	 
+	 
+	 maven:
+	 ======
+	 build tool 
+	 project stucture-->
+	 test 
+	 
+	 pom-->file-->
+	 
+	maven  hibernateannotaionwithconfiguration file 
+	 
+	 
+	   com.demo 
+	     Employee -->annotaions
+		 Test 
+	   hibernate.cfg.xml ()
+	   hibernate.hbm.xml (class info)-->annotions level
+	 
+	 3 repositories:
+	 
+	 central repository: google(mvnreposi)
+	 local reposiory :our machine 
+	 remote repositor :git,github
+	 
+
+xml way 
+
+  hibernate.cfg.xml 
+  hibernate.hbm.xml 
+	 
+
+  hibernate.cfg.xml 
+	 
+  java class file 	
+	
+  
+  
+  @Entity //
+  class Student {
+  
+     private int stid;
+	 private String stname;
+  
+  }
+  
+  
+  class:Student                table:student 
+  stid                            stid,stname
+  stname
+  
+=================================================================
+=======================JPA======================
+
+JAVA PERSISTENCE API:
+ JAKARTA PERSISTECE API 
+ 
+ TO OVERCOME ALL THE PROBLEMS FROM ORM TOOLS 
+ 
+ JPA: INTERFACE   ORM TOOLS->iMPLMENTED CLASESS
+ 
+ JPA SPECIFICATION HIBENRATE IMPLEMENTATION 
+ 
+ 1.ENTITY CLASS 
+ 2.Client class 
+ 3.Configuration---->
+       persistence.xml 
+
+	   
+  
+  <persistence>
+     <peristsence-unit nmae="sathya">
+	    
+		<class name="com.demo.eMPLOYEE"></class>
+	    //database info 
+		<properties>
+		    
+			<property name="javax.persiisn.driver"></property>
+			<property name="javax.persiisn.url"></property>
+			<property name="javax.persiisn.username"></property>
+			<property name="javax.persiisn.password"></property>
+		</properties>
+		//hibernate info 
+		<property name="javax.persiisn.dialect"></property>
+	    <property name="javax.persiisn.hbm2ddl.auto"></property>
+		<property name="javax.persiisn.show_sql"></property>
+	 </peristsence-unit>
+  </persistence>
+  
+  
+  
+  
+  
+  Transaction trnas=session.begin();
+  
+  trnas.commit()
+  
+  
+  entity.be 
+  enti .comi
+  ============persistence life cycyle==============
+  
+  
+  class Employee {
+  
+     private int empid;
+	 private String empname;
+	 private Address address; //has a relations
+	 private Address tempadd;
+  
+  
+  }
+  
+  
+ = new Address();
+ 
+ 
+====================================================================
+=================Spring==================================
+
+1996----------java beans--->heavy weight 
+
+1998---------->EJB----->tightly coupled 
+
+2002---rod jhonson---spring framework
+
+what is spring:
+----------------
+spring is a non-invasive framework for the purpose of 
+  developing light weight and loosly coupled application 
+
+
+Objective:
+  with in a less time we can create Enterprise Applications
+  
+       light weight/heavy weight 
+	   loosly coupled/tightly coupled 
+	   non-inavsive /invasive
+
+Heavy Weight:
+----------------
+
+
+web applications-->servlets
+
+
+Servlet--interface ----------->5 methods
+GenericServlet--absatcrt class 
+HttpServlet-->absatrct class 
+
+
+class MyServlet implements Servlet{
+
+  //implemnted for 5 methods
+
+}
+
+class MyCLass extends GenericServlet {//4+imp==>1method unimpl
+   init();
+    service();----------->implemntation
+	servletconfig();
+	servletcontex();
+	terminate();
+}
+
+
+class MyServlet extends HttpServlet {//5+7
+ 
+ //12 methods 
+
+}
+100 child classes *12==>1200
+
+56 class:
+  2methods
+
+it will force to the programmer to implemnt predefined api 
+
+but 
+spring will never force to the programmer to implemnt pre-definde api 
+
+
+Tightly COupled:
+---------------
+
+
+class Test {
+
+  public void m1()
+  {
+    Syso("welcome to Test class m1 method ");
+  }
+}
+
+
+class Demo{
+
+   public void m2()
+   {
+   Syso("welcome to m2 method in Demo class ");
+   }
+ psvm()
+ {
+ //want to call Test class methods 
+  
+  //Test t= new Test();
+   t.m1(); //given by the spring container
+   
+   Demo d= new Demo();
+    d.m2();
+ 
+ }
+
+}
+object:
+-----
+till creation until distruction spring container will take care about object 
+
+
+Hibernate,jpa,,jsf,spring :non-invasive 
+invasive framweworksa are force to the programmer to implement '
+  predefined api .
+  
+dipendency injection:
+   --ioc container (inversion of control)
+   
+   1. Bean Factory :lazy :small applications 
+   2.Appilication Context :eagar:large applications 
+   
+********************spring core/depnde/ioc 
+spring jdbc 
+spring aop 
+spring security 
+springmvc 
+sprong orm 
+spring boot...
+
+two types of injections:
+-------------------------
+1.setter injection ---><property></proprty>-->getters and setters
+2.constcrtur injection-><constructor-arg></consctructor-arg> 
+                              -->param ocnstcruor 
+
+
+1.xml configuration 
+2.java configuration 
+3.Annotaion Configuration 
+
+spring app:
+-------
+1.POJO class :
+2.client class :
+
+   Resource resource= new ClassPathxmlResourse("springconfig.xml");
+   BeanFactory factory= new XmlBeanFactory(resource);
+
+3.Configuration file :SpringConfig.xml 
+
+
+<baens xsd="formaula">
+      
+	  <bean class="com.demo.Employee" id="sathya">
+	  <constructor-arg type="int" value="dad"> </constructor-arg>
+	   <constructor-arg value="dad"> </constructor-arg> 
+	   <constructor-arg value="da"> </constructor-arg>
+	    <constructor-arg value="dad"> </constructor-arg>
+	  
+	  </bean>
+	  
+</beans>
+
+
+Employee kalki= new Employee();
+
+
+ <bean class="com.demo.Employee" id="kalki">
+	    <property name="empid" value="123"></property>
+		<property name="empname" value="sathya"></property>
+		<property name="empsal" value="20000"></property>
+		<property name="empadd" value="hyd"></property>
+	 
+    </bean>	 
+	
+	================spring-other framework
+	frameworks or framework
+	
+	with in less time we can develope enterprise application 
+	
+	non-invasive framework for the pupose of developing loosly coupled and leight weight a%
+	aplictions 
+	
+	heavy weight:
+	============
+	
+	lines of code are more 
+	prdefined classess,interface more to use 
+	
+	sping is not forcing the programmer to implemnt prdefined api.(light weight)
+	
+tightly coupled:
+==================
+
+one class is highly dependent on other class logic :object 
+
+spring-->loosly coupled 
+
+non-inavsive:hiberna,spring..
+  
+  invasive;frameworks which are forcing programmer to implemnt 
+              prdefined api
+
+
+
+------->object -->sprinng->container 
+     1.beanfactory:lazy 
+	 2.application context :eagar 
+
+container--->configuration-(class)-->inject-->pojo class 
+
+
+
+getbean-->lazy 
+getbean-->eagr-->object created 
+
+dependency injection:
+     ioc (inversion of control)
+	 
+	 1.setter injection ---->property tag-->setter methods 
+	 2.constrcutor injection-->constructor arg-->param constructor   
+
+1.Employee (pojo)
+2.Client -->main class 
+3.configuration(SpringConfig.xml)
+
+<beans xsd=?>
+        
+		<bean class="com.demo.Employee" id="kalki">
+		<constructor-arg value="234"></constructor-arg>
+		<constructor-arg value="234"></constructor-arg>
+		<constructor-arg value="234"></constructor-arg>
+		
+		</bean>
+     
+</beans>
+
+Employee demo= new EMployee();
+
+
+
+
+
+
+
+
+ <bean class="com.demo.Employee" id="demo">
+	    <property name="empid" value="567"></property>-->setEmpid
+		 <property name="empname" value="sathya">
+		 </property> <property name="empsal" value="8990"></property>
+	  </bean>
+
+
+
+
+
+
+Resource resource= new classPathXmlResource("SpringConfig.xml");
+
+BeanFactory factory= nex xmlBeanFactory(resource);
+
+has a relation-->
+
+
+
+ <property name="empid" value="123"></property>
+     <property name="empname" value="sathya"></property>
+      <property name="empsal" value="4999"></property>
+       <property name="empadd" value="hyd"></property>     
+	   
+	   
+	   
+	   <constructor-arg value="190"></constructor-arg>
+      <constructor-arg value="kalki"></constructor-arg>
+      <constructor-arg value="7444"></constructor-arg>
+      <constructor-arg value="goa"></constructor-arg>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	<bean class="com.demo.Employee" id="barath" >
+		<property name="empid" value="123"></property>
+		<property name="empname" value="sathya"></property>
+		<property name="empsal" value="4999"></property>		
+	</bean>
+
+	<bean class="com.demo.Address" id="drf">
+		<property name="hunum" value="345"></property>
+		<property name="colony" value="udayapuri"></property>
+		<property name="state" value="telangana"></property>
+		<property name="pincode" value="500035"></property>
+	</bean>
+   
+    
+	
+	
+	autowire: default, byname,bytype,constcor
+	
+	
+
+	@Autowire
+	
+	====================================================================================
+	======================================
+
+1:
+---	
+	1.Employee 
+	2.Test 
+	   BeanFactory 
+	3.configuration file 
+	    setter 
+		constructor 
+2:
+---	has a relation 
+-------------------
+	1.Employee(address)
+    2.Address 	
+	3.Test 
+	   BeanFactory 
+	3.configuration file 
+	    setter --->ref(attribute)
+		constructor-->ref(attribute)
+       
+	   
+3:
+---	
+	1.Employee
+    2.Address 	
+	3.Test 
+	   BeanFactory 
+	3.configuration file 
+	    setter --->autowire(attribute)-->byname,bytype
+		constructor-->autowire(attribute)-->constructor
+       
+	   
+4:
+---	
+	1.Employee
+	   @Autowire(ByType:above the address class,
+	             ByName: above the setAddress()
+				 constrcutor:above the paramterized const )
+    2.Address 	
+	3.Test 
+	   ApplicationContext 
+	3.configuration file 
+	    setter 
+		constructor
+
+
+i.spring xml configuration way 
+ii.java configureation way 
+iii.annotaion way 
+5:
+---	(spring configuration xml way with Maven)
+
+	1.Employee
+	   @Autowire(ByType:above the address class,
+	             ByName: above the setAddress()
+				 constrcutor:above the paramterized const )
+    2.Address 	
+	3.Test 
+	   ApplicationContext 
+	3.configuration file 
+	    setter 
+		constructor
+       
+maven:  spring core maven dependency 
+        spring context maven dependency 
+		
+scope: singleton 
+       prototype
+	   
+	spring with collection:
+	----------------------
+	   
+	   
+	   springjpa layerd architecture 
+	   
+	   jpa layerd arc-->integrating with spring
+	   tightly coupled    
+	   
+	   
+	   spring is not provide any annotation for predefined classess 
+	   it provided only user defined classes 
+	   
+	   
+	   **SpringBoot--->RAD(Rapid APPLICATION DEVELOPMENT)
+	   
+	   @SpringBootApplication  =@Configuration
+@EnableTransactionManagement
+@ComponentScan(basePackages="com.cap"
+
+
+jpautil---->@PesistenceContext 
+DaoImpl-->@Repository ,@Transactional 
+ServiceImpl-->@Service 
+
+
+Hospital management 
+Bank MANAGEMENT 
+Coffe Machine 
+mysql-->capgemini 
+spring--xml, java 
+annoatation----->
+
+
+controller 
+service 
+dao 
+
+datajpa-->jpaRepository,crudreposory
+
+springbootjpaRest
+springBootDataJPaRest
+
+insert-->
+
+insert into database
+
+annotations-->jpa,hibernate--cache concept 
+
+=======================spring-------
+
+ framework 
+  its frameworks of framework 
+  
+  hibernate,jpa--->Tightly coupling
+  spring orm--->object relational mapping 
+  
+  non invasive frome=wod,loosly coupling,lightweight
+  
+  
+  7 springboot aplication--->big application 
+  login->
+  logout-->
+  home-->
+  cart-->
+  
+  mainly two containers :
+      
+	  beanfactory :not supporting annotations:small applications 
+	  application context:application context  
+	  
+	  
+pojo class-->configuration file(pojo information(bean)+data)
+   -->container-->
+   
+   how many beans 
+   how many object i need ti create 
+   how the data storing inside the object 
+   
+   
+   <bean class="com.demo.Employee" id="emp"></bean>
+   <bean class="com.demo.Address" id="add"></bean>
+   <bean class="com.demo.salary" id="sal"></bean>
+   <bean class="com.demo.Bonus" id="bo"></bean>
+   <bean class="com.demo.Course" id="co"></bean>
+   
+   Bonus bo=(Bonus)factory-->getBean("bo");
+   
+   till creation untill distruction --->container 
+   
+   lazy eager
+   
+   Resource resourc= new classPathResource("springConfig.xml");
+   BeanFactory factory= new xmlBeanFactory(resource);
+            Employee emp= factory.getBean("Emp");
+   
+   
+   
+   hibernate:sessionfactory,session,configuretion,transactuin,commit 
+     save,saveorupdate, remove,delete 
+   Jpa:Entitymangerfactory,entitityManger
+   
+   factory-->maneger-->tasks(methods)-->persis,merge,remove,find 
+   spring:containers,Dependency injection(ioc)
+    setter injection 
+	construtor injection 
+	
+	hibernate:  querys 
+	has relation: emp+address 
+	
+	eagar-->emp+add
+	lazy:select only employee data 
+	
+	setter injection:setter methods pojo-->property tag
+	constructor injector:param constcruor pojo->constcrutor arg 
+	
+	
+	setter inject -->property ->name,value 
+	value--> type=""
+	
+	has-realtion :parent:emp:  3parmters
+	
+	
+	has -relations-->ref attribute==no of lines rae
+	
+	intw:alternate of ref attribute in dependecy injection
+          autowire attribute 
+   alternate for autowire attribuet 
+       @Autowire annotation 
+
+  @Autowire -->wiring the objects 
+                                         steriaotype
+bean tags-->@Bean("sathya") -->@Component(servie,repository)  
+
+
+hibernate+jpa+spring core+(beanfactory+applicationconte(xml)->java+annottion)
+  springjpajavaconfiglayerdarchitecture
+  
+  sts tool-->
+  postman -->
+  
+  =========================================================
+  
+  20 modules -->
+  
+  spring boot-->RAD(Rapid Appliation Development) capabilities
+  
+  
+  Features of Spring Boot:
+  ---------------------
+  *Auto Configuration 
+   
+  @Configuration 
+  @ComponentScane
+  @EnableTransactionManagement==>@SpringBoot APPLICATION  
+  +vendor info
+    
+  0 configuration--@springbootaplications
+  xml,java,annotion 
+  xml,java,annotation -->no xml spring boot
+  
+  *Embeded Server 
+  
+  TOMCAT,JETTY,WEBLOGIC--->
+  tomcat-->open sorce-->
+  
+  *Starters :
+  
+  jar files-->dependicies--->startes
+  
+  search-->
+  maven->google-->serch-->highest usesegs==?version related issured
+  starters:springboot-strartjpa
+  
+  *Actuators
+:-->envronment-procts
+bean-->/health
+  
+  
+ Download-->install-->set path-->server config-->os
+  
+  
+  spring.io-->spring initilizar
+  normal  stst-->
+  
+  springbootjpaRest
+  
+  WebServices:
+  -----------
+  technology it is used to develeope communication  between 
+ one app to another appl 
+ 
+             WebServices
+ sbi card---- JSON-----------------------icici atm machine 
+  java                               python 
+                                   icic sever 
+					------------>sbi
+  
+  Soap Base wed service -->its dependent on the lang;xml 
+  Restufull Web Services :xml,htmlx,jsno
+  
+  
+  
+  SpringBootjpaRest-->
+  
+ **** packages:
+  com.demo (base pacakage)
+  com.demo.service 
+  com.demo.dao 
+  com.demo.model 
+  com.demo.controller 
+  
+ ***classess inside the pakages
+
+  com.demo (base pacakage)
+  com.demo.service 
+    EmployeeService(i)
+	employeeServiceImpl(c)
+  com.demo.dao 
+    EmployeeDao(i)
+	EmployeeDaiImpl(C)
+  com.demo.model 
+   Employee(c)
+  com.demo.controller
+   EmployeeController(c)
+ 
+  postman--->springbooot-->databse 
+  
+  
+  reactjs-->springboot--->database 
+  emp-->controller->service--dao-database 
+  
+  springboot jpa rest 
+  
+  springbootdatajparest 
+  
+  
+  SpringBootDataJpaRestExceptions
+  
+  EmployeeNotFound Exception 
+  
+  Usernotfoundexception
+  
+  
+  1.our class should be extends with super exception 
+  2.our class should have atleat one parma constcrutor 
+  
+  
+  class EmployeeNotFoundException extends Exception {
+  
+        public EmployeeNotFoundException(String message)
+		{
+		   super(message);
+		}
+  }
+  
+  
+  SpringByDFAULT EXCEPTIONS:
+  ------------------
+  
+  {
+  
+     TIMESTAMP:873T8327
+	 ERROR:
+	 STATUS:404,500,200
+	 MESSAGE:
+	 PATH:emp/addemp/1
+  }
+  
+  custom exceptions:
+  
+  {
+  timestam:
+  message:
+  error:
+  
+  }
+  
+  
+  1.EmployeeNotFoundException
+  2.ExceptionResponce--->timestam,message,error(gspadeftost)
+  3.GlobalCustomeEception  extes:
+           @ControllerAdvice:
+		   
+		   
+		 
+		   src
+		   com.demo (main by default pacakge)
+		   com.demo.dao 
+		      3. EmployeeDao-----> (interface)
+		   com.demo.controller 
+		       EmployeeController---> (class)
+		   com.demo.service 
+		      2. EmployeeService----> (interface)
+			  4. EmployeeServiceImpl--->(class)
+		   com.demo.exceptions 
+		      5. EmployeeNotFoundException-------> (class)
+			   ExceptionResponse------->   (class)
+			   GlobalCustomeException------->  (class)
+		   com.demo.entity
+		      1. Employee ------>(class)
+			  
+	
+springbootdatajpaRest < ---------->React(html,css,js)
+
+ entity :
+   controller:
+     service,repotory
+  
+	
+===================================================================================
+======================SpringBoot MVC================================
+
+MODEL 
+  View -------->html,css,js,react
+   Controller 
+   
+   servlets,jsp---->mvc
+   
+   java:
+    oracle-->
+	
+	jse:java standard edition:
+	      applications-->corejava-->vlc,antivirus 
+	jee:java enterprise edition:
+	     web applications:
+		    run in the context of server by using urls(fb,gmail)
+			  web server 
+		 distributed applications:
+		    hibernate,spring-->frameworks-->appli-->appli 
+			  security-->
+	jme:java micro edition:
+	    mobile applications 
+		
+
+web applications:
+------------------
+servlet,jsp 
+
+
+
+server:
+  reciveing--req 
+  generating--some response 
+  
+  two types responses:
+  --------------------
+  1.static response:
+   client-->req-->server->not perfom any action-->res-->clint  
+  2.dynamic response 
+    client -->req-->server-->action-->res-->client 
+
+server:jboss,weblogic,tomcat,jetty
+
+
+
+   web application: web server , application server(SERVLET CONTAINER,JSP CONTAINERS)
+   distributed app:application server(ejb containers)
+
+web application:
+
+servlets--->java--->rich multithreads-->thread
+    light weght 
+	more performace 
+	less response time 
+
+CGI-->c lang--->process based applications-->
+     more weght 
+	less performace 
+	more  response time 
+
+servlet--->thread based techonlogy
+jsp:-->
+
+servlet:  sending req and genrating some response  
+jsp:view part more beautitfull:
+   jsp:
+
+uri:
+ urn,url
+ 
+ protocolos: http,tcp/idp,udp
+ 
+ http:stateless protocol
+url:-->
+
+
+status codes;
+
+1xxx--199; inforamtic status code 
+200--299--sucess code 
+300--399-->redirectional statuc codes 
+400-499-->client side error code 
+500--599-->server side error statuc code 
+
+there are 3 ways:
+-------------------
+
+1.servlet class implements Servlet   (inter )--5 abst-->imp
+2.servlet class extends GenericServlet (abcls)-->1unimp
+3.servlet class extends HttpServlet   (absclaa)+7methods 
+
+5--3m-life cycle, 2non-life cycle 
+ init,service,destory  getinfo,config 
+
+class Test implemnts Servlet {
+
+ //5 abstarct methods 
+   init() 
+   service(req,res) //bussiness logic 
+   destroy()
+   getservletconfig()
+   getservletcontext()
+
+}
+
+
+
+
+class Test extends GenericServlet { //1method
+
+ 
+   service(req,res) //bussiness logic 
+  
+
+}
+
+
+
+
+class Test extends HttpServlet { //12method
+
+5+7methods==12 methods  doget,depost dotrace delete process
+ 
+   
+  
+
+}
+
+google--->tomcat download 
+
+
+
+<%! java code; %>
+
+<jsp:declaration>
+  java code;
+</jsp:declaration>
+
+===================================================================================
+=========================SpringBoot-MVC====================================
+
+M-mODEL 
+V-VIEW 
+C-CONTROLLER design pattern 
+
+SpringBootDataJpaRest :
+
+   controller   servicelayer   repository 
+   
+   thymeleaf--html,xml,json,css,javascript,text 
+   
+   server only
+   
+   
+   class Employee {
+      
+	  private int empid;
+	  private String empname;
+	  private int empsal;
+	  private String empadd;
+   
+   }
+   
+   
+   @GetMapping("/employees")
+   public List<Eployee> getEmployees(Model model)
+   {
+      
+	  model.addAttribute("employee",employees);
+   
+   }
+   
+   employee.html
+   
+   th:each employee:${employees}
+   
+     <td>{employee.firstname}</td>
+	 <td>{employee.lastname}</td>
+	 <td>{employee.email}</td>
+	 <td>{employee.salary}</td>
+	 
+	 th:if ${condition}
+	 th:if-unless ${condition}
+	 
+	 server-->
+	 
+	 
+	 springmvc springboot datajpa rest thymleaf
+	 
+	 servelt mvc--->tighlty couple  springmvc   springbootmvc
+	 
+	  configuration 
+	  java methods 
+	  
+	  
+	  spring web 
+	  spring bootdev tools 
+	  spring data jpa 
+	  mysql 
+	  thymleaf --->springbootmvc 
+	  
+	  
+	  sts:
+	   new-->spring starter project 
+	     maven--java version lang 
+		 artifact name 
+	 nnext tab:
+	  spring web 
+	  spring bootdev tools 
+	  spring data jpa 
+	  mysql 
+	  thymleaf --->springbootmvc 
+	
+	
+	src/main/java 
+	  com.demo 
+	    springbootapplication.java 
+	  com.demo.controller 
+	     EmployeeController 
+	  com.demo.repository 
+	       EmployeeDao extends JPARepository<Employee,Integer>
+	  com.demo.service 
+	     EmployeeService i 
+		 EmployeeServiceImpl-->dao
+	  com.demo.model 
+	     Employee --->
+		 
+		 
+		 application.properties file 
+		 
+		 
+		 MYSQL--->create database sms;
+		 
+	SPRINGbOOTDATAJPAREST-------rEACT
+	StudentManagementsYSTEM:
+	---------------------
+	SPRINGBOOTMVC--->HTML,CSS,JAVASCRIPT,THYMLEAF,BOOTSTRAP
+	
+	=========================================================================
+	==========================Git and github==========================================
+	
+	Version control system --devops tool
+	
+	
+	
+	gIT---2005linus torvalds
+	
+	1.distributed version control system  :dvcs 
+	
+	
+	2.cenetrlized version control sysytem  : cvcs
+	
+	
+	f=git configuration:
+	0000000000000000000
+	
+	system level 
+	
+	user level (global)
+	
+	repository ------------------->
+	
+	
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit
+$ mkdir example
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit
+$ ls -lrt
+total 0
+drwxr-xr-x 1 Hp 197121 0 Aug  1 10:17 example/
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit
+$ pwd
+/c/Users/Hp/Desktop/sathya/References/XLR/march-8th/DemoGit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit
+$ cd ..
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th
+$ cd DemoGit
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit
+$ mkdir myproject
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit
+$ cd myproject
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject
+$ touch index.html
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject
+$ touch style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject
+$ ls -lrt
+total 0
+-rw-r--r-- 1 Hp 197121 0 Aug  1 10:20 index.html
+-rw-r--r-- 1 Hp 197121 0 Aug  1 10:20 style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject
+$ git init
+Initialized empty Git repository in C:/Users/Hp/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject/.git/
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git add index.html
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        style.css
+
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git commit -m "first commit"
+[master (root-commit) 8641ac6] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   style.css
+
+-----------------------------------------------------------------------------------------------------------
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git commit -m  "second commit"
+[master 07bb738] second commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 style.css
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git config --global user.email
+sathya191916@gmail.com
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git config --global user.name
+sathya
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git commit -m "html file is updated"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git add .
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git commit -m "html file is updated"
+[master ca7406a] html file is updated
+ 1 file changed, 3 insertions(+)
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Hp@DESKTOP-CIJUDKP MINGW64 ~/Desktop/sathya/References/XLR/march-8th/DemoGit/myproject (master)
+$ git log --oneline
+ca7406a (HEAD -> master) html file is updated
+07bb738 second commit
+8641ac6 first commit
+
+=============================javascript Revision for React js=============================
+
+
+
+
+html,css,js 
+
+
+javascript library-->javascript-->js 
+
+ variables,datatypes,functions,arrays,string, promises,es6 feature  
+   
+
+  --------------variable----------------------
+  
+  variable is the location or container where we can store our values 
+  
+  basic--of basic--->
+  
+  units--4 
+  
+  three kw-->  var,let,const 
+
+
+scoping--->var -->conflicts
+
+
+var name="kuntala"
+---
+
+
+
+
+1000 lines 
+ 
+ var name="devsana"
+ 
+ name=devasane
+  
+  
+  let  x=90;
+  
+  {
+    let x=120;
+  }
+  
+  console.log(x); //120
+  
+  block levle scope--->
+  
+
+
+*js:dynamic typing 
+*java:static typing 
+
+
+var age=90.78;
+  
+  age="sathya";
+
+console.log(typeof(age))//string
+
+compiler will decide
+
+java:byte,short int float double char boolean sString,Arysobjects,enums 
+js: Number,String,Boolean,undefined,null,Bigint,sYMBOL,NaN
+
+"" '' ``-->template litterals 
+
+java:  
+
+boolean val="123";
+parseInt(val);
+
+true:1
+false:0
+
+true-1:0
+
+function is the location where we can ryt our logic, to perform some action 
+
+  
+  function fun_Name()
+  {
+  //log 
+  }
+  
+  function fun_Name(param)
+  {
+  //log 
+  }
+  
+  function funcName()
+  {
+  return "iam called";
+  }
+  
+  types of functions:
+  ---------------------
+  
+  
+  1.normal function or declared function 
+  
+  2.function Expression 
+  3.anonymous Function 
+  4.IIFE 
+  5.ArroW fUNCTION  
+  
+  ******gENERATOR function
+  
+  FUNCTION* funcanme{
+     yield values;
+  }
+  
+  
+  
+    function 
+	
+	flow controls:
+	---------------
+	consitional:
+       if  
+ifelseif 
+switch 	   
+	looping 
+	  for 
+	  while 
+	  dow while 
+	  for in -------object
+	  
+	  for of ---arrays 
+	breaking or continue 
+	 breakcontinue 
+	 
+	 
+	 
+	 if(condition)
+	 {
+	 //logic 
+	 }
+	 
+	 if(true)
+	 
+	 console.log("welcome");
+	 console.log("else part-1");
+	
+	 else
+	  console.log("else part");
+	 
+	 
+	 console.log("welcome");
+	 
+	 
+	 i
+	 
+	 
+	 if else if -->2conditions 
+	 switch-->readability
+	 
+	 var hel="sleep";
+	 
+	 switch(hel)
+	 {
+	   case hdh:
+	     console.log("output")
+		  case 23:
+	     console.log("output")
+		  case hel:
+	     console.log("output")
+		  case 56:
+	     console.log("output")
+		 default:
+		  console.log("no out ");
+	 }
+	 
+	 onClick 
+	 onclick
+	 
+	 style="color;red"
+	 style=
+	 
+	 {{color:red}}
+	 
+	 
+	 
+	 function functionname()
+	 {
+	 
+	 
+	 }
+	 
+	         import fun from one.js 
+	 one.js   two.js 
+	 
+	 fun()
+	 {
+	 
+	 }
+	 
+export default fun;
+
+rafc racc rcc rafce 
+
+rafce 
+
+map,filter,reduce
+
+callback function:
+
+
+
+
+
+  react presquisites:
+  --------------------
+  variables 
+  dataypes 
+  functions ,callback functions
+  objects,object methods (map.filter,reduce)
+  arrays arrays method 
+  string string methods 
+  es6 features 
+  promises------------->
+  
+==========================Reactjs============================
+
+
+==========================React==========================================
+
+Reactjs,AngularJs,Vuejs---->SPA(single page applications)
+
+javascript-->nodejs-->environment for execution 
+
+modules--->concept ,export,import 
+
+html,css                  import  test.js frile from 'com.demo'
+
+test.js                         demo.js 
+
+ a=78;                     console.log(result);//refunied:reference error 
+ 
+ b=90;
+ 
+ var result=a+b;
+  console.log(result)
+  
+export defalut test;  
+  
+  Scanner 
+  
+  
+  import java.util.Scanner;
+  
+  package com.demo.sathya;
+  
+  class Test {
+   
+   psvm(Strig args[])
+   {
+   
+   Scanner sc= new Scanner(System.in);
+   
+   }
+  
+  
+  }
+  
+  100 files 
+  
+  1html 
+  1css 
+  98js
+  
+  
+  Reactjs:
+  ----------
+  
+  frontend applications:
+     easily undestrand by the user applications
+	 
+	vanilla javascript --->complex code 
+    
+    joran walke--->react--v18.-->Facebook	
+	 javascript library
+	 
+	 Angular framwork
+	 
+	 
+	 3.89.08
+	 
+	 2.34.8
+	 2--major version 
+	   35-miner version 
+	     8 currently working on it
+		 3.0.0
+		 
+		 3.0.0 
+		 3.1.0
+		 3.4.0
+		    3.4.1
+			3.4.2
+			
+comments likes 
+
+4 likes 6 like-->new feed  section
+
+--------->DOM (DOCUMENT OBJECT MODEL)
+
+REACT-js ---------virtual dom --more performance 
+angular--> alal-->
+vue--
+
+parent to child -->one way data binding --spa --html 
+
+  
+  one way data binding 
+  two way databinding 
+  
+  jsx:
+  
+  
+  <script>
+    var name=	"<h1>hello</h1>"
+	
+  </script>
+  
+  h1,"<h2>"
+  
+  
+  component------->
+  
+  navigation 
+  home  
+  login 
+  logout 
+  service 
+  
+  js server---------------->node js
+  js browser--->(engine jvm)
+  
+  npm-->node package manager (pacakges)-->huge amount pacjegs download 
+  
+  npm install -g create -react-app 
+  
+  npx create-react-app  appname 
+  
+  
+  vite--->js build tool react 
+  
+  npm create vite@latest projectName 
+  
+  
+  
+  Vscode-->ide frontend 
+  Nodejs-->download 
+  
+  
+  live server 
+  preittier 
+  es7 react/redux/grpgql 
+  thunder ckient 
+  auto rename 
+  bracket pair colorizer
+  
+
+			 
+			 
+user ->p,text
+			 
+			 virtual dom               real dom  
+			 
+			     html                     html 
+		head         body        head         body
+		
+		       p                        p 
+			                            text
+			    text
+				
+===================Components===============
+
+  components are two types:
+  
+  1.Functional Component : 
+  
+  functions 
+             return something--html elements 
+  2.Class component :
+  
+        render-->dispalying the data 
+		  return html elements 
+reuseble components 
+
+  div --tag 
+  fragments-->::::<>  </>
+
+import React from 'react'; 
+  
+  function functionName()
+  {
+     return React.createElment(tagname,atrribute,"content");	   
+	 
+
+	 }
+
+
+import React,{Component} from 'react';	 
+
+class Test extends Component{
+      
+	  render()
+	  {
+	    return "html eements "
+	  }
+
+}
+
+.java------------compiler --  .class 
+
+jsx---transcompiler-->html,java 
+
+es6--code javascript-->browser-->babel compiler 
+
+high level java to low level js lang 
+
+
+
+export default function Demo() //named export 
+{
+
+
+}
+
+
+import { Demo }  from 'parent'
+
+
+
+function Demo()
+{
+
+ return(
+    <h1>it will return html lemenets</h1>
+ )
+}
+export default Demo;
+
+import Demo from 'parent'
+
+import { component } from 'demo'
+           
+class Demo extends Componenet{
+
+       render()
+	   {
+	     return(
+		  <h1>welcom eto class components</h1>
+		 )
+	   }
+
+}
+import Child from 
+
+function Parent{
+
+  return(
+     
+	 <div>
+	    <Child/>
+	 </div>
+  )
+  
+}
+export default Parent;
+
+
+function Child()
+{
+
+
+}
+export default Child'
+
+=============================
+
+i wnat to transafer the from parent to child =============
+===========Props or properties 
+
+.by using props we can share the data compoenent to component 
+.props are immutable
+.once we decalred the values we cant change it 
+
+*props:functional component 
+*props:class components 
+-------------------------how styles==========
+
+
+ inline internal stylinhg 
+
+style="color:red"
+
+style={{color:'red'}} 
+
+  friday--tpipsession-->advance java 
+  
+             layerd architecture
+			 jdbc 
+			 jpa 
+			 hibernate 
+			 spring 
+			 springboot 
+
+
+================props or properties============
+
+props properties-->we can transfer data from parent component to child 
+component -->reuseble components..
+
+import Child from /component/child.js;
+
+function Parent()
+{
+   
+   return(
+     
+	 <div>
+	  <h1>i am the Parent</h1>
+	  <Child
+	  name="bahubali",
+	  age={56}
+	  />
+	   <Child
+	  name="amarendra bahubali",
+	  age={56}
+	  />
+	 </div>
+   )
+
+}
+
+
+
+
+
+
+
+function Child()
+{
+
+  return(
+    <div>
+	 <h2>i am the child function</h2>
+	 <p>my name is:{name} and age is:{age}</p>
+	</div>
+  )
+  
+
+}
+
+===========================state=====================
+
+mutable-->manage and process the data 
+
+state:object react-->
+
+initial value   modified value 
+
+sathya           soma -->setState(modified data)
+
+#ffffff
+
+0 to 9 a to f 
+16
+randomly Math.random
+
+DigitalTimer
+ index
+ 
+ =================================Routings===================
+ 
+ React Router:
+ -----------------
+ routing react-->navigation between the components  
+ 
+ browser url ui synch 
+ 
+ declarative routing:v6 Routes and route 
+ 
+ nested routing 
+ 
+ 
+ Browser Router HashRouter 
+  html5 histoty API url--syc 
+  hahformat--window.localtion.hash 
+  
+  Routes :container -->all ypute route 
+  Route :defaine single route with secified path compennet render 
+  
+  Link and NavLink
+  
+  craete the navigation for your appiation 
+  extra stylesing also we can apply 
+  
+  
+  Nested Routing:
+  ==================
+  
+  ===================================Material Ui=====================
+  
+  ===========================================================================
+  
+  ========================React Forms=============================
